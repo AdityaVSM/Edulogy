@@ -45,7 +45,6 @@ session_start();
 			<input id = "text" type="text" name="user_name" placeholder="User name"><br><br>
 			<input id = "text" type="password" name="password" placeholder="Password"><br><br>
 			<input id = "button" type="submit" value="Signup" ><br><br>
-			
 			<a href="login.php">Already have an account? <input id = "button" type="submit" value="Login" ></a>
 		</form>
 	</div>

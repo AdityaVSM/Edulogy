@@ -8,19 +8,14 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        
         <link rel="stylesheet" href="../../style.css">
     </head>
 
-
-
-
     <body >
-
-
-
         <nav class="navbar navbar-light bg-dark justify-content-between" >
             <a style="color:white" class="navbar-brand" href="../../index.php">Home</a>
             <a style="color:white" class="navbar-brand" href="../../signup.php">Sign Up</a>
@@ -34,13 +29,58 @@
         
         <div class="grid-container">
             <div class="grid-child-sidebar" >
-                <br><a href="../html blog/htmlblog.php">HTML</a><br><br>
-                <a href="../css blog/cssblog.php">CSS</a><br><br>
-                <a href="../cpp blog/cppblog.php">C++</a><br><br>
-                <a href="../java blog/javablog.php">JAVA</a><br><br>
-                <a href="cblog.php">C</a><br><br>
-                <a href="../python blog/pythonblog.php">PYTHON</a><br><br>
+                <!-- dropdown -->
+                <div class="dropdown">
+                    <a href="../html blog/htmlblog.php">HTML   </a><i class="arrow down"></i></p>
+                    <div class="dropdown-content">
+                        <a href="../html blog/htmlblog.php">introduction</a><br>
+                        <a href="../html blog/htmlblog.php">basics</a><br>
+                        <a href="../html blog/htmlblog.php">tags</a><br>
+                    </div>
+                </div> <br>
+                <div class="dropdown">
+                    <a href="../css blog/cssblog.php">CSS    </a><i class="arrow down"></i></p>
+                    <div class="dropdown-content">
+                        <a href="../css blog/htmlblog.php">intro</a><br>
+                        <a href="../css blog/htmlblog.php">jash</a><br>
+                        <a href="../css blog/htmlblog.php">ajsh</a><br>
+                    </div>
+                </div><br>
+                <div class="dropdown">
+                    <a href="../cpp blog/cppblog.php">C++    </a><i class="arrow down"></i></p>
+                    <div class="dropdown-content">
+                        <a href="../css blog/htmlblog.php">intro</a><br>
+                        <a href="../css blog/htmlblog.php">jash</a><br>
+                        <a href="../css blog/htmlblog.php">ajsh</a><br>
+                    </div>
+                </div><br>
+                <div class="dropdown">
+                    <a href="../java blog/javablog.php">JAVA    </a><i class="arrow down"></i></p>
+                    <div class="dropdown-content">
+                        <a href="../css blog/htmlblog.php">intro</a><br>
+                        <a href="../css blog/htmlblog.php">jash</a><br>
+                        <a href="../css blog/htmlblog.php">ajsh</a><br>
+                    </div>
+                </div><br>
+                <div class="dropdown">
+                    <a href="cblog.php">C    </a><i class="arrow down"></i></p>
+                    <div class="dropdown-content">
+                        <a href="../css blog/htmlblog.php">intro</a><br>
+                        <a href="../css blog/htmlblog.php">jash</a><br>
+                        <a href="../css blog/htmlblog.php">ajsh</a><br>
+                    </div>
+                </div><br>
+                <div class="dropdown">
+                    <a href="../python blog/pythonblog.php">PYTHON    </a><i class="arrow down"></i></p>
+                    <div class="dropdown-content">
+                        <a href="../css blog/htmlblog.php">intro</a><br>
+                        <a href="../css blog/htmlblog.php">jash</a><br>
+                        <a href="../css blog/htmlblog.php">ajsh</a><br>
+                    </div>
+                </div><br>
             </div>
+
+
             <div class="grid-child-content">
             <p >
             <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">C Programming</h1>
@@ -95,6 +135,8 @@
             </div>
         </div>
         <hr>
+        
+
 
         <div class="container">
             <section style="height:80px;"></section>
@@ -135,8 +177,6 @@
                 </footer>
             </div>
         </div>
-
-
-
+        
     </body>
 </html>
