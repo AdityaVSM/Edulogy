@@ -101,7 +101,7 @@ hr{
 	background-color:lightgrey;
 	text-indent:size;
 	width : 1200px;
-	height: 100%;
+	min-height: 100%;
 	
 }
 .img{
@@ -258,13 +258,8 @@ hr{
 }
 
 .code-snippet{
-	height: 200px;
-	width: 700px;
-	margin:10px;
-	padding:20px;
+	color:white;
 	position: relative;
-	left:200px;
-	padding-left: 0px;
 	background-color:#282d32;
 }
 

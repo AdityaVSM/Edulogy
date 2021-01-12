@@ -39,7 +39,7 @@
             <div class="dropdown">
                     <a href="htmlblog.php">HTML   </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
-                        <a href="htmlblog.php">introduction</a><br>
+                        <a href="htmlintro.php">introduction</a><br>
                         <a href="htmlblog.php">basics</a><br>
                         <a href="htmlblog.php">tags</a><br>
                     </div>
@@ -85,6 +85,18 @@
                     <li>How to type content in a file and save them on a computer.</li>
                     <li>Understanding about images in different formats like JPEG, PNG format. </em></li>
                 </ul>
+                <div class="code-snippet">  
+                SIMPLE EXAMPLE : 
+                <pre>                
+                    <code class = "code">                     
+                        &lthtml&gt
+                            &ltbody&gt
+                                Hello World
+                            &lt/body&gt
+                        &lt/html&gt
+                    </code> 
+                </pre>
+            </div> 
             </p>
             </div>
         </div>
