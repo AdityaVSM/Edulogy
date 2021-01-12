@@ -30,23 +30,9 @@
         <div class="grid-container">
             <div class="grid-child-sidebar" >
                 
-                <!-- dropdown -->
-                <div class="dropdown">
-                    <a href="../html blog/htmlblog.php">HTML   </a><i class="arrow down"></i></p>
-                    <div class="dropdown-content">
-                        <a href="../html blog/htmlblog.php">introduction</a><br>
-                        <a href="../html blog/htmlblog.php">basics</a><br>
-                        <a href="../html blog/htmlblog.php">tags</a><br>
-                    </div>
-                </div> <br>
-                <div class="dropdown">
-                    <a href="../css blog/cssblog.php">CSS    </a><i class="arrow down"></i></p>
-                    <div class="dropdown-content">
-                        <a href="../css blog/cssblog.php">intro</a><br>
-                        <a href="../css blog/cssblog.php">jash</a><br>
-                        <a href="../css blog/cssblog.php">ajsh</a><br>
-                    </div>
-                </div><br>
+                <!-- dropdown -->  
+                <a href="../html blog/htmlblog.php">HTML</a> <br><br>        
+                <a href="../css blog/cssblog.php">CSS</a> <br><br> 
                 <div class="dropdown">
                     <a href="cppblog.php">C++    </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
@@ -54,31 +40,13 @@
                         <a href="cppblog.php">jash</a><br>
                         <a href="cppblog.php">ajsh</a><br>
                     </div>
-                </div><br>
-                <div class="dropdown">
-                    <a href="../java blog/javablog.php">JAVA    </a><i class="arrow down"></i></p>
-                    <div class="dropdown-content">
-                        <a href="../java blog/javablog.php">intro</a><br>
-                        <a href="../java blog/javablog.php">jash</a><br>
-                        <a href="../java blog/javablog.php">ajsh</a><br>
-                    </div>
-                </div><br>
-                <div class="dropdown">
-                    <a href="../c blog/cblog.php">C    </a><i class="arrow down"></i></p>
-                    <div class="dropdown-content">
-                        <a href="../c blog/cblog.php">intro</a><br>
-                        <a href="../c blog/cblog.php">jash</a><br>
-                        <a href="../c blog/cblog.php">ajsh</a><br>
-                    </div>
-                </div><br>
-                <div class="dropdown">
-                    <a href="../python blog/pythonblog.php">PYTHON    </a><i class="arrow down"></i></p>
-                    <div class="dropdown-content">
-                        <a href="../python blog/pythonblog.php">intro</a><br>
-                        <a href="../python blog/pythonblog.php">jash</a><br>
-                        <a href="../python blog/pythonblog.php">ajsh</a><br>
-                    </div>
-                </div><br>
+                </div><br>            
+                <a href="../java blog/javablog.php">JAVA</a> <br><br>             
+                <a href="../c blog/cblog.php">C </a> <br><br>
+                <a href="../python blog/pythonblog.php">PYTHON</a> <br><br>
+            
+                
+                
             </div>
 
             <div class="grid-child-content">
