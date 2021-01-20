@@ -12,10 +12,14 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
         <link rel="stylesheet" href="../../style.css">
+        
     </head>
     <body >
         
         <style>
+            body{
+                background-color:	#E8E8E8;
+            }
             .head-image{
                 height: 400px;
                 width : 100%;
@@ -39,9 +43,8 @@
             <div class="dropdown">
                     <a href="htmlblog.php">HTML   </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
-                        <a href="htmlblog.php">introduction</a><br>
-                        <a href="htmlblog.php">basics</a><br>
-                        <a href="htmlblog.php">tags</a><br>
+                        <a href="htmlintro.php">introduction</a><br>
+                        <a href="htmltags.php">tags</a><br>
                     </div>
                 </div> <br>
                 <a href="../css blog/cssblog.php">CSS</a> <br><br>              
@@ -53,10 +56,51 @@
 
             <div class="grid-child-content">
                 <p>
-                    <h2 style="text-align: left;">HTML Documents</h2>
-                    All HTML documents must start with a document type declaration: &lt!DOCTYPE html&gt.  <br>
-                    The HTML document itself begins with &lthtml&gt and ends with &lt/html&gt. <br>
-                    The visible part of the HTML document is between &ltbody&gt and &lt/body&gt.
+                    <h2 style="text-align: left;text-indent :2em;">  HTML Documents</h2><br>
+                    <ul>
+                        <li>All HTML documents must start with a document type declaration:<strong> &lt!DOCTYPE html&gt</strong>. </li>
+                        <li>The HTML document itself begins with <strong>&lthtml&gt</strong> and ends with <strong>&lt/html&gt </strong>.</li> 
+                        <li>The visible part of the HTML document is between <strong>&ltbody&gt</strong> and <strong>&lt/body&gt</strong>.</li>
+                    </ul><br>
+                    <script src="https://gist.github.com/AdityaVSM/883ba8e4451f84c809713700be965a24.js"></script><br><br>
+                    <div class="code-snippet">
+                        <h3 style="text-indent :2em;">Output:</h3>
+                        <div class="code"style="text-indent :6em;">
+                            <h1>This is a heading</h1>
+                            <p>Document content goes here.....</p>
+                        </div>
+                    </div><br>
+
+                    <h2 style="text-indent :5em;">How to View HTML Source?</h2><br>
+                    
+                    <h5 style="text-indent :2em;">View HTML Source Code:</h5>
+                    Right-click in an HTML page and select "View Page Source" (in Chrome) or "View Source" (in Edge), or similar in other browsers. This will open a window containing the HTML source code of the page.<br><br>
+                    <h5 style="text-indent :2em;">Inspect an HTML Element:</h5>
+                    Right-click on an element (or a blank area), and choose "Inspect" or "Inspect Element" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
+                    <br><br>
+
+                    <h2 style="text-indent :5em;">Which text editor to use?</h2><br>
+
+                    <h5 style="text-indent :2em;">Atom</h5>
+                    It is an HTML editor that came out in 2014. Atom is a free, open-source code editor, and it was developed by GitHub.
+                    Atom offers a slick design with a premium look to it, plus has a live preview. <br>
+                    Available for: Windows, OS X, and Linux (64-bit).<br><br>
+
+                    <h5 style="text-indent :2em;">Notepad++</h5>
+                    It is a free HTML editor that was developed for Windows. Linux users can also get it running through Wine. Third-party plugins are supported.
+                    Notepad++ is ultra-lightweight plus there’s a mobile version of it.  <br>
+                    Available for: Windows and Linux (via Wine).<br><br>
+                    
+                    <h5 style="text-indent :2em;">Sublime Text</h5>                    
+                    It is another free HTML editor. Developed by a Sydney-based company, it's kind of like a freemium software. It means that you can use the software for free but you'll have to pay to access all its features.
+                    You can add plugins made by the community or build your own plugin.  <br>
+                    Available for: Windows, OS X, and Linux (32/64 bit). <br><br>
+                 
+                    <h5 style="text-indent :2em;">VS Code</h5>
+                    Visual Studio Code provides basic support for HTML programming out of the box.
+                    There is syntax highlighting, smart completions with IntelliSense, and customizable formatting. 
+                    VS Code also includes great Emmet support. <br>
+                    Available for: Windows, OS X, and Linux (32/64 bit).
                 </p>
             </div>
         </div>
@@ -71,12 +115,9 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Courses</h3>
                         <ul>
-							<li><a href="html files/html blog/htmlblog.php">html 5</a></li>
-							<li><a href="html files/css blog/cssblog.php">css 3</a></li>
-							<li><a href="html files/cpp blog/cppblog.php">c++</a></li>
-							<li><a href="html files/java blog/javablog.php">java</a></li>
-							<li><a href="html files/c blog/cblog.php">c</a></li>
-							<li><a href="html files/python blog/pythonblog.php">python</a></li>
+                            <li><a href="htmlblog.php">HTML 5</a></li>
+							<li><a href="htmlintro.php">HTML introduction</a></li>
+							<li><a href="htmltags.php">HTML tags</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">

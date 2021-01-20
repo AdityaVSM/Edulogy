@@ -1,6 +1,9 @@
 .index-body{
-	background-color:white;
+	background-color:#E8E8E8;
 	overflow-x: hidden;
+}
+body{
+	background-color:#E8E8E8;
 }
 
 #text{
@@ -257,14 +260,15 @@ hr{
 	opacity: 1;
 }
 
-.code-snippet{
-	color:white;
+.code-snippet{	
+	margin:2px;
+	border-radius: 10px;
 	position: relative;
-	background-color:#282d32;
+	background-color:white;
 }
 
 .code{
-	color: pink;
+	color: black;
 }
 
 /*signup-login*/
