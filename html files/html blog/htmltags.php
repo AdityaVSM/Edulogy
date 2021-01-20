@@ -19,7 +19,7 @@
         <style>
             body{
                 background-color:	#E8E8E8;
-            }[99]
+            }
             .head-image{
                 height: 400px;
                 width : 100%;
