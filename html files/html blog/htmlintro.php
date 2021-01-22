@@ -43,8 +43,8 @@
             <div class="dropdown">
                     <a href="htmlblog.php">HTML   </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
-                        <a href="htmlintro.php">introduction</a><br>
-                        <a href="htmltags.php">tags</a><br>
+                        <a href="htmlintro.php">Basics</a><br>
+                        <a href="htmltags.php">Tags</a><br>
                     </div>
                 </div> <br>
                 <a href="../css blog/cssblog.php">CSS</a> <br><br>              
@@ -56,7 +56,7 @@
 
             <div class="grid-child-content">
                 <p>
-                    <h2 style="text-align: left;text-indent :2em;">  HTML Documents</h2><br>
+                    <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">HTML Basics</h1> <br>
                     <ul>
                         <li>All HTML documents must start with a document type declaration:<strong> &lt!DOCTYPE html&gt</strong>. </li>
                         <li>The HTML document itself begins with <strong>&lthtml&gt</strong> and ends with <strong>&lt/html&gt </strong>.</li> 
@@ -115,9 +115,9 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Courses</h3>
                         <ul>
-                            <li><a href="htmlblog.php">HTML 5</a></li>
-							<li><a href="htmlintro.php">HTML introduction</a></li>
-							<li><a href="htmltags.php">HTML tags</a></li>
+                            <li><a href="htmlblog.php">HTML 5 introduction</a></li>
+							<li><a href="htmlintro.php">HTML Basics</a></li>
+							<li><a href="htmltags.php">HTML Tags</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">
