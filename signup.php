@@ -31,21 +31,51 @@ session_start();
 <html>
 <head>
 	<title>Sign up</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
-<body class = "signup-body">
+<body >
+	<style>
+		@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+		body{
+			margin:0;
+			padding:0;
+			font-family:sans-serif;
+			background:url("images/login-signup-bg.jpg") no-repeat;
+			background-size:cover;
+		}
+	</style>
 	
-	<div id = "box">
+	<div class = "login-box">
 		<form method = "POST">
 			<h1>SignUP</h1>
-			<input id = "text" class = "form-control" type="text" name="first_name" placeholder="first name"><br><br>
-			<input id = "text" type="text" name="last_name" placeholder="last name"><br><br>
-			<input id = "text" type="email" name="email" placeholder="email"><br><br>
-			<input id = "text" type="text" name="age" placeholder="Age"><br><br>
-			<input id = "text" type="text" name="user_name" placeholder="User name"><br><br>
-			<input id = "text" type="password" name="password" placeholder="Password"><br><br>
-			<input id = "button" type="submit" value="Signup" ><br><br>
-			<a href="login.php">Already have an account? <input id = "button" type="submit" value="Login" ></a>
+
+			<div class = "textbook">
+				<input  type="text" name="first_name" placeholder="first name">
+			</div>
+
+			<div class = "textbook">
+				<input type="text" name="last_name" placeholder="last name">
+			</div>
+
+			<div class = "textbook">
+				<input type="email" name="email" placeholder="email">
+			</div>
+
+			<div class = "textbook">
+				<input  type="text" name="age" placeholder="Age">
+			</div>
+
+			<div class = "textbook">
+				<input  type="text" name="user_name" placeholder="User name">
+			</div>
+
+			<div class = "textbook">
+				<input  type="password" name="password" placeholder="Password">
+			</div>
+
+			<input class = "btn" type="submit" value="Signup" >
+			
+			<a href="login.php"> <input class = "btn" type="submit" value="Login" ></a>
 		</form>
 	</div>
 	

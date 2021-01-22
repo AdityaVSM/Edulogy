@@ -32,17 +32,38 @@
 	<title>Login</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">	
+	<link rel="stylesheet"  href="style.css" type="text/css" />
+	
 </head>
 <body>
+	<style>
+		@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+		body{
+			margin:0;
+			padding:0;
+			font-family:sans-serif;
+			background:url("images/login-signup-bg.jpg") no-repeat;
+			background-size:cover;
+		}
+	</style>
 
-	<div id = "box">
+	<div class = "login-box">
 		<form method = "post">
-			<div style="font-size: 20px; margin: 10px; color: #c3b9b9">Login</div>
-			<input id = "text" type="text" name="user_name" placeholder = "Username" ><br><br>
-			<input id = "text" type="password" name="password" placeholder ="Password"><br><br>
-			<input id = "button" type="submit" value="Login"><br><br>
-			<a href="signup.php" style="text-decoration: none;color:red">click to Sign Up</a>			
+			<h1>Login</h1>
+
+			<div class = "textbook">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<input type="text" name="user_name" placeholder = "Username" >
+			</div>
+
+			<div class = "textbook">
+				<i class="fa fa-unlock-alt" aria-hidden="true"></i>
+				<input type="password" name="password" placeholder ="Password">		
+			</div>
+			
+			<input class="btn" type="submit" value="Login"><br>
+			<a href="signup.php"><input class="btn" type="submit" value="Sign Up"></a><br><br>
 		</form>
 	</div>
 
