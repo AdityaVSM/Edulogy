@@ -45,6 +45,7 @@
                     <div class="dropdown-content">
                         <a href="htmlintro.php">Basics</a><br>
                         <a href="htmltags.php">Tags</a><br>
+                        <a href="htmlelements.php">Elements</a> <br>
                     </div>
                 </div> <br>
                 <a href="../css blog/cssblog.php">CSS</a> <br><br>              
@@ -71,7 +72,7 @@
                         </div>
                     </div><br>
 
-                    <h2 style="text-indent :5em;">How to View HTML Source?</h2><br>
+                    <h2 style="text-indent :5em;">How to View HTML Source code?</h2><br>
                     
                     <h5 style="text-indent :2em;">View HTML Source Code:</h5>
                     Right-click in an HTML page and select "View Page Source" (in Chrome) or "View Source" (in Edge), or similar in other browsers. This will open a window containing the HTML source code of the page.<br><br>
@@ -118,6 +119,7 @@
                             <li><a href="htmlblog.php">HTML 5 introduction</a></li>
 							<li><a href="htmlintro.php">HTML Basics</a></li>
 							<li><a href="htmltags.php">HTML Tags</a></li>
+                            <li><a href="htmlelements.php">HTML elements</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">

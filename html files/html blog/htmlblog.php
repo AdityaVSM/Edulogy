@@ -41,6 +41,7 @@
                     <div class="dropdown-content">
                         <a href="htmlintro.php">Basics</a><br>
                         <a href="htmltags.php">Tags</a><br>
+                        <a href="htmlelements.php">Elements</a><br>
                     </div>
                 </div> <br>
                 <a href="../css blog/cssblog.php">CSS</a> <br><br>              
@@ -101,6 +102,7 @@
 						    <li><a href="htmlblog.php">HTML 5 introduction</a></li>
 							<li><a href="htmlintro.php">HTML Basics</a></li>
 							<li><a href="htmltags.php">HTML Tags</a></li>
+                            <li><a href="htmlelements.php">HTML elements</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">
