@@ -288,7 +288,8 @@ hr{
 }
 
 .code-snippet{	
-	margin:2px;
+	box-shadow: 5px 8px 20px 3px rgba(0,0,0,0.8);
+	margin:30px;
 	position: relative;
 	background-color:white;
 }
@@ -302,7 +303,8 @@ hr{
 @import url('https://fonts.googleapis.com/css?family=Droid+Sans+Mono');
 
 body .gist .gist-file {
-  margin-bottom: 0;
+  margin: 20px;
+  box-shadow: 5px 8px 20px 3px rgba(0,0,0,0.8);
   border: 1px dashed #adb5bd;
   border-radius: 0;
 }
@@ -320,22 +322,14 @@ body .gist .blob-wrapper {
 body .gist .highlight {
   background-color: transparent;
   font-family: 'Droid Sans Mono', monospace;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 body .gist .highlight td {
-  padding: 5px 15px !important;
+  padding: 4px 15px !important;
   line-height: 1;
   font-family: inherit;
   font-size: inherit;
-}
-
-body .gist tr:first-child td {
-  padding-top: 15px !important;
-}
-
-body .gist tr:last-child td {
-  padding-bottom: 15px !important;
 }
 
 body .gist .blob-num {
