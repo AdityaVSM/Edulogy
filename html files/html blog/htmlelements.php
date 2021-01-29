@@ -123,9 +123,9 @@
                         </div>                        
                     </div> <br><br>
 
-                    <h4 style="text-indent :3em;">Block-level and Inline HTML elements</h4> <br>
+                    <h3 style="text-indent :3em;">Block-level and Inline HTML elements</h3> <br>
                     
-                    <h3 style="text-indent :2em;">Block-level element:</h3> <br>
+                    <h4 style="text-indent :2em;">Block-level element:</h4> <br>
                     <div style="text-indent :1.5em;">
                         <ul>
                             <li>These are the elements, which structure main part of web page, by dividing a page into coherent blocks.</li>
@@ -136,7 +136,7 @@
                         <strong> &ltaddress&gt, &ltarticle&gt, &ltaside&gt, &ltblockquote&gt, &ltcanvas&gt, &ltdd&gt, &ltdiv&gt, &ltdl&gt, &ltdt&gt, &ltfieldset&gt, &ltfigcaption&gt, &ltfigure&gt, &ltfooter&gt, &ltform&gt, &lth1&gt-&lth6&gt, &ltheader&gt, &lthr&gt, &ltli&gt, &ltmain&gt, &ltnav&gt, &ltnoscript&gt, &ltol&gt, &ltoutput&gt, &ltp&gt, &ltpre&gt, &ltsection&gt, &lttable&gt, &lttfoot&gt, &ltul&gt</strong> and<strong> &ltvideo&gt.</strong>
                     </div> <br> <br>
 
-                    <h3 style="text-indent :2em;">Inline element:</h3> <br>
+                    <h4 style="text-indent :2em;">Inline element:</h4> <br>
                     <div style="text-indent : 1.5em;">
                         <ul>
                             <li>Inline elements are those elements, which differentiate the part of a given text and provide it a particular function.</li>
