@@ -35,6 +35,7 @@
                     <a href="cssblog.php">CSS    </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
                         <a href="csssyntax.php">Syntax</a><br>
+                        <a href="selectors.php">Selectors</a><br>
                     </div>
                 </div><br>         
                 <a href="../cpp blog/cppblog.php">C++</a> <br><br>             
@@ -97,7 +98,8 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Courses</h3>
                         <ul>
-							<li><a href="cssblog.php">CSS Basics</a></li>
+							<li><a href="cssblog.php">CSS Syntax</a></li>
+                            <li> <a href="selectors.php"> CSS Selectors</a> </li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">

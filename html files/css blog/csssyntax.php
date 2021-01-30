@@ -35,6 +35,7 @@
                     <a href="cssblog.php">CSS         </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
                         <a href="csssyntax.php">Syntax</a><br>
+                        <a href="selectors.php">Selectors</a><br>
                     </div>
                 </div><br>         
                 <a href="../cpp blog/cppblog.php">C++</a> <br><br>             
@@ -72,7 +73,6 @@
                         <li> <strong> p </strong> is a <u>selector</u> in CSS (it points to the HTML element you want to style: <strong>&ltp&gt</strong>)</li>
                         <li> <strong> color  </strong> is a <u> property </u>, and red is the  <em> property value </em></li>
                         <li> <strong> text-align </strong> is a <u> property </u>, and center is the <em> property value </em></li>
-
                     </ul>
                 </p>
             
@@ -90,6 +90,7 @@
                         <h3>Courses</h3>
                         <ul>
 							<li><a href="csssyntax.php">CSS Syntax</a></li>
+                            <li> <a href="selectors.php"> CSS Selectors</a> </li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">

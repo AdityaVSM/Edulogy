@@ -116,8 +116,8 @@ hr{
 .grid-container {
 	position: relative;
 	display: grid;
-    grid-template-columns: 1fr 5fr;
-	grid-gap: 20px;
+    grid-template-columns: 1fr 4fr;
+	grid-gap: 40px;
 	
 }
 .grid-child-sidebar{
@@ -132,7 +132,9 @@ hr{
 	text-indent:size;
 	width : 1000px;
 	min-height: 100%;
-	
+}
+.grid-child-content p{
+	text-indent: 2em;
 }
 .img{
 	position: absolute;
