@@ -75,10 +75,10 @@ session_start();
 
 			<input class = "btn" type="submit" value="Signup" >
 			
-			<a href="login.php"> <input class = "btn" type="submit" value="Login" ></a>
+			<a href="login.php"> <input class = "btn" type="button" value="Login" ></a>
 		</form>
 	</div>
 	
-
+		
 </body>
 </html>

@@ -116,8 +116,8 @@ hr{
 .grid-container {
 	position: relative;
 	display: grid;
-    grid-template-columns: 1fr 5fr;
-	grid-gap: 20px;
+    grid-template-columns: 1fr 4fr;
+	grid-gap: 40px;
 	
 }
 .grid-child-sidebar{
@@ -130,9 +130,11 @@ hr{
 	text-align: left;
 	background-color:lightgrey;
 	text-indent:size;
-	width : 1200px;
+	width : 1000px;
 	min-height: 100%;
-	
+}
+.grid-child-content p{
+	text-indent: 2em;
 }
 .img{
 	position: absolute;
@@ -312,7 +314,7 @@ body .gist .gist-file {
 body .gist .gist-data {
   border-bottom: none;
   border-radius: 0;
-  background-color: #f1f3f5;
+  background-color: #cfcdf0;
 }
 
 body .gist .blob-wrapper {

@@ -34,9 +34,8 @@
                 <div class="dropdown">
                     <a href="cssblog.php">CSS    </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
-                        <a href="cssblog.php">intro</a><br>
-                        <a href="cssblog.php">jash</a><br>
-                        <a href="cssblog.php">ajsh</a><br>
+                        <a href="csssyntax.php">Syntax</a><br>
+                        <a href="selectors.php">Selectors</a><br>
                     </div>
                 </div><br>         
                 <a href="../cpp blog/cppblog.php">C++</a> <br><br>             
@@ -99,12 +98,8 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Courses</h3>
                         <ul>
-							<li><a href="html files/html blog/htmlblog.php">html 5</a></li>
-							<li><a href="html files/css blog/cssblog.php">css 3</a></li>
-							<li><a href="html files/cpp blog/cppblog.php">c++</a></li>
-							<li><a href="html files/java blog/javablog.php">java</a></li>
-							<li><a href="html files/c blog/cblog.php">c</a></li>
-							<li><a href="html files/python blog/pythonblog.php">python</a></li>
+							<li><a href="cssblog.php">CSS Syntax</a></li>
+                            <li> <a href="selectors.php"> CSS Selectors</a> </li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">
