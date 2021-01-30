@@ -314,7 +314,7 @@ body .gist .gist-file {
 body .gist .gist-data {
   border-bottom: none;
   border-radius: 0;
-  background-color: #f1f3f5;
+  background-color: #cfcdf0;
 }
 
 body .gist .blob-wrapper {

@@ -121,6 +121,7 @@
                             Look at the following CSS code (the h1, h2, and p elements have the same style definitions): <br>
                             <div class="code-snippet">
                                 <div class="code">
+                                    <br>
                                     <script src="https://gist.github.com/AdityaVSM/c7775f7a08eccbc303d19320fd94d4f6.js"></script> <br>
                                 </div>
                             </div> <br>
