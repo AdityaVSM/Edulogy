@@ -63,7 +63,7 @@
 			</div>
 			
 			<input class="btn" type="submit" value="Login"><br>
-			<a href="signup.php"><input class="btn" type="submit" value="Sign Up"></a><br><br>
+			<a href="signup.php" ><input class="btn" type="button" value="Sign Up"></a><br><br>
 		</form>
 	</div>
 
