@@ -32,7 +32,7 @@
                 
                 <a href="../html blog/htmlblog.php">HTML</a> <br><br>  
                 <div class="dropdown">
-                    <a href="cssblog.php">CSS         </a><i class="arrow down"></i></p>
+                    <a href="cssblog.php">CSS    </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
                         <a href="csssyntax.php">Syntax</a><br>
                         <a href="selectors.php">Selectors</a><br>
@@ -46,36 +46,70 @@
             </div>
 
             <div class="grid-child-content">
-                <p style="text-indent:2em;">
-                    <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">CSS Syntax</h1>
-                    <p style="text-indent: 2em;">
-                        A CSS comprises of style rules that are interpreted by the browser and then applied to the corresponding elements in your document. A style rule is made of three parts −
-                    </p>
-                    <ul>
-                        <li><strong>Selector</strong> − A selector is an HTML tag at which a style will be applied. This could be any tag like <em>&lth1&gt</em> or <em>&lttable&gt</em> etc.</li>
-                        <li><strong>Property</strong> − A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. They could be color, border etc.</li>
-                        <li><strong>Value</strong> − Values are assigned to properties. For example, color property can have value either red or #F1F1F1 etc.</li>
-                    </ul>
-                    <img style="position:relative; left:100px;" src="syntax.png"> <br><br>
-                    <p style="text-indent: 2em;"> 
-                        Here table is a selector and border is a property and given value 1px solid #C00 is the value of that property.
-                    </p>
-
-                    <div class="code-snippet">
-                        <div class="code">
-                            Here is an example: <br>
-                            In this example all <strong> &ltp&gt </strong> elements will be center-aligned, with a red text color: <br>
-                            <script src="https://gist.github.com/AdityaVSM/2bfed01dec7365e391bb5af05b1bb03d.js"></script> <br>
-                        </div>
-                    </div>
-
-                    <h3 style="text-indent:3em"> Example Explained- </h3>
-                    <ul>
-                        <li> <strong> p </strong> is a <u>selector</u> in CSS (it points to the HTML element you want to style: <strong>&ltp&gt</strong>)</li>
-                        <li> <strong> color  </strong> is a <u> property </u>, and red is the  <em> property value </em></li>
-                        <li> <strong> text-align </strong> is a <u> property </u>, and center is the <em> property value </em></li>
-                    </ul>
+            <p >
+                <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">How to add CSS</h1> <br><br>
+                <p style="text-indent: 2em;">
+                    CSS is added to HTML pages to format the document according to information in the style sheet. There are three ways to insert CSS in HTML documents.              
                 </p>
+                <ul>
+                    <li>Inline CSS</li>
+                    <li>Internal CSS</li>
+                    <li>External CSS</li>
+                </ul> <br><br>
+
+                <ol>
+                    <li>
+                        <h4 style="text-indent :3em;">Inline CSS</h4>
+                        An inline style may be used to apply a unique style for a single element. <br>
+                        To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+                        <div class="code-snippet">
+                            <div class="code">
+                                Example: <br>
+                                Inline styles are defined within the "style" attribute of the relevant element:
+                                <script src="https://gist.github.com/AdityaVSM/95c6d39a066f181985585d4af8edf868.js"></script> <br>
+                            </div>
+                        </div> 
+                    </li><br><br>
+
+                    <li>
+                        <h4 style="text-indent :3em;">Internal CSS</h4>
+                        An internal style sheet may be used if one single HTML page has a unique style.<br>
+                        The internal style is defined inside the <strong> &ltstyle&gt </strong> element, inside the head section.
+                        <div class="code-snippet">
+                            <div class="code">
+                                Example: <br>
+                                Internal styles are defined within the <strong> &ltstyle&gt </strong> element, inside the <strong>&lthead&gt</strong> section of an HTML page:
+                                <script src="https://gist.github.com/AdityaVSM/af88c007da849cd114f981c2f98406de.js"></script><br>
+                            </div>
+                        </div> 
+                    </li><br><br>
+
+                    <li>
+                        <h4 style="text-indent :3em;">External CSS</h4>
+                        External CSS is used to apply CSS on multiple pages or all pages. Here, we write all the CSS code in a css file. <br>
+                        Each HTML page must include a reference to the external style sheet file inside the <strong> &ltlink&gt </strong> element, inside the head section.
+                        <div class="code-snippet">
+                            <div class="code">
+                                Example: <br>
+                                External styles are defined within the <strong>&ltlink&gt</strong> element, inside the <strong>&lthead&gt</strong>section of an HTML page:
+                                <script src="https://gist.github.com/AdityaVSM/5294f31c8fefb19224f275b8382a20e9.js"></script> <br>
+                            </div>
+                        </div>
+                        An external style sheet can be written in any text editor, and must be saved with a .css extension. <br>
+                        The external .css file should not contain any HTML tags. <br>
+                        Here is how the "mystyle.css" file looks: <br>
+                        <div class="code-snippet">
+                            <div class="code">
+                                <h5>"mystyle.css"</h5> 
+                                <script src="https://gist.github.com/AdityaVSM/2af4b7b40545a4a975d0f75c3debf53b.js"></script> <br>
+                            </div>
+                        </div>
+                    </li><br><br>
+
+
+                </ol>
+            
+            </p>
             
             </div>
         </div>
@@ -90,7 +124,7 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Courses</h3>
                         <ul>
-							<li><a href="csssyntax.php">CSS Syntax</a></li>
+							<li><a href="cssblog.php">CSS Syntax</a></li>
                             <li> <a href="selectors.php"> CSS Selectors</a> </li>
                             <li> <a href="howto.php">How to add CSS</a> </li>
                         </ul>
