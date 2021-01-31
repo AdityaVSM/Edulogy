@@ -48,65 +48,67 @@
 
             <div class="grid-child-content">
             <p >
-                <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">How to add CSS</h1> <br><br>
-                <p style="text-indent: 2em;">
-                    CSS is added to HTML pages to format the document according to information in the style sheet. There are three ways to insert CSS in HTML documents.              
-                </p>
-                <ul>
-                    <li>Inline CSS</li>
-                    <li>Internal CSS</li>
-                    <li>External CSS</li>
-                </ul> <br><br>
+                <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">Measurement units</h1> <br><br>
+                <p style="text-indent:2em">
+                    CSS supports a number of measurements including absolute units such as <strong> inches, centimeters, points, </strong> and so on, as well as relative measures such as percentages and <strong> em </strong>units. You need these values while specifying various measurements in your Style rules e.g.<strong> border = "1px solid red" </strong>.
+                </p> <br><br>
 
-                <ol>
-                    <li>
-                        <h4 style="text-indent :3em;">Inline CSS</h4>
-                        An inline style may be used to apply a unique style for a single element. <br>
-                        To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
-                        <div class="code-snippet">
-                            <div class="code">
-                                Example: <br>
-                                Inline styles are defined within the "style" attribute of the relevant element:
-                                <script src="https://gist.github.com/AdityaVSM/95c6d39a066f181985585d4af8edf868.js"></script> <br>
-                            </div>
-                        </div> 
-                    </li><br><br>
-
-                    <li>
-                        <h4 style="text-indent :3em;">Internal CSS</h4>
-                        An internal style sheet may be used if one single HTML page has a unique style.<br>
-                        The internal style is defined inside the <strong> &ltstyle&gt </strong> element, inside the head section.
-                        <div class="code-snippet">
-                            <div class="code">
-                                Example: <br>
-                                Internal styles are defined within the <strong> &ltstyle&gt </strong> element, inside the <strong>&lthead&gt</strong> section of an HTML page:
-                                <script src="https://gist.github.com/AdityaVSM/af88c007da849cd114f981c2f98406de.js"></script><br>
-                            </div>
-                        </div> 
-                    </li><br><br>
-
-                    <li>
-                        <h4 style="text-indent :3em;">External CSS</h4>
-                        External CSS is used to apply CSS on multiple pages or all pages. Here, we write all the CSS code in a css file. <br>
-                        Each HTML page must include a reference to the external style sheet file inside the <strong> &ltlink&gt </strong> element, inside the head section.
-                        <div class="code-snippet">
-                            <div class="code">
-                                Example: <br>
-                                External styles are defined within the <strong>&ltlink&gt</strong> element, inside the <strong>&lthead&gt</strong>section of an HTML page:
-                                <script src="https://gist.github.com/AdityaVSM/5294f31c8fefb19224f275b8382a20e9.js"></script> <br>
-                            </div>
-                        </div>
-                        An external style sheet can be written in any text editor, and must be saved with a .css extension. <br>
-                        The external .css file should not contain any HTML tags. <br>
-                        Here is how the "mystyle.css" file looks: <br>
-                        <div class="code-snippet">
-                            <div class="code">
-                                <h5>"mystyle.css"</h5> 
-                                <script src="https://gist.github.com/AdityaVSM/2af4b7b40545a4a975d0f75c3debf53b.js"></script> <br>
-                            </div>
-                        </div>
-                    </li><br><br>
-                </ol>         
+                <table class="table  table-hover">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col" style="width: 8%;">Unit</th>
+                            <th scope="col" style="width: 62%;">Description</th>
+                            <th scope="col" style="width: 30%;">Example</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>%</td>
+                            <td>Defines a measurement as a percentage relative to another value, typically an enclosing element.</td>
+                            <td>p {font-size: 16pt; line-height: 125%;}</td>
+                        </tr>
+                        <tr>
+                            <td>cm</td>
+                            <td>Defines a measurement in centimeters.</td>
+                            <td>div {margin-bottom: 2cm;}</td>
+                        </tr>
+                        <tr>
+                            <td>em</td>
+                            <td>A relative measurement for the height of a font in em spaces. Because an em unit is equivalent to the size of a given font, if you assign a font to 12pt, each "em" unit would be 12pt; thus, 2em would be 24pt</td>
+                            <td>p {letter-spacing: 7em;}</td>
+                        </tr>
+                        <tr>
+                            <td>ex</td>
+                            <td>This value defines a measurement relative to a font's x-height. The x-height is determined by the height of the font's lowercase letter x.</td>
+                            <td>p {font-size: 24pt; line-height: 3ex;}</td>
+                        </tr>
+                        <tr>
+                            <td>in</td>
+                            <td>Defines a measurement in inches.</td>
+                            <td>p {word-spacing: .15in;}</td>
+                        </tr>
+                        <tr>
+                            <td>mm</td>
+                            <td>Defines a measurement in millimeters.</td>
+                            <td>p {word-spacing: 15mm;}</td>
+                        </tr>
+                        <tr>
+                            <td>pc</td>
+                            <td>Defines a measurement in picas. A pica is equivalent to 12 points; thus, there are 6 picas per inch.</td>
+                            <td>p {font-size: 20pc;}</td>
+                        </tr>
+                        <tr>
+                            <td>pt</td>
+                            <td>Defines a measurement in points. A point is defined as 1/72nd of an inch.</td>
+                            <td>body {font-size: 18pt;}</td>
+                        </tr>
+                        <tr>
+                            <td>px</td>
+                            <td>Defines a measurement in screen pixels.	</td>
+                            <td>p {padding: 25px;}</td>
+                        </tr>
+                    </tbody>
+                </table>            
             </p>
             
             </div>
