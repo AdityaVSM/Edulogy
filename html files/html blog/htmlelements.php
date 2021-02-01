@@ -114,15 +114,11 @@
                         Example
                     </div> <br>
 
-                    <script src="https://gist.github.com/AdityaVSM/10e188299ca63b23265ccb19b05281e1.js"></script> <br>
-                    This will display the following result −
-                    <br> <br>
                     <div class="code-snippet">
                         <div class="code">
-                            <h1>This is <i>italic</i> heading</h1>
-                            <p>This is <u>underlined</u> paragraph</p>
-                        </div>                        
-                    </div> <br><br>
+                            <script src="https://gist.github.com/AdityaVSM/10e188299ca63b23265ccb19b05281e1.js"></script> <br><br>                           
+                        </div>
+                    </div><br><br>
 
                     <h3 style="text-indent :3em;">Block-level and Inline HTML elements</h3> <br>
                     

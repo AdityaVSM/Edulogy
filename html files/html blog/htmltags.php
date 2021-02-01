@@ -133,6 +133,7 @@
                         <li>
                             <strong style="text-indent:1em;">Line break tag : </strong>The line break tag inserts a single line break.
                             <br><strong>Syntax:</strong>
+                            
                             <script src="https://gist.github.com/AdityaVSM/1e39b903208b4a0644c62ee3ff2f49a2.js"></script>
                         </li> <br>
                         <li>

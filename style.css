@@ -161,6 +161,16 @@ hr{
 	font-weight: 500;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.try_it{
+	width:100px;
+	position: relative;;
+	top:40px; 
+	left:720px !important;
+	background-color:lightgreen;
+	box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.8);
+}
+/*footer*/
 .footer-dark {
 	position: relative;
 	left:-200px;
