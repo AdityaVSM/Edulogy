@@ -59,21 +59,21 @@ session_start();
 
 	<div class="wrap">
             <div class="title">
-				<a href="html files\html blog\htmlblog.php"><img src="images\html-block-image.jpg" alt = "HTML block image"/></a>
+				<a href="html files\html blog\htmlblog.php" target="_blank"><img src="images\html-block-image.jpg" alt = "HTML block image"/></a>
                 <div class="text">
                     <h1>HTML</h1>
                     <p class="para">Learn HTML</p>
                 </div>                                
             </div>
             <div class="title">
-				<a href="html files\css blog\cssblog.php"><img src="images\CSS-block-image.jpg"/></a>
+				<a href="html files\css blog\cssblog.php" target="_blank"><img src="images\CSS-block-image.jpg"/></a>
                 <div class="text">
                     <h1>CSS</h1>
                     <p class="para">Learn CSS</p>
                 </div>
             </div>
 			<div class="title">
-				<a href="html files\python blog\pythonblog.php"><img src="images\Python-block-image.jpg"/></a>
+				<a href="html files\python blog\pythonblog.php" target="_blank"><img src="images\Python-block-image.jpg"/></a>
                 <div class="text">
                     <h1>PYTHON</h1>
                     <p class="para">Learn Python</p>
@@ -83,21 +83,21 @@ session_start();
 			<br><br><br><br>
 			
 			<div class="title">
-                <a href="html files\cpp blog\cppblog.php"><img src="images\C++-block-image.jpg"/></a>
+                <a href="html files\cpp blog\cppblog.php" target="_blank"><img src="images\C++-block-image.jpg"/></a>
                 <div class="text">
                     <h1>C++</h1>
                     <p class="para">Learn C++</p>
                 </div>
 			</div>
 			<div class="title">
-				<a href="html files\java blog\javablog.php"><img src="images\java-block-image.jpg"/></a>
+				<a href="html files\java blog\javablog.php" target="_blank"><img src="images\java-block-image.jpg"/></a>
                 <div class="text">
                     <h1>JAVA</h1>
                     <p class="para">Learn JAVA</p>
                 </div>                                
             </div>
             <div class="title">
-				<a href="html files\c blog\cblog.php"><img src="images\C-block-image.jpg"/></a>
+				<a href="html files\c blog\cblog.php" target="_blank"><img src="images\C-block-image.jpg"/></a>
                 <div class="text">
                     <h1>C</h1>
                     <p class="para">Learn C</p>

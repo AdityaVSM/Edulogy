@@ -47,47 +47,41 @@
 
             <div class="grid-child-content">
                 <p>
-                    <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">C++ Basics</h1> <br><br>
+                    <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">C++ Environment setup</h1> <br><br>
                     <p style="text-indent: 2em;">
-                        C++ is a statically typed, compiled, general-purpose, case-sensitive, free-form programming language that supports procedural, object-oriented, and generic programming.
-                    </p>
-                    <p style="text-indent: 2em;">
-                        C++ is regarded as a middle-level language, as it comprises a combination of both high-level and low-level language features.
-                    </p>
-                    <p style="text-indent: 2em;">
-                        C++ was developed by Bjarne Stroustrup starting in 1979 at Bell Labs in Murray Hill, New Jersey, as an enhancement to the C language and originally named C with Classes but later it was renamed C++ in 1983.
-                    </p>
-                    <p style="text-indent: 2em;">
-                        C++ is a superset of C, and that virtually any legal C program is a legal C++ program.
-                    </p>
-                    <p style="text-indent: 2em;">
-                        <strong>Note</strong> − A programming language is said to use static typing when type checking is performed during compile-time as opposed to run-time.  
+                        To start using C++, you need two things:
+                        <ul>
+                            <li>A <strong>text editor</strong>, like Notepad, to write C++ code</li>
+                            <li>A <strong>compiler</strong>, like GCC, to translate the C++ code into a language that the computer will understand</li>
+                        </ul>
+                        There are many text editors and compilers to choose from. In this tutorial, we will use an IDE (see below).                  
                     </p> <br><br>
 
-                    <h4 style="text-indent:3em;">Object-Oriented Programming</h4>
-                    C++ fully supports object-oriented programming, including the four pillars of object-oriented development −
-                    <ul>
-                        <li>Encapsulation</li>
-                        <li>Abstraction</li>
-                        <li>Inheritance</li>
-                        <li>Polymorphism</li>
-                    </ul> <br>
+                    <h4 style="text-indent :3em;">IDE installation</h4>
+                    <p>
+                    An <strong>IDE</strong> (Integrated Development Environment) is used to edit AND compile the code. <br><br>
+                    Popular IDE's include Code::Blocks, Eclipse, and Visual Studio. These are all free, and they can be used to both edit and debug C++ code. <br><br>
+                    Note: Web-based IDE's can work as well, but functionality is limited. <br><br>
+                    We will use <strong> Code::Blocks </strong> in our tutorial, which we believe is a good place to start. <br><br>
+                    You can find the latest version of Codeblocks at <span><a href="http://www.codeblocks.org/downloads/26">http://www.codeblocks.org/downloads/26</a></span>. Download the <strong> mingw-setup.exe </strong> file, which will install the text editor with a compiler. <br>
+                    </p> <br><br>
 
-                    <h4 style="text-indent:3em;"> Standard libraries (STL)</h4>
-                    Standard C++ consists of three important parts −
-                    <ul>
-                        <li>The core language giving all the building blocks including variables, data types and literals, etc.</li>
-                        <li>The C++ Standard Library giving a rich set of functions manipulating files, strings, etc.</li>
-                        <li>The Standard Template Library (STL) giving a rich set of methods manipulating data structures, etc</li>
-                    </ul> <br>
+                    <h4 style="text-indent:3em;">Quickstart</h4> 
+                    <p>
+                    Open Codeblocks and go to <strong> File > New > Empty File. </strong><br>
+                    Write the following C++ code and save the file as <strong> myfirstprogram.cpp </strong> <em>>(File > Save File as)</em>:
+                    </p>
 
-                    <h4 style="text-indent:3em;"> The ANSI Standard </h4>
-                    <p style="text-indent:2em;">
-                        The ANSI standard is an attempt to ensure that C++ is portable; that code you write for Microsoft's compiler will compile without errors, using a compiler on a Mac, UNIX, a Windows box, or an Alpha.
-                    </p>
-                    <p style="text-indent:2em;">
-                        The ANSI standard has been stable for a while, and all the major C++ compiler manufacturers support the ANSI standard.                  
-                    </p>
+                    <div class="code-snippet">
+                        <div class="code">
+                            myfirstprogram.cpp
+                            <a href="http://tpcg.io/se7GEqSz" target="_blank"><input style="width:100px;position:relative; top:40px; left:550px;background-color:green;" type="button" value="Try it"></a> 
+                            <script src="https://gist.github.com/AdityaVSM/df943d28542801384fa3222fe65e6e5a.js"></script> <br>
+                            Then, go to Build > Build and Run to run (execute) the program. The result will look something to this: <br><br>
+                            <img src="ss1.png" alt=""> <br><br> 
+                        </div>
+                    </div> <br><br>
+                    
                 </p>
             </div>
         

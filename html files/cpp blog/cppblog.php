@@ -37,6 +37,7 @@
                     <a href="cppblog.php">C++    </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
                         <a href="cppbasics.php">Basics</a><br>
+                        <a href="cppsetup.php">Environment setup</a> <br>
                     </div>
                 </div><br>            
                 <a href="../java blog/javablog.php">JAVA</a> <br><br>             
@@ -106,6 +107,7 @@
                         <h3>Courses</h3>
                         <ul>
                             <li> <a href="cppbasics.php">Basics</a> </li>
+                            <li> <a href="cppsetup.php">Environment setup</a> </li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">

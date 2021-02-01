@@ -6,6 +6,11 @@ body{
 	background-color:#E8E8E8;
 }
 
+p{
+	text-indent: 2em;
+	word-spacing: 0.2em;
+}
+
 .login-box{
 	width:300px;
 	position:absolute;
@@ -144,6 +149,17 @@ hr{
     width: 100px;
     background-size: cover;
     padding: 0px;
+}
+.grid-child-content img{
+	position: relative;
+	max-width: 900px;
+	left:10px;	
+}
+
+.grid-child-content a{
+	color:rgb(92, 92, 233);
+	font-weight: 500;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .footer-dark {
 	position: relative;
@@ -380,6 +396,8 @@ body .gist .gist-meta {
 .dropdown:hover   .dropdown-content {
 	display: block;
 }
+
+
 
 
 
