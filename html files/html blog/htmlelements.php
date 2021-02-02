@@ -116,7 +116,9 @@
 
                     <div class="code-snippet">
                         <div class="code">
-                            <script src="https://gist.github.com/AdityaVSM/10e188299ca63b23265ccb19b05281e1.js"></script> <br><br>                           
+                            <h4>Example-</h4>
+                            <a href="http://tpcg.io/5YwCIFic" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
+                            <script src="https://gist.github.com/AdityaVSM/10e188299ca63b23265ccb19b05281e1.js"></script> <br>                          
                         </div>
                     </div><br><br>
 

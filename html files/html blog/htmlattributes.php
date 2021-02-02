@@ -69,8 +69,14 @@
                             <li>The <strong>value</strong> value is what you want the value of the property to be set and always put within quotations. The below example shows three possible values of align attribute: <strong> left, center and right. </strong></li>
                         </ul>
                         <br>
-                        Example- <br><br>
-                        <script src="https://gist.github.com/AdityaVSM/f3657c373ab92f2b86b93b04d1ffefec.js"></script>
+                        <div class="code-snippet">
+                            <div class="code">
+                                <br> <h4>Example-</h4>
+                                <a href="http://tpcg.io/X3hm8lGL" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
+                                <script src="https://gist.github.com/AdityaVSM/f3657c373ab92f2b86b93b04d1ffefec.js"></script> <br>
+                            </div>
+                        </div>
+                        
                         <br><br>
                         This will display the following result − <br><br>
                         <div class="code-snippet" style="text-indent:none">
@@ -103,10 +109,18 @@
                         <p style="text-indent:1em;">
                             The <strong>title</strong> attribute gives a suggested title for the element. They syntax for the title attribute is similar as explained for id attribute  <br>
                             The behavior of this attribute will depend upon the element that carries it, although it is often displayed as a tooltip when cursor comes over the element or while the element is loading. <br>
-                            <script src="https://gist.github.com/AdityaVSM/19da7333b4473c1ec7d5639d60271f6e.js"></script>
-                            <br>This produces the following output - <br><br>
+                            
                             <div class="code-snippet">
-                                <div class="code">
+                                <div class="code"> <br>
+                                    <h4>Example-</h4>
+                                    <a href="http://tpcg.io/c6UwBPQM" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
+                                    <script src="https://gist.github.com/AdityaVSM/19da7333b4473c1ec7d5639d60271f6e.js"></script> <br>
+                                </div>
+                            </div>                            
+                            
+                            <br>This produces the following output - <br>
+                            <div class="code-snippet">
+                                <div class="code"> <br>
                                     <h3 title = "Hello HTML!">Titled Heading Tag Example</h3>
                                     <br>
                                 </div>
@@ -119,9 +133,16 @@
                             The <strong>class</strong> attribute specifies one or more classnames for an element.   <br>
                             The <strong>class</strong> attribute is mostly used to point to a class in a style sheet.
                             However, it can also be used by a JavaScript (via the HTML DOM) to make changes to HTML elements with a specified class.                         
-                            <br> Example-
-                            <script src="https://gist.github.com/AdityaVSM/bbce9632e608114a6f070f86efab02d1.js"></script> <br>
-                            This produces the following output - <br><br>
+                            
+                            <div class="code-snippet">
+                                <div class="code">
+                                    <br><h4>Example-</h4>
+                                    <a href="http://tpcg.io/omw5AuC4" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
+                                    <script src="https://gist.github.com/AdityaVSM/bbce9632e608114a6f070f86efab02d1.js"></script> <br>
+                                </div>
+                            </div>
+                           
+                            This produces the following output - <br>
                             <div class="code-snippet">
                                 <div class="code">
                                     <style>
@@ -143,7 +164,15 @@
                        <p style="text-indent :1em;">
                             The <strong>style</strong> attribute specifies an inline style for an element. <br>
                             The <strong>style</strong> attribute will override any style set globally, e.g. styles specified in the <strong>&ltstyle&gt</strong> tag or in an external style sheet.
-                            <script src="https://gist.github.com/AdityaVSM/8b78a09796ad530611b7a462a4fb1f49.js"></script> <br>
+                            
+                            <div class="code-snippet">
+                                <div class="code">
+                                    <br><h4>Example-</h4>
+                                    <a href="http://tpcg.io/HuVbdM8L" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
+                                    <script src="https://gist.github.com/AdityaVSM/8b78a09796ad530611b7a462a4fb1f49.js"></script> <br>
+                                </div>
+                            </div>
+                            
                             This produces the following output - <br><br>
                             <div class="code-snippet">
                                 <div class="code">

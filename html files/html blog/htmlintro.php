@@ -64,7 +64,14 @@
                         <li>The HTML document itself begins with <strong>&lthtml&gt</strong> and ends with <strong>&lt/html&gt </strong>.</li> 
                         <li>The visible part of the HTML document is between <strong>&ltbody&gt</strong> and <strong>&lt/body&gt</strong>.</li>
                     </ul><br>
-                    <script src="https://gist.github.com/AdityaVSM/883ba8e4451f84c809713700be965a24.js"></script><br><br>
+                    <div class="code-snippet">
+                        <div class="code">
+                            Example- <br>
+                            <a href="http://tpcg.io/W2PZ1Url" target="_blank"><input class="try_it"  type="button" value="Demo"></a> 
+                            <script src="https://gist.github.com/AdityaVSM/883ba8e4451f84c809713700be965a24.js"></script><br>                        
+                        </div>
+                    </div>
+                    
                     <div class="code-snippet">
                         <h3 style="text-indent :2em;">Output:</h3>
                         <div class="code"style="text-indent :6em;">

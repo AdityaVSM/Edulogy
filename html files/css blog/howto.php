@@ -66,7 +66,8 @@
                         <div class="code-snippet">
                             <div class="code">
                                 Example: <br>
-                                Inline styles are defined within the "style" attribute of the relevant element:
+                                Inline styles are defined within the "style" attribute of the relevant element: <br>
+                                <a href="http://tpcg.io/c7sSydOm" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
                                 <script src="https://gist.github.com/AdityaVSM/95c6d39a066f181985585d4af8edf868.js"></script> <br>
                             </div>
                         </div> 
@@ -79,7 +80,8 @@
                         <div class="code-snippet">
                             <div class="code">
                                 Example: <br>
-                                Internal styles are defined within the <strong> &ltstyle&gt </strong> element, inside the <strong>&lthead&gt</strong> section of an HTML page:
+                                Internal styles are defined within the <strong> &ltstyle&gt </strong> element, inside the <strong>&lthead&gt</strong> section of an HTML page: <br>
+                                <a href="http://tpcg.io/57YyrTaX" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
                                 <script src="https://gist.github.com/AdityaVSM/af88c007da849cd114f981c2f98406de.js"></script><br>
                             </div>
                         </div> 
@@ -92,7 +94,8 @@
                         <div class="code-snippet">
                             <div class="code">
                                 Example: <br>
-                                External styles are defined within the <strong>&ltlink&gt</strong> element, inside the <strong>&lthead&gt</strong>section of an HTML page:
+                                External styles are defined within the <strong>&ltlink&gt</strong> element, inside the <strong>&lthead&gt</strong>section of an HTML page: <br>
+                                <a href="http://tpcg.io/57YyrTaX" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
                                 <script src="https://gist.github.com/AdityaVSM/5294f31c8fefb19224f275b8382a20e9.js"></script> <br>
                             </div>
                         </div>

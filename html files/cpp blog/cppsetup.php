@@ -75,7 +75,7 @@
                     <div class="code-snippet">
                         <div class="code">
                             myfirstprogram.cpp <br>
-                            <a href="http://tpcg.io/se7GEqSz" target="_blank"><input class="try_it"  type="button" value="Try it"></a> 
+                            <a href="http://tpcg.io/6meiGNE0" target="_blank"><input class="try_it"  type="button" value="Demo"></a> 
                             <script src="https://gist.github.com/AdityaVSM/df943d28542801384fa3222fe65e6e5a.js"></script> <br>
                             Then, go to Build > Build and Run to run (execute) the program. The result will look something to this: <br><br>
                             <img src="ss1.png" alt=""> <br><br> 
