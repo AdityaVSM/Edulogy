@@ -66,7 +66,7 @@
                     </ul><br>
                     <div class="code-snippet">
                         <div class="code">
-                            Example- <br>
+                            <br> <h4>Example-</h4>
                             <a href="http://tpcg.io/W2PZ1Url" target="_blank"><input class="try_it"  type="button" value="Demo"></a> 
                             <script src="https://gist.github.com/AdityaVSM/883ba8e4451f84c809713700be965a24.js"></script><br>                        
                         </div>

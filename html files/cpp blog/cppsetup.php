@@ -11,7 +11,8 @@
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">       
-        <link rel="stylesheet" href="../../style.css">
+        <link href="../../hover.css" rel="stylesheet" media="all">
+        <link rel="stylesheet" href="../../style.css" media="all">
     </head>
     <body >
 
@@ -75,7 +76,7 @@
                     <div class="code-snippet">
                         <div class="code">
                             myfirstprogram.cpp <br>
-                            <a href="http://tpcg.io/6meiGNE0" target="_blank"><input class="try_it"  type="button" value="Demo"></a> 
+                            <a href="http://tpcg.io/6meiGNE0" target="_blank"><input class="hvr-rectangle-out try_it"  type="button" value="Demo"></a> 
                             <script src="https://gist.github.com/AdityaVSM/df943d28542801384fa3222fe65e6e5a.js"></script> <br>
                             Then, go to Build > Build and Run to run (execute) the program. The result will look something to this: <br><br>
                             <img src="ss1.png" alt=""> <br><br> 
