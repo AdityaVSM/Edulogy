@@ -57,7 +57,7 @@
 
             <div class="grid-child-content">
                 <p>
-                <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">HTML tags</h1> <br>
+                <h1>HTML tags</h1> <br>
                     <ul>
                         <li>HTML tags are like keywords which defines that how web browser will format and display the content</li>
                         <li>With the help of tags, a web browser can distinguish between an HTML content and a simple content</li>

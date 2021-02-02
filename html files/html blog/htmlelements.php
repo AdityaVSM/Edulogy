@@ -58,7 +58,7 @@
 
             <div class="grid-child-content">
                 <p>
-                    <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">HTML Elements</h1> <br>
+                    <h1 >HTML Elements</h1> <br>
                     <div style="text-indent: 3em;">
                         An HTML file is made of elements. These elements are responsible for creating web pages and define content in that webpage. 
                         An element in HTML usually consist of a start tag <strong>&lttag name&gt</strong>, close tag <strong>&lt/tag name&gt</strong> and content inserted between them. 

@@ -58,7 +58,7 @@
 
             <div class="grid-child-content">
                 <p >
-                    <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">HTML Attributes</h1> <br>
+                    <h1>HTML Attributes</h1> <br>
                     <p style="text-indent:2em;">
                         We have seen few HTML tags and their usage like heading tags <strong> &lth1&gt, &lth2&gt </strong>, paragraph tag <strong>&ltp&gt</strong> and other tags.
                         We used them so far in their simplest form, but most of the HTML tags can also have attributes, which are extra bits of information. <br>

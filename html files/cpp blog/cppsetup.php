@@ -48,7 +48,7 @@
 
             <div class="grid-child-content">
                 <p>
-                    <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">C++ Environment setup</h1> <br><br>
+                    <h1>C++ Environment setup</h1> <br><br>
                     <p style="text-indent: 2em;">
                         To start using C++, you need two things:
                         <ul>

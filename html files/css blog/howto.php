@@ -48,7 +48,7 @@
 
             <div class="grid-child-content">
             <p >
-                <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">How to add CSS</h1> <br><br>
+                <h1>How to add CSS</h1> <br><br>
                 <p style="text-indent: 2em;">
                     CSS is added to HTML pages to format the document according to information in the style sheet. There are three ways to insert CSS in HTML documents.              
                 </p>

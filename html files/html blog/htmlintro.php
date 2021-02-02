@@ -58,7 +58,7 @@
 
             <div class="grid-child-content">
                 <p>
-                    <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">HTML Basics</h1> <br>
+                    <h1>HTML Basics</h1> <br>
                     <ul>
                         <li>All HTML documents must start with a document type declaration:<strong> &lt!DOCTYPE html&gt</strong>. </li>
                         <li>The HTML document itself begins with <strong>&lthtml&gt</strong> and ends with <strong>&lt/html&gt </strong>.</li> 
