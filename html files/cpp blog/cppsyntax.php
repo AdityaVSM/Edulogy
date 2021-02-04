@@ -11,7 +11,8 @@
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">       
-        <link rel="stylesheet" href="../../style.css">
+        <link href="../../hover.css" rel="stylesheet" media="all">
+        <link rel="stylesheet" href="../../style.css" media="all">
     </head>
     <body >
 
@@ -48,47 +49,9 @@
 
             <div class="grid-child-content">
                 <p>
-                    <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">C++ Basics</h1> <br><br>
-                    <p style="text-indent: 2em;">
-                        C++ is a statically typed, compiled, general-purpose, case-sensitive, free-form programming language that supports procedural, object-oriented, and generic programming.
-                    </p>
-                    <p style="text-indent: 2em;">
-                        C++ is regarded as a middle-level language, as it comprises a combination of both high-level and low-level language features.
-                    </p>
-                    <p style="text-indent: 2em;">
-                        C++ was developed by Bjarne Stroustrup starting in 1979 at Bell Labs in Murray Hill, New Jersey, as an enhancement to the C language and originally named C with Classes but later it was renamed C++ in 1983.
-                    </p>
-                    <p style="text-indent: 2em;">
-                        C++ is a superset of C, and that virtually any legal C program is a legal C++ program.
-                    </p>
-                    <p style="text-indent: 2em;">
-                        <strong>Note</strong> − A programming language is said to use static typing when type checking is performed during compile-time as opposed to run-time.  
-                    </p> <br><br>
-
-                    <h4 style="text-indent:3em;">Object-Oriented Programming</h4>
-                    C++ fully supports object-oriented programming, including the four pillars of object-oriented development −
-                    <ul>
-                        <li>Encapsulation</li>
-                        <li>Abstraction</li>
-                        <li>Inheritance</li>
-                        <li>Polymorphism</li>
-                    </ul> <br>
-
-                    <h4 style="text-indent:3em;"> Standard libraries (STL)</h4>
-                    Standard C++ consists of three important parts −
-                    <ul>
-                        <li>The core language giving all the building blocks including variables, data types and literals, etc.</li>
-                        <li>The C++ Standard Library giving a rich set of functions manipulating files, strings, etc.</li>
-                        <li>The Standard Template Library (STL) giving a rich set of methods manipulating data structures, etc</li>
-                    </ul> <br>
-
-                    <h4 style="text-indent:3em;"> The ANSI Standard </h4>
-                    <p style="text-indent:2em;">
-                        The ANSI standard is an attempt to ensure that C++ is portable; that code you write for Microsoft's compiler will compile without errors, using a compiler on a Mac, UNIX, a Windows box, or an Alpha.
-                    </p>
-                    <p style="text-indent:2em;">
-                        The ANSI standard has been stable for a while, and all the major C++ compiler manufacturers support the ANSI standard.                  
-                    </p>
+                    <h1>C++ Syntax</h1> <br><br>
+                    
+                    
                 </p>
             </div>
         
@@ -104,7 +67,7 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Courses</h3>
                         <ul>
-							<li> <a href="cppbasics.php">C++ Basics</a> </li>
+                            <li> <a href="cppbasics.php">C++ Basics</a> </li>
                             <li> <a href="cppsetup.php">C++ Environment setup</a> </li>
                             <li><a href="cppsyntax.php">C++ Syntax</a></li>
                         </ul>

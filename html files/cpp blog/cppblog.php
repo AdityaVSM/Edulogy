@@ -38,6 +38,7 @@
                     <div class="dropdown-content">
                         <a href="cppbasics.php">Basics</a><br>
                         <a href="cppsetup.php">Environment setup</a> <br>
+                        <a href="cppsyntax.php">Syntax</a> <br>
                     </div>
                 </div><br>            
                 <a href="../java blog/javablog.php">JAVA</a> <br><br>             
@@ -106,8 +107,9 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Courses</h3>
                         <ul>
-                            <li> <a href="cppbasics.php">Basics</a> </li>
-                            <li> <a href="cppsetup.php">Environment setup</a> </li>
+                            <li> <a href="cppbasics.php">C++ Basics</a> </li>
+                            <li> <a href="cppsetup.php">C++ Environment setup</a> </li>
+                            <li><a href="cppsyntax.php">C++ Syntax</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">
