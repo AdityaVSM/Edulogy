@@ -49,38 +49,25 @@
 
             <div class="grid-child-content">
                 <p >
-                    <h1>JAVA Syntax</h1> <br><br>
-                    <p>
-                        Let us breakdown the following code to understand syntax of Java :
-                    </p> 
-                    <div class="code-snippet">
-                        <div class="code"> <br>
-                            <h4>Example:</h4>
-                            <a href="http://tpcg.io/mPHHjZwJ" target="_blank"><input class="hvr-rectangle-out try_it"  type="button" value="Demo"></a>
-                            <script src="https://gist.github.com/AdityaVSM/10ee1973724a19d64fa5138826336fcd.js"></script> <br>
-                        </div>
-                    </div> <br>
-                    <h4>Example explained:</h4> <br>
-                    <p>
-                        Every line of code that runs in Java must be inside a <em>class</em>. In our example, we named the class <strong>Main</strong>. A class should always start with an uppercase first letter. <br> <br>
-                        <strong>Note: </strong>Java is case-sensitive: <strong> "MyClass"</strong> and <strong> "myclass" </strong> has different meaning. <br> <br>
-                        The name of the java file must match the class name. When saving the file, save it using the class name and add <em>".java"</em> to the end of the filename. To run the example above on your computer, make sure that Java is properly installed. 
+                    <h1>How Java code works</h1> <br><br>
+                    <h4>What happens at compile time?</h4> <br>
+                    <p> 
+                        At compile time, java file is compiled by Java <em> Compiler </em>(It does not interact with OS) and converts the java code into <em>bytecode.</em> <br><br>
+                        <img src="compile.png" alt="">
                     </p> <br><br>
-                    <h4>The main method:</h4> <br>
+                    <h4> What happens at runtime?</h4> <br>
                     <p>
-                        The <em>main()</em> method is required and you will see it in every Java program: <br> <br>
-                        Any code inside the <em> main()</em> method will be executed <br> <br>
-                        Every Java program has a <em>class</em> name which must match the filename, and that every program must contain the <em>main()</em> method.
-                    </p> <br><br>
-                    <h4>System.out.println()</h4> <br>
-                    <p>
-                        Inside the <em> main() </em> method, we can use the <em>println()</em> method to print a line of text to the screen: <br> <br> <br>
+                        At runtime following process is executed: <br><br>
+                        <img src="runtime.png" alt=""> <br>
                         <div class="note">
-                            <strong>Note:</strong> The curly braces <em> {} </em>marks the beginning and the end of a block of code.  <br><br>
-                            <strong>Note:</strong> Each code statement must end with a semicolon.
+                            <strong>Classloader:</strong> is the subsystem of <em>JVM</em> that is used to load class files. <br><br>
+                            <strong>Bytecode Verifier:</strong> checks the code fragments for illegal code that can violate access right to objects. <br><br>
+                            <strong>Interpreter:</strong> read bytecode stream then execute the instructions. 
                         </div>
-                        
+
                     </p>
+
+                    
 
                     
 

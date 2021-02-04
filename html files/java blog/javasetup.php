@@ -39,6 +39,7 @@
                     <div class="dropdown-content">
                         <a href="javasetup.php">Environment setup</a><br>
                         <a href="javasyntax.php">Syntax</a> <br>
+                        <a href="javaworking.php">How it works</a> <br>
                     </div>
                 </div><br>              
                 <a href="../c blog/cblog.php">C</a> <br><br>
@@ -104,6 +105,7 @@
                         <ul>
                             <li><a href="javasetup.php">Java Environment setup</a></li>
                             <li><a href="javasyntax.php">Java Syntax</a></li>
+                            <li><a href="javaworking.php">Java How it works</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">
