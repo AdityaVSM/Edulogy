@@ -59,7 +59,7 @@
                         There are many text editors and compilers to choose from. In this tutorial, we will use an IDE (see below).                  
                     </p> <br><br>
 
-                    <h4 style="text-indent :3em;">IDE installation</h4>
+                    <h4>IDE installation</h4>
                     <p>
                     An <strong>IDE</strong> (Integrated Development Environment) is used to edit AND compile the code. <br><br>
                     Popular IDE's include Code::Blocks, Eclipse, and Visual Studio. These are all free, and they can be used to both edit and debug C++ code. <br><br>
@@ -68,18 +68,18 @@
                     You can find the latest version of Codeblocks at <span><a href="http://www.codeblocks.org/downloads/26">http://www.codeblocks.org/downloads/26</a></span>. Download the <strong> mingw-setup.exe </strong> file, which will install the text editor with a compiler. <br>
                     </p> <br><br>
 
-                    <h4 style="text-indent:3em;">Quickstart</h4> 
+                    <h4>Quickstart</h4> 
                     <p>
                     Open Codeblocks and go to <strong> File > New > Empty File. </strong><br>
                     Write the following C++ code and save the file as <strong> myfirstprogram.cpp </strong> <em>>(File > Save File as)</em>:
                     </p>
 
                     <div class="code-snippet">
-                        <div class="code">
-                            myfirstprogram.cpp <br>
+                        <div class="code"> <br>
+                            <h4>myfirstprogram.cpp</h4> 
                             <a href="http://tpcg.io/6meiGNE0" target="_blank"><input class="hvr-rectangle-out try_it"  type="button" value="Demo"></a> 
                             <script src="https://gist.github.com/AdityaVSM/df943d28542801384fa3222fe65e6e5a.js"></script> <br>
-                            Then, go to Build > Build and Run to run (execute) the program. The result will look something to this: <br><br>
+                            Then, go to <em>Build > Build and Run</em>  to run (execute) the program. The result will look something to this: <br><br>
                             <img src="ss1.png" alt=""> <br><br> 
                         </div>
                     </div> <br><br>

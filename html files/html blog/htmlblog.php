@@ -80,7 +80,7 @@
                 <div style= "text-align: center;"><br><strong><h3>Prerequisites</h3></strong></div>
                 <br>Before learning html you should have a basic working knowledge with Windows or Linux operating system, additionally you must be familiar with −
                 <ul>
-                    <li><em>Experience with any text editor like notepad, notepad++, or Edit plus etc.</li>
+                    <li>Experience with any text editor like notepad, notepad++, or Edit plus etc.</li>
                     <li>How to create directories and files on your computer.</li>
                     <li>How to navigate through different directories.</li>
                     <li>How to type content in a file and save them on a computer.</li>

@@ -64,8 +64,8 @@
                         An inline style may be used to apply a unique style for a single element. <br>
                         To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
                         <div class="code-snippet">
-                            <div class="code">
-                                Example: <br>
+                            <div class="code"> <br>
+                                <h4>Example:</h4> <br>
                                 Inline styles are defined within the "style" attribute of the relevant element: <br>
                                 <a href="http://tpcg.io/c7sSydOm" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
                                 <script src="https://gist.github.com/AdityaVSM/95c6d39a066f181985585d4af8edf868.js"></script> <br>
@@ -78,8 +78,8 @@
                         An internal style sheet may be used if one single HTML page has a unique style.<br>
                         The internal style is defined inside the <strong> &ltstyle&gt </strong> element, inside the head section.
                         <div class="code-snippet">
-                            <div class="code">
-                                Example: <br>
+                            <div class="code"><br>
+                                <h4>Example:</h4> <br>
                                 Internal styles are defined within the <strong> &ltstyle&gt </strong> element, inside the <strong>&lthead&gt</strong> section of an HTML page: <br>
                                 <a href="http://tpcg.io/57YyrTaX" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
                                 <script src="https://gist.github.com/AdityaVSM/af88c007da849cd114f981c2f98406de.js"></script><br>
@@ -92,8 +92,8 @@
                         External CSS is used to apply CSS on multiple pages or all pages. Here, we write all the CSS code in a css file. <br>
                         Each HTML page must include a reference to the external style sheet file inside the <strong> &ltlink&gt </strong> element, inside the head section.
                         <div class="code-snippet">
-                            <div class="code">
-                                Example: <br>
+                            <div class="code"><br>
+                                <h4>Example:</h4> <br>
                                 External styles are defined within the <strong>&ltlink&gt</strong> element, inside the <strong>&lthead&gt</strong>section of an HTML page: <br>
                                 <a href="http://tpcg.io/57YyrTaX" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
                                 <script src="https://gist.github.com/AdityaVSM/5294f31c8fefb19224f275b8382a20e9.js"></script> <br>
@@ -103,8 +103,8 @@
                         The external .css file should not contain any HTML tags. <br>
                         Here is how the "mystyle.css" file looks: <br>
                         <div class="code-snippet">
-                            <div class="code">
-                                <h5>"mystyle.css"</h5> 
+                            <div class="code"> <br>
+                                <h4>"mystyle.css"</h4> <br>
                                 <script src="https://gist.github.com/AdityaVSM/2af4b7b40545a4a975d0f75c3debf53b.js"></script> <br>
                             </div>
                         </div>

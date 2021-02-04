@@ -76,7 +76,6 @@
             
             <div style="text-align: center;"><br><strong><h3>Prerequisites</h3></strong><br></div>
             You should be familiar with:<br>
-            <em>
                 <ul>
                     <li>Basic word processing using any text editor.</li>
                     <li>How to create directories and files.</li>
@@ -84,7 +83,7 @@
                     <li>Internet browsing using popular browsers like Internet Explorer or Firefox.</li>
                     <li>Developing simple Web Pages using HTML or XHTML.</li>
                 </ul>
-            </em>
+            
             </p>
             
             </div>

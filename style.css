@@ -144,8 +144,18 @@ hr{
 	text-decoration:underline; 
 	text-shadow:3px 1px yellow;
 }
+.grid-child-content em{
+	color:red;
+	background-color:rgb(255, 208, 215);
+}
 .grid-child-content p{
 	text-indent: 2em;
+}
+.grid-child-content .code-snippet h3,h4{
+	text-indent: 3em;
+}
+.grid-child-content h3{
+	text-indent: 3em;
 }
 .img{
 	position: absolute;

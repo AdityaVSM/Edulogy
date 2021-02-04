@@ -50,8 +50,58 @@
             <div class="grid-child-content">
                 <p>
                     <h1>C++ Syntax</h1> <br><br>
+                    <h6 style="text-indent:2em;">Let us break following code for better understanding-</h6> 
+                    <div class="code-snippet">
+                        <div class="code">
+                            <br> <h4>Example-</h4>
+                            <a href="http://tpcg.io/6meiGNE0" target="_blank"><input class="hvr-rectangle-out try_it"  type="button" value="Demo"></a> 
+                            <script src="https://gist.github.com/AdityaVSM/bda4ce790b5db8c07707bc4ed10ad444.js"></script> <br>
+                        </div>
+                    </div>     <br><br>
+
+                    <h3>Example explained-</h3> <br>
+                    <ul>
+                        <li>
+                            <strong> Line 1 : </strong> <em>#include <iostream></em> is a <strong>header file library</strong>that lets us work with input and output objects, such as cout (used in line 5). Header files add functionality to C++ programs.
+                        </li> <br>
+                        <li>
+                            <strong> Line 2 : </strong> <em>using namespace std</em> means that we can use names for objects and variables from the standard library.
+                        </li> <br>
+                        <li>
+                            <strong> Line 3 : </strong> A blank line. C++ ignores white space.
+                        </li> <br>
+                        <li>
+                            <strong> Line 4 : </strong> Another thing that always appear in a C++ program, is <em> int main() </em>.  This is called a <strong>function</strong>. Any code inside its curly brackets <em>{}</em> will be executed.
+                        </li> <br>
+                        <li>
+                            <strong> Line 5 : </strong> <em>cout</em> is an <strong> object </strong> used together with the insertion operator (<<) to output/print text. In our example it will output "Hello World".
+                        </li> <br>
+                        <li>
+                            <strong> Line 6 : </strong> <em>return 0</em> ends the main function.
+                        </li> <br>
+                        <li>
+                            <strong> Line 7 : </strong> Do not forget to add the closing curly bracket <em>}</em> to actually end the main function.
+                        </li>
+                    </ul>  
+                    <p>
+                        <strong> Note: </strong> The body of <em>int main()</em> could also been written as: <br>
+                        <pre>
+                        <em>int main () { cout << "Hello World! "; return 0; }</em>                        
+                        </pre>                                        
+                    </p> 
+
+                    <h3>Omitting namespace</h3> <br>
+                    <p>
+                        You might see some C++ programs that runs without the standard namespace library. The <em>using namespace std</em> line can be omitted and replaced with the <em>std</em> keyword, followed by the <em>::</em> operator for some objects:
+                    </p>   
                     
-                    
+                    <div class="code-snippet">
+                        <div class="code"> <br>
+                            <h4>Example-</h4>
+                            <a href="http://tpcg.io/oHItjQoH" target="_blank"><input class="hvr-rectangle-out try_it"  type="button" value="Demo"></a>
+                            <script src="https://gist.github.com/AdityaVSM/6e3180217a7ca94ad91e051ceec28351.js"></script> <br>
+                        </div>
+                    </div>
                 </p>
             </div>
         

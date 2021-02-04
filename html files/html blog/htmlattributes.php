@@ -142,22 +142,6 @@
                                 </div>
                             </div>
                            
-                            This produces the following output - <br>
-                            <div class="code-snippet">
-                                <div class="code">
-                                    <style>
-                                        h1.intro {
-                                            color: blue;
-                                        }
-                                        p.important {
-                                            color: green;
-                                        }
-                                    </style>
-                                    <h1 class="intro">Header 1</h1>
-                                    <p>A paragraph.</p>
-                                    <p class="important">Note that this is an important paragraph. :)</p>
-                                </div>
-                            </div>
                        </p> <br>
 
                        <li><h4 style="text-indent :2em;">The Style Attribute</h4>

@@ -109,11 +109,11 @@
                         </li> <br>
                         <li>
                             <strong style="text-indent:1em;">Strong, Italic, Small, Underline, Strike tags : </strong> <br>
-                            <em>Strong tag </em>  is used to specify bold content in html document <br>
-                            <em>Italic tag </em>  is used to write the content in italic format. <br>
-                            <em>Small tag </em>   is used to set the small font size of the content. <br>
-                            <em>Underline tag </em>  is used to set the content underline. <br>
-                            <em>Strike tag </em>  is used to represent as deleted text. It cross the text content. 
+                            <u><i>Strong tag</i></u>  is used to specify bold content in html document <br>
+                            <u><i>Italic tag </i></u>  is used to write the content in italic format. <br>
+                            <u><i>Small tag </i></u>   is used to set the small font size of the content. <br>
+                            <u><i>Underline tag </i></u>  is used to set the content underline. <br>
+                            <u><i>Strike tag </i></u>  is used to represent as deleted text. It cross the text content. 
                             <br><strong>Syntax:</strong>
                             <script src="https://gist.github.com/AdityaVSM/67c14d6a29bcd345ba5e049479fb9d07.js"></script>
                         </li> <br>
