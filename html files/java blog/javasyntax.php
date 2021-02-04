@@ -31,6 +31,7 @@
             <div class="grid-child-sidebar" >
                 
                 <!-- dropdown -->
+                <br><br>
                 <a href="../html blog/htmlblog.php">HTML</a> <br><br>        
                 <a href="../css blog/cssblog.php">CSS</a> <br><br> 
                 <a href="../cpp blog/cppblog.php">C++</a> <br><br>          
@@ -47,46 +48,40 @@
 
             <div class="grid-child-content">
                 <p >
-                    <h1>JAVA Getting Started</h1> <br><br>
+                    <h1>JAVA Syntax</h1> <br><br>
                     <p>
-                        If you do not have Java installed on your computer, you can download it for free at <a href="https://www.oracle.com/java/technologies/java-se-glance.html" target="_blank">oracle.com.</a>
-                    </p> <br>
-                    <h3>Setup for windows:</h3> <br>
-                    <p>
-                        To install Java on Windows:
-                        <ul>
-                            <li>Go to <strong> "System Properties" </strong> (Can be found on<em> Control Panel > System and Security > System > Advanced System Settings</em>)</li> <br>
-                            <li>Click on the <strong> "Environment variables" </strong> button under the <strong> "Advanced" </strong> tab</li> <br>
-                            <li>Then, select the <strong> "Path" </strong> variable in System variables and click on the <strong> "Edit" </strong> button</li> <br>
-                            <li>Click on the <strong> "New" </strong> button and add the path where Java is installed, followed by <strong> \bin </strong>. By default, Java is installed in <em> C:\Program Files\Java\jdk-11.0.1 </em> (If nothing else was specified when you installed it). In that case, You will have to add a new path with: <em> C:\Program Files\Java\jdk-11.0.1\bin </em></li> <br>
-                            <li>Then, click <strong> "OK" </strong>, and save the settings</li> <br>
-                            <li>At last, open Command Prompt (cmd.exe) and type <strong> java -version </strong> to see if Java is running on your machine</li> <br>
-                            <li>Intsall any IDE you like such as <strong>IntelliJ</strong>, <strong>VSCode</strong>, <strong> Netbeans</strong> or <strong> Eclipse </strong>.</li>
-                        </ul>
-                    </p> <br>
-
-                    <h3>Quickstart:</h3> <br>
-                    <p>
-                    In Java, every application begins with a class name, and that class must match the filename. <br>
-                    Let's create our first Java file, called <strong> Main.java </strong>, which can be done in any text editor (like Notepad). <br>
-                    The file should contain a <strong> "Hello World"</strong> message, which is written with the following code:
-                    </p>
+                        Let us breakdown the following code to understand syntax of Java :
+                    </p> 
                     <div class="code-snippet">
-                        <div class="code">
-                            <br><h4>Main.java</h4>
+                        <div class="code"> <br>
+                            <h4>Example:</h4>
                             <a href="http://tpcg.io/mPHHjZwJ" target="_blank"><input class="hvr-rectangle-out try_it"  type="button" value="Demo"></a>
                             <script src="https://gist.github.com/AdityaVSM/10ee1973724a19d64fa5138826336fcd.js"></script> <br>
                         </div>
                     </div> <br>
-
+                    <h4>Example explained:</h4> <br>
                     <p>
-                        If you wrote the code in text editor rather than IDE's follow the below procedure to execute program in command prompt:
-                        <ul>
-                            <li>Save the code in Notepad as<strong> "Main.java"</strong>. Open Command Prompt (cmd.exe), navigate to the directory where you saved your file, and type <strong>"javac Main.java"</strong>:</li> <br>
-                            <li>This will compile your code. If there are no errors in the code, the command prompt will take you to the next line. Now, type <strong>"java Main"</strong> to run the file:</li> <br>
-                            <li>The output should read:   <strong>Hello world</strong></li> <br>
-                        </ul>
+                        Every line of code that runs in Java must be inside a <em>class</em>. In our example, we named the class <strong>Main</strong>. A class should always start with an uppercase first letter. <br> <br>
+                        <strong>Note: </strong>Java is case-sensitive: <strong> "MyClass"</strong> and <strong> "myclass" </strong> has different meaning. <br> <br>
+                        The name of the java file must match the class name. When saving the file, save it using the class name and add <em>".java"</em> to the end of the filename. To run the example above on your computer, make sure that Java is properly installed. 
+                    </p> <br><br>
+                    <h4>The main method:</h4> <br>
+                    <p>
+                        The <em>main()</em> method is required and you will see it in every Java program: <br> <br>
+                        Any code inside the <em> main()</em> method will be executed <br> <br>
+                        Every Java program has a <em>class</em> name which must match the filename, and that every program must contain the <em>main()</em> method.
+                    </p> <br><br>
+                    <h4>System.out.println()</h4> <br>
+                    <p>
+                        Inside the <em> main() </em> method, we can use the <em>println()</em> method to print a line of text to the screen: <br> <br> <br>
+                        <div class="note">
+                            <strong>Note:</strong> The curly braces <em> {} </em>marks the beginning and the end of a block of code.  <br><br>
+                            <strong>Note:</strong> Each code statement must end with a semicolon.
+                        </div>
+                        
                     </p>
+
+                    
 
                 </p>
             </div>

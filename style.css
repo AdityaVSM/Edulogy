@@ -127,13 +127,21 @@ hr{
 }
 .grid-child-sidebar{
 	position: relative;
+	background-color:lightgrey;
 	color:black;
-	height: 400px;
+	height: 100%;
+	text-align:center;
+	width:220px;
 	left:70px;
+}
+.note{
+	position: relative;
+	min-width: 100%;
+	background-color:#FFFFCC;
 }
 .grid-child-content{
 	text-align: left;
-	background-color:lightgrey;
+	
 	text-indent:size;
 	width : 1000px;
 	min-height: 100%;
@@ -144,12 +152,16 @@ hr{
 	text-decoration:underline; 
 	text-shadow:3px 1px yellow;
 }
-.grid-child-content em{
+.grid-child-content  em{
+	font-style: normal;
+	font-size: small;
+	font-weight: 650;
 	color:red;
-	background-color:rgb(255, 208, 215);
+	background-color:rgb(255, 255, 133);
 }
 .grid-child-content p{
 	text-indent: 2em;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
 }
 .grid-child-content .code-snippet h3,h4{
 	text-indent: 3em;
@@ -179,15 +191,16 @@ hr{
 }
 
 .try_it{
+	color:white;
 	width:100px;
 	position: relative;;
 	top:40px; 
 	left:720px !important;
-	background-color:lightgreen;
+	background-color:red;
 	opacity: 0.7;
 }
 .try_it:hover {
-	color:rgb(255, 1, 1);
+	color:yellow;
 	box-shadow: 5px 8px 8px 3px rgba(32, 25, 25, 0.8);
 	transform: scale(1.2);
 	border-radius:6px;

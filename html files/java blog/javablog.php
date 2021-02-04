@@ -38,6 +38,7 @@
                     <a href="javablog.php">JAVA   </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
                         <a href="javasetup.php">Environment setup</a><br>
+                        <a href="javasyntax.php">Syntax</a> <br>
                     </div>
                 </div><br>              
                 <a href="../c blog/cblog.php">C</a> <br><br>
@@ -46,7 +47,7 @@
 
             <div class="grid-child-content">
             <p >
-            <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">JAVA Programming</h1>
+            <h1>JAVA Programming</h1>
             
             <br><strong>Java</strong> is a high-level programming language originally developed by Sun Microsystems and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. This tutorial gives a complete understanding of Java. This reference will take you through simple and practical approaches while learning Java Programming language.
             
@@ -88,6 +89,7 @@
                         <h3>Courses</h3>
                         <ul>
                             <li><a href="javasetup.php">Java Environment setup</a></li>
+                            <li><a href="javasyntax.php">Java Syntax</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">
