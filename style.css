@@ -148,6 +148,10 @@ hr{
 	min-width: 100%;
 	background-color:#FFFFCC;
 }
+.note h5{
+	text-indent: 3em;
+	font-style: bold !important;
+}
 .grid-child-content{
 	text-align: left;
 	

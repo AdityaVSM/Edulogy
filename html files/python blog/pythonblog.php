@@ -28,7 +28,7 @@
         <hr>
 
         <div class="grid-container">
-            <div class="grid-child-sidebar" >
+            <div class="grid-child-sidebar" > <br> <br>
                 
                 <!-- dropdown -->
                 <a href="../html blog/htmlblog.php">HTML</a> <br><br>        
@@ -37,11 +37,10 @@
                 <a href="../java blog/javablog.php">JAVA</a> <br><br>              
                 <a href="../c blog/cblog.php">C</a> <br><br>
                 <div class="dropdown">
-                    <a href="pythonblog.php">Python   </a><i class="arrow down"></i></p>
+                    <a href="pythonblog.php">PYTHON   </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
-                        <a href="pythonblog.php">intro</a><br>
-                        <a href="pythonblog.php">jash</a><br>
-                        <a href="pythonblog.php">ajsh</a><br>
+                        <a href="pythonsetup.php">Environment Setup</a><br>
+                        <a href="pythonsyntax.php">Syntax</a> <br>
                     </div>
                 </div><br>
             </div>
@@ -49,44 +48,46 @@
             
             <div class="grid-child-content">
             <p >
-            <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">PYTHON Programming</h1>
+            <h1>PYTHON Programming</h1> <br><br>
                 
-            <br><strong>Python</strong> is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). This tutorial gives enough understanding on Python programming language.
+            <p><strong>Python</strong> is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by <em>Guido van Rossum</em> during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). This tutorial gives enough understanding on Python programming language.</p>
             
-            <div style="text-align: center;"><br><strong><h3>Why to Learn Python?</h3></strong><br></div>
-            Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.
-            Python is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Web Development Domain. I will list down some of the key advantages of learning Python:
+            <div><br><strong><h3>Why to Learn Python?</h3></strong><br></div>
+            <p>Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.
+            Python is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Web Development Domain. I will list down some of the key advantages of learning Python: <br><br>
             <ul>
-            <li><strong>Python is Interpreted</strong> − Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP.</li>
-            <li><strong>Python is Interactive</strong> − You can actually sit at a Python prompt and interact with the interpreter directly to write your programs.</li>
-            <li><strong>Python is Object-Oriented</strong> − Python supports Object-Oriented style or technique of programming that encapsulates code within objects.</li>
+            <li><strong>Python is Interpreted</strong> − Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP.</li> <br>
+            <li><strong>Python is Interactive</strong> − You can actually sit at a Python prompt and interact with the interpreter directly to write your programs.</li> <br>
+            <li><strong>Python is Object-Oriented</strong> − Python supports Object-Oriented style or technique of programming that encapsulates code within objects.</li><br>
             <li><strong>Python is a Beginner's Language</strong> − Python is a great language for the beginner-level programmers and supports the development of a wide range of applications from simple text processing to WWW browsers to games.</li>
             </ul>
+            </p> 
             
-            <div style="text-align: center;"><br><strong><h3>Characteristics of Python:</h3></strong><br></div>
-            Following are important characteristics of Python Programming −
+            <div><br><strong><h3>Characteristics of Python:</h3></strong><br></div>
+            <p>Following are important characteristics of Python Programming − <br>
             <ul>
-                <li>It supports functional and structured programming methods as well as OOP.</li>
-                <li>It can be used as a scripting language or can be compiled to byte-code for building large applications.</li>
-                <li>It provides very high-level dynamic data types and supports dynamic type checking.</li>
-                <li>It supports automatic garbage collection.</li>
-                <li>It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.</li>
-            </ul>
+                <li>It supports functional and structured programming methods as well as OOP.</li> <br>
+                <li>It can be used as a scripting language or can be compiled to byte-code for building large applications.</li> <br>
+                <li>It provides very high-level dynamic data types and supports dynamic type checking.</li> <br>
+                <li>It supports automatic garbage collection.</li> <br>
+                <li>It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.</li> <br>
+            </ul></p> 
             
-            <div style="text-align: center;"><br><strong><h3>Applications of Python:</h3></strong><br></div>
-            As mentioned before, Python is one of the most widely used language over the web. I'm going to list few of them here:
+            <div><br><strong><h3>Applications of Python:</h3></strong><br></div>
+            <p>As mentioned before, Python is one of the most widely used language over the web. I'm going to list few of them here:
             <ul>
-                <li><strong>Easy-to-learn</strong> − Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly.</li>
-                <li><strong>Easy-to-read</strong> − Python code is more clearly defined and visible to the eyes.</li>
-                <li><strong>Easy-to-maintain</strong> − Python's source code is fairly easy-to-maintain.</li>
-                <li><strong>A broad standard library</strong> − Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh.</li>
-                <li><strong>Interactive Mode</strong> − Python has support for an interactive mode which allows interactive testing and debugging of snippets of code.</li>
-                <li><strong>Portable</strong>− Python can run on a wide variety of hardware platforms and has the same interface on all platforms.</li>
-                <li><strong>Extendable</strong> − You can add low-level modules to the Python interpreter. These modules enable programmers to add to or customize their tools to be more efficient.</li>
-                <li><strong>Databases</strong> − Python provides interfaces to all major commercial databases.</li>
-                <li><strong>GUI Programming</strong> − Python supports GUI applications that can be created and ported to many system calls, libraries and windows systems, such as Windows MFC, Macintosh, and the X Window system of Unix.</li>
-                <li><strong>Scalable</strong> − Python provides a better structure and support for large programs than shell scripting.</li>
+                <li><strong>Easy-to-learn</strong> − Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly.</li> <br>
+                <li><strong>Easy-to-read</strong> − Python code is more clearly defined and visible to the eyes.</li> <br>
+                <li><strong>Easy-to-maintain</strong> − Python's source code is fairly easy-to-maintain.</li> <br>
+                <li><strong>A broad standard library</strong> − Python's bulk of the library is very portable and cross-platform compatible on UNIX, Windows, and Macintosh.</li> <br>
+                <li><strong>Interactive Mode</strong> − Python has support for an interactive mode which allows interactive testing and debugging of snippets of code.</li> <br>
+                <li><strong>Portable</strong>− Python can run on a wide variety of hardware platforms and has the same interface on all platforms.</li> <br>
+                <li><strong>Extendable</strong> − You can add low-level modules to the Python interpreter. These modules enable programmers to add to or customize their tools to be more efficient.</li> <br>
+                <li><strong>Databases</strong> − Python provides interfaces to all major commercial databases.</li> <br>
+                <li><strong>GUI Programming</strong> − Python supports GUI applications that can be created and ported to many system calls, libraries and windows systems, such as Windows MFC, Macintosh, and the X Window system of Unix.</li> <br>
+                <li><strong>Scalable</strong> − Python provides a better structure and support for large programs than shell scripting.</li> <br>
             </ul>
+            </p>
             </p>
             </div>
         </div>
@@ -101,12 +102,8 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Courses</h3>
                         <ul>
-							<li><a href="html files/html blog/htmlblog.php">html 5</a></li>
-							<li><a href="html files/css blog/cssblog.php">css 3</a></li>
-							<li><a href="html files/cpp blog/cppblog.php">c++</a></li>
-							<li><a href="html files/java blog/javablog.php">java</a></li>
-							<li><a href="html files/c blog/cblog.php">c</a></li>
-							<li><a href="html files/python blog/pythonblog.php">python</a></li>
+							<li><a href="pythonsetup.php">Python Environment Setup</a></li>
+                            <li><a href="pythonsyntax.php">Python Syntax</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-6 col-md-3 item">
