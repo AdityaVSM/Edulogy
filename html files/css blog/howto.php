@@ -28,7 +28,7 @@
         <hr>
 
         <div class="grid-container">
-            <div class="grid-child-sidebar" >
+            <div class="grid-child-sidebar" > <br><br>
                 
                 <a href="../html blog/htmlblog.php">HTML</a> <br><br>  
                 <div class="dropdown">
@@ -61,12 +61,12 @@
                 <ol>
                     <li>
                         <h4 style="text-indent :3em;">Inline CSS</h4>
-                        An inline style may be used to apply a unique style for a single element. <br>
-                        To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.
+                        <p>An inline style may be used to apply a unique style for a single element. <br>
+                        To use inline styles, add the style attribute to the relevant element. The style attribute can contain any CSS property.</p>
                         <div class="code-snippet">
                             <div class="code"> <br>
                                 <h4>Example:</h4> <br>
-                                Inline styles are defined within the "style" attribute of the relevant element: <br>
+                                <p>Inline styles are defined within the "style" attribute of the relevant element: <br></pp>
                                 <a href="http://tpcg.io/c7sSydOm" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
                                 <script src="https://gist.github.com/AdityaVSM/95c6d39a066f181985585d4af8edf868.js"></script> <br>
                             </div>
@@ -75,12 +75,12 @@
 
                     <li>
                         <h4 style="text-indent :3em;">Internal CSS</h4>
-                        An internal style sheet may be used if one single HTML page has a unique style.<br>
-                        The internal style is defined inside the <strong> &ltstyle&gt </strong> element, inside the head section.
+                        <p>An internal style sheet may be used if one single HTML page has a unique style.<br>
+                        The internal style is defined inside the <em>&ltstyle&gt</em> element, inside the head section.<p>
                         <div class="code-snippet">
                             <div class="code"><br>
                                 <h4>Example:</h4> <br>
-                                Internal styles are defined within the <strong> &ltstyle&gt </strong> element, inside the <strong>&lthead&gt</strong> section of an HTML page: <br>
+                                <p>Internal styles are defined within the <em>&ltstyle&gt</em> element, inside the <em>&lthead&gt</em> section of an HTML page: <br></p>
                                 <a href="http://tpcg.io/57YyrTaX" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
                                 <script src="https://gist.github.com/AdityaVSM/af88c007da849cd114f981c2f98406de.js"></script><br>
                             </div>
@@ -89,19 +89,19 @@
 
                     <li>
                         <h4 style="text-indent :3em;">External CSS</h4>
-                        External CSS is used to apply CSS on multiple pages or all pages. Here, we write all the CSS code in a css file. <br>
-                        Each HTML page must include a reference to the external style sheet file inside the <strong> &ltlink&gt </strong> element, inside the head section.
+                        <p>External CSS is used to apply CSS on multiple pages or all pages. Here, we write all the CSS code in a css file. <br>
+                        Each HTML page must include a reference to the external style sheet file inside the <em>&ltlink&gt</em> element, inside the head section.</p>
                         <div class="code-snippet">
                             <div class="code"><br>
                                 <h4>Example:</h4> <br>
-                                External styles are defined within the <strong>&ltlink&gt</strong> element, inside the <strong>&lthead&gt</strong>section of an HTML page: <br>
+                                <p>External styles are defined within the <em>&ltlink&gt</em> element, inside the <em>&lthead&gt</em>section of an HTML page: <br></p>
                                 <a href="http://tpcg.io/57YyrTaX" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
                                 <script src="https://gist.github.com/AdityaVSM/5294f31c8fefb19224f275b8382a20e9.js"></script> <br>
                             </div>
-                        </div>
-                        An external style sheet can be written in any text editor, and must be saved with a .css extension. <br>
+                        </div> <br>
+                        <p>An external style sheet can be written in any text editor, and must be saved with a <strong>.css</strong> extension. <br>
                         The external .css file should not contain any HTML tags. <br>
-                        Here is how the "mystyle.css" file looks: <br>
+                        Here is how the <strong>"mystyle.css"</strong> file looks: <br></p>
                         <div class="code-snippet">
                             <div class="code"> <br>
                                 <h4>"mystyle.css"</h4> <br>

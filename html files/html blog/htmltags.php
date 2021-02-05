@@ -39,7 +39,7 @@
         <div class="grid-container">
             <div class="grid-child-sidebar" >
                 
-            <div class="dropdown">
+            <div class="dropdown"> <br><br>
                     <a href="htmlblog.php">HTML   </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
                         <a href="htmlintro.php">Basics</a><br>
@@ -59,13 +59,13 @@
                 <p>
                 <h1>HTML tags</h1> <br>
                     <ul>
-                        <li>HTML tags are like keywords which defines that how web browser will format and display the content</li>
-                        <li>With the help of tags, a web browser can distinguish between an HTML content and a simple content</li>
-                        <li>HTML tags contain three main parts: opening tag, content and closing tag, but some HTML tags are unclosed tags</li>
-                        <li>When a web browser reads an HTML document, browser reads it from top to bottom and left to right</li>
-                        <li>HTML tags are used to create HTML documents and render their properties. Each HTML tags have different properties.</li>
-                        <li>An HTML file must have some essential tags so that web browser can differentiate between a simple text and HTML text. You can use as many tags you want as per your code requirement.</li>
-                    </ul>
+                        <li>HTML tags are like keywords which defines that how web browser will format and display the content</li> <br>
+                        <li>With the help of tags, a web browser can distinguish between an HTML content and a simple content</li> <br>
+                        <li>HTML tags contain three main parts: <em>opening tag</em>, <em>close tag</em>,<em>content and closing tag</em>, but some HTML tags are unclosed tags</li> <br>
+                        <li>When a web browser reads an HTML document, browser reads it from top to bottom and left to right</li> <br>
+                        <li>HTML tags are used to create HTML documents and render their properties. Each HTML tags have different properties.</li>  <br>
+                        <li>An HTML file must have some essential tags so that web browser can differentiate between a simple text and HTML text. You can use as many tags you want as per your code requirement.</li> <br>
+                    </ul> <br><br>
                     <h4 style="text-indent :3em;">HTML contains lots of predefined tag. Some of them are described below:</h2> <br>
                     <h5 style="text-indent :2em;">Document structure tags:</h5> <br>
                     <ul>
@@ -109,11 +109,11 @@
                         </li> <br>
                         <li>
                             <strong style="text-indent:1em;">Strong, Italic, Small, Underline, Strike tags : </strong> <br>
-                            <u><i>Strong tag</i></u>  is used to specify bold content in html document <br>
-                            <u><i>Italic tag </i></u>  is used to write the content in italic format. <br>
-                            <u><i>Small tag </i></u>   is used to set the small font size of the content. <br>
-                            <u><i>Underline tag </i></u>  is used to set the content underline. <br>
-                            <u><i>Strike tag </i></u>  is used to represent as deleted text. It cross the text content. 
+                            <em>Strong tag</em>  is used to specify bold content in html document <br>
+                            <em>Italic tag </em>  is used to write the content in italic format. <br>
+                            <em>Small tag </em>   is used to set the small font size of the content. <br>
+                            <em>Underline tag </em>  is used to set the content underline. <br>
+                            <em>Strike tag </em>  is used to represent as deleted text. It cross the text content. 
                             <br><strong>Syntax:</strong>
                             <script src="https://gist.github.com/AdityaVSM/67c14d6a29bcd345ba5e049479fb9d07.js"></script>
                         </li> <br>

@@ -29,7 +29,7 @@
 
         <div class="grid-container">
             <div class="grid-child-sidebar" >
-                
+                <br><br>
                 <a href="../html blog/htmlblog.php">HTML</a> <br><br>  
                 <div class="dropdown">
                     <a href="cssblog.php">CSS         </a><i class="arrow down"></i></p>
@@ -47,30 +47,30 @@
             </div>
 
             <div class="grid-child-content">
-                <p style="text-indent:2em;">
-                    <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">CSS Syntax</h1>
-                    <p style="text-indent: 2em;">
+                <p>
+                    <h1>CSS Syntax</h1> <br><br>
+                    <p >
                         A CSS comprises of style rules that are interpreted by the browser and then applied to the corresponding elements in your document. A style rule is made of three parts −
                     </p>
                     <ul>
-                        <li><strong>Selector</strong> − A selector is an HTML tag at which a style will be applied. This could be any tag like <em>&lth1&gt</em> or <em>&lttable&gt</em> etc.</li>
-                        <li><strong>Property</strong> − A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. They could be color, border etc.</li>
-                        <li><strong>Value</strong> − Values are assigned to properties. For example, color property can have value either red or #F1F1F1 etc.</li>
+                        <li><strong>Selector</strong> − A selector is an HTML tag at which a style will be applied. This could be any tag like <em>&lth1&gt</em> or <em>&lttable&gt</em> etc.</li> <br>
+                        <li><strong>Property</strong> − A property is a type of attribute of HTML tag. Put simply, all the HTML attributes are converted into CSS properties. They could be color, border etc.</li> <br>
+                        <li><strong>Value</strong> − Values are assigned to properties. For example, color property can have value either red or #F1F1F1 etc.</li> <br>
                     </ul>
                     <img style="position:relative; left:100px;" src="syntax.png"> <br><br>
-                    <p style="text-indent: 2em;"> 
+                    <p> 
                         Here table is a selector and border is a property and given value 1px solid #C00 is the value of that property.
                     </p>
 
                     <div class="code-snippet">
                         <div class="code">
                             Here is an example: <br>
-                            In this example all <strong> &ltp&gt </strong> elements will be center-aligned, with a red text color: <br>
+                            In this example all <em> &ltp&gt </em> elements will be center-aligned, with a red text color: <br>
                             <script src="https://gist.github.com/AdityaVSM/2bfed01dec7365e391bb5af05b1bb03d.js"></script> <br>
                         </div>
-                    </div>
+                    </div> <br><br>
 
-                    <h3 style="text-indent:3em"> Example Explained- </h3>
+                    <h3> Example Explained- </h3> <br>
                     <ul>
                         <li> <strong> p </strong> is a <u>selector</u> in CSS (it points to the HTML element you want to style: <strong>&ltp&gt</strong>)</li>
                         <li> <strong> color  </strong> is a <u> property </u>, and red is the  <em> property value </em></li>

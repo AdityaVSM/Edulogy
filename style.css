@@ -4,11 +4,13 @@
 }
 body{
 	background-color:#E8E8E8;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
 }
 
 p{
 	text-indent: 2em;
 	word-spacing: 0.2em;
+	font-size:20px;
 }
 
 .login-box{
@@ -126,6 +128,7 @@ hr{
 	
 }
 .grid-child-sidebar{
+	font-family: Arial, Helvetica, sans-serif;
 	position: relative;
 	background-color:lightgrey;
 	color:black;
@@ -133,6 +136,12 @@ hr{
 	text-align:center;
 	width:220px;
 	left:70px;
+}
+.grid-child-sidebar a{
+	text-decoration: none;
+}
+.grid-child-sidebar a:hover{
+	color:red;
 }
 .note{
 	position: relative;
@@ -208,6 +217,7 @@ hr{
 }
 /*footer*/
 .footer-dark {
+	font-size: 15px;
 	position: relative;
 	left:-200px;
 	width: 1500px;
@@ -218,6 +228,7 @@ hr{
 }
 
 .footer-dark h3 {
+	font-size: 15px;
 	margin-top:0;
 	margin-bottom:12px;
 	font-weight:bold;
@@ -225,6 +236,7 @@ hr{
 }
 
 .footer-dark ul {
+	font-size: 15px;
 	padding:0;
 	list-style:none;
 	line-height:1.6;
@@ -233,20 +245,24 @@ hr{
 }
 
 .footer-dark ul a {
+	font-size: 15px;
 	color:inherit;
 	text-decoration:none;
 	opacity:0.6;
 }
 
 .footer-dark ul a:hover {
+	font-size: 15px;
 	opacity:0.8;
 }
 
 .footer-dark .item.text {
+	font-size: 15px;
 	margin-bottom:36px;
 }
 
 .footer-dark .item.text p {
+	font-size: 17px;
 	text-indent: 0em ;
 	opacity:0.6;
 	margin-bottom:0;
@@ -257,7 +273,6 @@ hr{
 }
 
 .footer-dark .item.social > a {
-	font-size:20px;
 	width:36px;
 	height:36px;
 	line-height:36px;
@@ -275,6 +290,7 @@ hr{
 }
 
 .footer-dark .copyright {
+	
 	text-align:center;
 	padding-top:24px;
 	opacity:0.3;
@@ -430,7 +446,15 @@ body .gist .gist-meta {
 	position: relative;
   	display: inline-block;
 }
+.dropdown a{
+	text-decoration: none;
+}
+.dropdown a:hover{
+	color: red;
+}
 .dropdown-content {
+	font-size:18px;
+	text-align: left;
 	display: none;
 	position: relative;
 	background-color: white;

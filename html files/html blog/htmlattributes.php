@@ -40,7 +40,7 @@
         <div class="grid-container">
             <div class="grid-child-sidebar" >
                 
-            <div class="dropdown">
+            <div class="dropdown"> <br><br>
                     <a href="htmlblog.php">HTML   </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
                         <a href="htmlintro.php">Basics</a><br>
@@ -60,12 +60,12 @@
                 <p >
                     <h1>HTML Attributes</h1> <br>
                     <p style="text-indent:2em;">
-                        We have seen few HTML tags and their usage like heading tags <strong> &lth1&gt, &lth2&gt </strong>, paragraph tag <strong>&ltp&gt</strong> and other tags.
+                        We have seen few HTML tags and their usage like heading tags <em> &lth1&gt, &lth2&gt </em>, paragraph tag <em>&ltp&gt</em> and other tags.
                         We used them so far in their simplest form, but most of the HTML tags can also have attributes, which are extra bits of information. <br>
                         An attribute is used to define the characteristics of an HTML element and is placed inside the element's opening tag. 
                         All attributes are made up of two parts − a name and a value
                         <ul>
-                            <li>The <strong>name</strong> is the property you want to set. For example, the paragraph <strong>&ltp&gt</strong> element in the example carries an attribute whose name is <strong>align</strong>, which you can use to indicate the alignment of paragraph on the page.</li>
+                            <li>The <strong>name</strong> is the property you want to set. For example, the paragraph <em>&ltp&gt</em> element in the example carries an attribute whose name is <strong>align</strong>, which you can use to indicate the alignment of paragraph on the page.</li>
                             <li>The <strong>value</strong> value is what you want the value of the property to be set and always put within quotations. The below example shows three possible values of align attribute: <strong> left, center and right. </strong></li>
                         </ul>
                         <br>
@@ -147,7 +147,7 @@
                        <li><h4 style="text-indent :2em;">The Style Attribute</h4>
                        <p style="text-indent :1em;">
                             The <strong>style</strong> attribute specifies an inline style for an element. <br>
-                            The <strong>style</strong> attribute will override any style set globally, e.g. styles specified in the <strong>&ltstyle&gt</strong> tag or in an external style sheet.
+                            The <strong>style</strong> attribute will override any style set globally, e.g. styles specified in the <em>&ltstyle&gt</em> tag or in an external style sheet.
                             
                             <div class="code-snippet">
                                 <div class="code">

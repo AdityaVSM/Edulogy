@@ -28,7 +28,7 @@
         <hr>
 
         <div class="grid-container">
-            <div class="grid-child-sidebar" >
+            <div class="grid-child-sidebar" > <br><br>
                 
                 <!-- dropdown -->  
                 <a href="../html blog/htmlblog.php">HTML</a> <br><br>        
@@ -48,21 +48,23 @@
 
             <div class="grid-child-content">
                 <p>
-                    <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">C++ Basics</h1> <br><br>
-                    <p style="text-indent: 2em;">
+                    <h1>C++ Basics</h1> <br><br>
+                    <p>
                         C++ is a statically typed, compiled, general-purpose, case-sensitive, free-form programming language that supports procedural, object-oriented, and generic programming.
                     </p>
-                    <p style="text-indent: 2em;">
+                    <p>
                         C++ is regarded as a middle-level language, as it comprises a combination of both high-level and low-level language features.
                     </p>
-                    <p style="text-indent: 2em;">
+                    <p>
                         C++ was developed by Bjarne Stroustrup starting in 1979 at Bell Labs in Murray Hill, New Jersey, as an enhancement to the C language and originally named C with Classes but later it was renamed C++ in 1983.
                     </p>
-                    <p style="text-indent: 2em;">
+                    <p>
                         C++ is a superset of C, and that virtually any legal C program is a legal C++ program.
                     </p>
-                    <p style="text-indent: 2em;">
-                        <strong>Note</strong> − A programming language is said to use static typing when type checking is performed during compile-time as opposed to run-time.  
+                    <p>
+                        <div class="note">
+                            <strong>Note</strong> − A programming language is said to use static typing when type checking is performed during compile-time as opposed to run-time.  
+                        </div>
                     </p> <br><br>
 
                     <h4 style="text-indent:3em;">Object-Oriented Programming</h4>

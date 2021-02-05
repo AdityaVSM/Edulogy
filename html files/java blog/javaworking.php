@@ -58,19 +58,14 @@
                     <h4> What happens at runtime?</h4> <br>
                     <p>
                         At runtime following process is executed: <br><br>
-                        <img src="runtime.png" alt=""> <br>
+                        <img src="runtime.png" alt=""> <br> <br>
                         <div class="note">
                             <strong>Classloader:</strong> is the subsystem of <em>JVM</em> that is used to load class files. <br><br>
                             <strong>Bytecode Verifier:</strong> checks the code fragments for illegal code that can violate access right to objects. <br><br>
                             <strong>Interpreter:</strong> read bytecode stream then execute the instructions. 
                         </div>
 
-                    </p>
-
-                    
-
-                    
-
+                    </p>             
                 </p>
             </div>
         </div>

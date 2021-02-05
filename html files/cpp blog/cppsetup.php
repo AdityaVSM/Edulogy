@@ -29,7 +29,7 @@
         <hr>
 
         <div class="grid-container">
-            <div class="grid-child-sidebar" >
+            <div class="grid-child-sidebar" > <br><br>
                 
                 <!-- dropdown -->  
                 <a href="../html blog/htmlblog.php">HTML</a> <br><br>        
@@ -68,9 +68,9 @@
                     You can find the latest version of Codeblocks at <span><a href="http://www.codeblocks.org/downloads/26">http://www.codeblocks.org/downloads/26</a></span>. Download the <strong> mingw-setup.exe </strong> file, which will install the text editor with a compiler. <br>
                     </p> <br><br>
 
-                    <h4>Quickstart</h4> 
+                    <h4>Quickstart</h4> <br>
                     <p>
-                    Open Codeblocks and go to <strong> File > New > Empty File. </strong><br>
+                    Open Codeblocks and go to <em> File > New > Empty File. </em><br>
                     Write the following C++ code and save the file as <strong> myfirstprogram.cpp </strong> <em>>(File > Save File as)</em>:
                     </p>
 
@@ -79,7 +79,7 @@
                             <h4>myfirstprogram.cpp</h4> 
                             <a href="http://tpcg.io/6meiGNE0" target="_blank"><input class="hvr-rectangle-out try_it"  type="button" value="Demo"></a> 
                             <script src="https://gist.github.com/AdityaVSM/df943d28542801384fa3222fe65e6e5a.js"></script> <br>
-                            Then, go to <em>Build > Build and Run</em>  to run (execute) the program. The result will look something to this: <br><br>
+                            <p>Then, go to <em>Build > Build and Run</em>  to run (execute) the program. The result will look something to this: <br><br></p>
                             <img src="ss1.png" alt=""> <br><br> 
                         </div>
                     </div> <br><br>

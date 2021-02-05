@@ -28,7 +28,7 @@
         <hr>
 
         <div class="grid-container">
-            <div class="grid-child-sidebar" >
+            <div class="grid-child-sidebar" > <br><br>
                 
                 <!-- dropdown -->
                 <a href="../html blog/htmlblog.php">HTML</a> <br><br>        
@@ -48,7 +48,7 @@
 
             <div class="grid-child-content">
             <p >
-            <h1>JAVA Programming</h1><br>
+            <h1>JAVA Programming</h1><br><br>
             
             <p>
                 <strong>Java</strong> is a high-level programming language originally developed by <em>Sun Microsystems</em> and released in 1995. Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. This tutorial gives a complete understanding of Java. This reference will take you through simple and practical approaches while learning Java Programming language.

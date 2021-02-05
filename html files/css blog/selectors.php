@@ -28,7 +28,7 @@
         <hr>
 
         <div class="grid-container">
-            <div class="grid-child-sidebar" >
+            <div class="grid-child-sidebar" > <br><br>
                 
                 <a href="../html blog/htmlblog.php">HTML</a> <br><br>  
                 <div class="dropdown">
@@ -68,7 +68,7 @@
                             <div class="code-snippet">
                                 <div class="code">
                                     Example- <br>
-                                    Here, all <strong>&ltp&gt</strong> elements on the page will be center-aligned, with a red text color: <br>
+                                    Here, all <em>&ltp&gt</em> elements on the page will be center-aligned, with a red text color: <br>
                                     <script src="https://gist.github.com/AdityaVSM/2bfed01dec7365e391bb5af05b1bb03d.js"></script> <br>
                                 </div>
                             </div>    
@@ -83,7 +83,7 @@
                             <div class="code-snippet">
                                 <div class="code">
                                     Example- <br>
-                                    The CSS rule below will be applied to the HTML element with id="para1": <br>
+                                    The CSS rule below will be applied to the HTML element with <strong> id="para1"</strong>: <br>
                                     <script src="https://gist.github.com/AdityaVSM/ccbc7483fb2d46cc06628d32c605e368.js"></script> <br>
                                 </div>
                             </div>    
@@ -97,7 +97,7 @@
                             <div class="code-snippet">
                                 <div class="code">
                                     Example- <br>
-                                    In this example all HTML elements with class="center" will be red and center-aligned: <br>
+                                    In this example all HTML elements with<strong> class="center"</strong> will be red and center-aligned: <br>
                                     <script src="https://gist.github.com/AdityaVSM/97d2b27b50b2d7531ce1cb09c2ecf8b7.js"></script> <br>
                                 </div>
                             </div>    

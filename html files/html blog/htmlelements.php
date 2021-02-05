@@ -40,7 +40,7 @@
         <div class="grid-container">
             <div class="grid-child-sidebar" >
                 
-            <div class="dropdown">
+            <div class="dropdown"> <br><br>
                     <a href="htmlblog.php">HTML   </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
                         <a href="htmlintro.php">Basics</a><br>
@@ -61,7 +61,7 @@
                     <h1 >HTML Elements</h1> <br>
                     <div style="text-indent: 3em;">
                         An HTML file is made of elements. These elements are responsible for creating web pages and define content in that webpage. 
-                        An element in HTML usually consist of a start tag <strong>&lttag name&gt</strong>, close tag <strong>&lt/tag name&gt</strong> and content inserted between them. 
+                        An element in HTML usually consist of a start tag <em>&lttag name&gt</em>, close tag <em>&lt/tag name&gt</em> and content inserted between them. 
                         Technically, an element is a collection of start tag, attributes, end tag, content between them.
                     </div> <br>
 
@@ -77,19 +77,19 @@
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
-                                <td>@&ltp&gt</td>
+                                <td>&ltp&gt</td>
                                 <td>Paragraph content</td>
                                 <td>&lt/p&gt</td>
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
-                                <td>@&lth1&gt</td>
+                                <td>&lth1&gt</td>
                                 <td>Heading content</td>
                                 <td>&lt/h1&gt</td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
-                                <td>@&ltdiv&gt</td>
+                                <td>&ltdiv&gt</td>
                                 <td>Division content</td>
                                 <td>&lt/div&gt</td>
                             </tr>
@@ -97,21 +97,21 @@
                     </table>
 
                     <div style="text-indent:2em;">
-                        So here <strong> &ltp&gt....&lt/p&gt</strong> is an HTML element, <strong>&lth1&gt...&lt/h1&gt</strong> is another HTML element. 
-                        There are some HTML elements which don't need to be closed, such as <strong>&ltimg.../&gt</strong>, <strong>&lthr /&gt</strong> and <strong>&ltbr /&gt</strong> elements. 
-                        These are known as <strong>void elements</strong>.
+                        So here <em> &ltp&gt....&lt/p&gt</em> is an HTML element, <em>&lth1&gt...&lt/h1&gt</em> is another HTML element. 
+                        There are some HTML elements which don't need to be closed, such as <em>&ltimg.../&gt</em>, <em>&lthr /&gt</em> and <em>&ltbr /&gt</em> elements. 
+                        These are known as <em>void elements</em>.
                     </div> <br> <br>
                     
                     <h4 style="text-indent :3em;">HTML Tag vs. Element</h4> <br>
                     <div style="text-indent :2em"> 
                         An HTML element is defined by a starting tag. If the element contains other content, it ends with a closing tag. <br>
-                        For example, <strong>&ltp&gt</strong> is starting tag of a paragraph and <strong>&lt/p&gt</strong> is closing tag of the same paragraph but <strong>&ltp&gt This is paragraph &lt/p&gt</strong> is a paragraph element.
+                        For example, <em>&ltp&gt</em> is starting tag of a paragraph and <em>&lt/p&gt</em> is closing tag of the same paragraph but <strong>&ltp&gt This is paragraph &lt/p&gt</strong> is a paragraph element.
                     </div> <br><br>
 
                     <h4 style="text-indent :3em;">Nested HTML Elements</h4> <br>
                     <div style="text-indent:2em;">
                         It is very much allowed to keep one HTML element inside another HTML element − <br>
-                        Example
+                        
                     </div> <br>
 
                     <div class="code-snippet">
@@ -127,22 +127,22 @@
                     <h4 style="text-indent :2em;">Block-level element:</h4> <br>
                     <div style="text-indent :1.5em;">
                         <ul>
-                            <li>These are the elements, which structure main part of web page, by dividing a page into coherent blocks.</li>
-                            <li>A block-level element always start with new line and takes the full width of web page, from left to right.</li>
-                            <li>These elements can contain block-level as well as inline elements.</li>
-                        </ul>
-                        Following are the block-level elements in HTML. <br>
+                            <li>These are the elements, which structure main part of web page, by dividing a page into coherent blocks.</li> <br>
+                            <li>A block-level element always start with new line and takes the full width of web page, from left to right.</li> <br>
+                            <li>These elements can contain block-level as well as inline elements.</li> <br>
+                        </ul> <br>
+                        <h6>Following are the block-level elements in HTML:</h6> <br> 
                         <strong> &ltaddress&gt, &ltarticle&gt, &ltaside&gt, &ltblockquote&gt, &ltcanvas&gt, &ltdd&gt, &ltdiv&gt, &ltdl&gt, &ltdt&gt, &ltfieldset&gt, &ltfigcaption&gt, &ltfigure&gt, &ltfooter&gt, &ltform&gt, &lth1&gt-&lth6&gt, &ltheader&gt, &lthr&gt, &ltli&gt, &ltmain&gt, &ltnav&gt, &ltnoscript&gt, &ltol&gt, &ltoutput&gt, &ltp&gt, &ltpre&gt, &ltsection&gt, &lttable&gt, &lttfoot&gt, &ltul&gt</strong> and<strong> &ltvideo&gt.</strong>
                     </div> <br> <br>
 
                     <h4 style="text-indent :2em;">Inline element:</h4> <br>
                     <div style="text-indent : 1.5em;">
                         <ul>
-                            <li>Inline elements are those elements, which differentiate the part of a given text and provide it a particular function.</li>
-                            <li>These elements does not start with new line and take width as per requirement.</li>
-                            <li>The Inline elements are mostly used with other elements.</li>
-                        </ul>
-                        Following are the inline elements in HTML. <br>
+                            <li>Inline elements are those elements, which differentiate the part of a given text and provide it a particular function.</li> <br> 
+                            <li>These elements does not start with new line and take width as per requirement.</li> <br> 
+                            <li>The Inline elements are mostly used with other elements.</li> <br>
+                        </ul> <br>
+                        <h6>Following are the inline elements in HTML:</h6> <br> 
                         <strong> &lta&gt, &ltabbr&gt, &ltb&gt, &ltbdo&gt, &ltbr&gt, &ltbutton&gt, &ltcite&gt, &ltcode&gt, &ltdfn&gt, &ltem&gt, &lti&gt, &ltimg&gt, &ltinput&gt, &ltkbd&gt, &ltlabel&gt, &ltmap&gt, &ltobject&gt, &ltq&gt, &ltsamp&gt, &ltscript&gt, &ltselect&gt, &ltsmall&gt, &ltspan&gt, &ltstrong&gt, &ltsub&gt, &ltsup&gt, &lttextarea&gt, &lttime&gt, &ltvar&gt. </strong>
                     </div>                 
                 </p>

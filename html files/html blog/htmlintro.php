@@ -40,7 +40,7 @@
         <div class="grid-container">
             <div class="grid-child-sidebar" >
                 
-            <div class="dropdown">
+            <div class="dropdown"> <br><br>
                     <a href="htmlblog.php">HTML   </a><i class="arrow down"></i></p>
                     <div class="dropdown-content">
                         <a href="htmlintro.php">Basics</a><br>
@@ -60,9 +60,9 @@
                 <p>
                     <h1>HTML Basics</h1> <br>
                     <ul>
-                        <li>All HTML documents must start with a document type declaration:<strong> &lt!DOCTYPE html&gt</strong>. </li>
-                        <li>The HTML document itself begins with <strong>&lthtml&gt</strong> and ends with <strong>&lt/html&gt </strong>.</li> 
-                        <li>The visible part of the HTML document is between <strong>&ltbody&gt</strong> and <strong>&lt/body&gt</strong>.</li>
+                        <li>All HTML documents must start with a document type declaration:<em> &lt!DOCTYPE html&gt</em>. </li>
+                        <li>The HTML document itself begins with <em>&lthtml&gt</em> and ends with <em>&lt/html&gt </em>.</li> 
+                        <li>The visible part of the HTML document is between <em>&ltbody&gt</em> and <em>&lt/body&gt</em>.</li>
                     </ul><br>
                     <div class="code-snippet">
                         <div class="code">
@@ -71,21 +71,13 @@
                             <script src="https://gist.github.com/AdityaVSM/883ba8e4451f84c809713700be965a24.js"></script><br>                        
                         </div>
                     </div>
-                    
-                    <div class="code-snippet">
-                        <h3 style="text-indent :2em;">Output:</h3>
-                        <div class="code"style="text-indent :6em;">
-                            <h1>This is a heading</h1>
-                            <p>Document content goes here.....</p>
-                        </div>
-                    </div><br>
 
                     <h2 style="text-indent :5em;">How to View HTML Source code?</h2><br>
                     
                     <h5 style="text-indent :2em;">View HTML Source Code:</h5>
-                    Right-click in an HTML page and select "View Page Source" (in Chrome) or "View Source" (in Edge), or similar in other browsers. This will open a window containing the HTML source code of the page.<br><br>
+                    Right-click in an HTML page and select <em>"View Page Source"</em> (in Chrome) or <em>"View Source"</em> (in Edge), or similar in other browsers. This will open a window containing the HTML source code of the page.<br><br>
                     <h5 style="text-indent :2em;">Inspect an HTML Element:</h5>
-                    Right-click on an element (or a blank area), and choose "Inspect" or "Inspect Element" to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
+                    Right-click on an element (or a blank area), and choose <em>"Inspect"</em> or <em>"Inspect Element"</em> to see what elements are made up of (you will see both the HTML and the CSS). You can also edit the HTML or CSS on-the-fly in the Elements or Styles panel that opens.
                     <br><br>
 
                     <h2 style="text-indent :5em;">Which text editor to use?</h2><br>
@@ -98,7 +90,7 @@
                     <h5 style="text-indent :2em;">Notepad++</h5>
                     It is a free HTML editor that was developed for Windows. Linux users can also get it running through Wine. Third-party plugins are supported.
                     Notepad++ is ultra-lightweight plus there’s a mobile version of it.  <br>
-                    Available for: Windows and Linux (via Wine).<br><br>
+                    Available for: Windows and Linux.<br><br>
                     
                     <h5 style="text-indent :2em;">Sublime Text</h5>                    
                     It is another free HTML editor. Developed by a Sydney-based company, it's kind of like a freemium software. It means that you can use the software for free but you'll have to pay to access all its features.

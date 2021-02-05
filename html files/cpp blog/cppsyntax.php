@@ -29,7 +29,7 @@
         <hr>
 
         <div class="grid-container">
-            <div class="grid-child-sidebar" >
+            <div class="grid-child-sidebar" > <br><br>
                 
                 <!-- dropdown -->  
                 <a href="../html blog/htmlblog.php">HTML</a> <br><br>        
