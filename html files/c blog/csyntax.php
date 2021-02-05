@@ -48,50 +48,40 @@
 
 
             <div class="grid-child-content">
-            <p >
-            <h1>C Programming</h1> <br><br>        
             <p>
-                C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by <em> Dennis M. Ritchie</em> at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers.
-            </p>
-            
-            <div><br><strong><h3>Why to Learn C Programming?</h3></strong><br></div>
-            <p>C programming language is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain. I will list down some of the key advantages of learning C Programming:
-            <ul>
-                <li>Easy to learn</li>
-                <li>Structured language</li>
-                <li>It produces efficient programs</li>
-                <li>It can handle low-level activities</li>
-                <li>It can be compiled on a variety of computer platforms</li>
-            </ul>
-            </p>
+                <h1>C Syntax</h1> <br><br>      
+                <h6 style="text-indent:2em;">Let us break following code for better understanding-</h6> 
+                <div class="code-snippet">
+                    <div class="code">
+                        <br> <h4>Example-</h4>
+                        <a href="http://tpcg.io/gCV3Dx8L" target="_blank"><input class="hvr-rectangle-out try_it"  type="button" value="Demo"></a> 
+                        <script src="https://gist.github.com/AdityaVSM/351a5e85519bb6fae65f5f00439cc5db.js"></script> <br>                   
+                    </div>
+                </div>     <br><br>  
+                <h3>Example explained-</h3> <br>
+                <p>
+                    <ul>
+                        <li>
+                            <strong>Line 1:</strong> <em>#include &ltstdio.h&gt</em> -- includes the standard input output library functions. The <em>printf()</em> function is defined in <em>stdio.h</em> . <br><br>
+                        </li>
+                        <li>
+                            <strong>Line 3:</strong> <em>int main()</em> -- The <em>main()</em> function is the entry point of every program in c language. <br><br>
+                        </li>
+                        <li>
+                            <strong>Line 4:</strong> <em>printf()</em>-- The <em>printf()</em> function is used to print data on the console. <br><br>
+                        </li>
+                        <li>
+                            <strong>Line 5:</strong> <em>return 0;</em>-- returns execution status to the OS. The 0 value is used for successful execution and 1 for unsuccessful execution. <br><br>
+                        </li>
+                    </ul>
+                </p>
+                <div class="note">
+                    <p> <br>
+                        <strong>Note:</strong> The semicolon <em>;</em> is a must at end of every statements in a function. <br> <br>
+                    </p>
+                </div>
+                
 
-            <div ><br><strong><h3>Facts about C</h3></strong><br></div>
-            <p>
-            <ul>
-                <li>C was invented to write an operating system called UNIX.</li>
-                <li>C is a successor of B language which was introduced around the early 1970s.</li>
-                <li>The language was formalized in 1988 by the American National Standard Institute (ANSI).</li>
-                <li>The UNIX OS was totally written in C.</li>
-                <li>Today C is the most widely used and popular System Programming Language.</li>
-                <li>Most of the state-of-the-art software have been implemented using C.</li>            
-            </ul></p>
-
-            <div><br><strong><h3>Applications of C Programming</h3></strong><br></div>
-            <p>C was initially used for system development work, particularly the programs that make-up the operating system. C was adopted as a system development language because it produces code that runs nearly as fast as the code written in assembly language. Some examples of the use of C are -
-            <ul>
-                <li>Operating Systems
-                <li>Language Compilers
-                <li>Assemblers
-                <li>Text Editors
-                <li>Print Spoolers
-                <li>Network Drivers
-                <li>Modern Programs
-                <li>Databases
-                <li>Language Interpreters
-                <li>Utilities
-            </ul>    
-            </p>
-                          
             </p>
             </div>
         </div>

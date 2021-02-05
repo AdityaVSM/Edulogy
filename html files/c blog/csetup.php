@@ -48,50 +48,41 @@
 
 
             <div class="grid-child-content">
-            <p >
-            <h1>C Programming</h1> <br><br>        
             <p>
-                C programming is a general-purpose, procedural, imperative computer programming language developed in 1972 by <em> Dennis M. Ritchie</em> at the Bell Telephone Laboratories to develop the UNIX operating system. C is the most widely used computer language. It keeps fluctuating at number one scale of popularity along with Java programming language, which is also equally popular and most widely used among modern software programmers.
-            </p>
-            
-            <div><br><strong><h3>Why to Learn C Programming?</h3></strong><br></div>
-            <p>C programming language is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Software Development Domain. I will list down some of the key advantages of learning C Programming:
-            <ul>
-                <li>Easy to learn</li>
-                <li>Structured language</li>
-                <li>It produces efficient programs</li>
-                <li>It can handle low-level activities</li>
-                <li>It can be compiled on a variety of computer platforms</li>
-            </ul>
-            </p>
+                <h1>Environment setup</h1> <br><br>        
+                <p>
+                    To start using C, you need two things:
+                    <ul>
+                        <li>A <strong>text editor</strong>, like Notepad, to write C code</li>
+                        <li>A <strong>compiler</strong>, like G++, to translate the C code into a language that the computer will understand</li>
+                    </ul>
+                    There are many text editors and compilers to choose from. In this tutorial, we will use an IDE (see below).                  
+                </p> <br><br>    
 
-            <div ><br><strong><h3>Facts about C</h3></strong><br></div>
-            <p>
-            <ul>
-                <li>C was invented to write an operating system called UNIX.</li>
-                <li>C is a successor of B language which was introduced around the early 1970s.</li>
-                <li>The language was formalized in 1988 by the American National Standard Institute (ANSI).</li>
-                <li>The UNIX OS was totally written in C.</li>
-                <li>Today C is the most widely used and popular System Programming Language.</li>
-                <li>Most of the state-of-the-art software have been implemented using C.</li>            
-            </ul></p>
+                <h4>IDE installation</h4> <br>
+                <p>
+                    An <strong>IDE</strong> (Integrated Development Environment) is used to edit AND compile the code. <br><br>
+                    Popular IDE's include Code::Blocks, Eclipse, and Visual Studio. These are all free, and they can be used to both edit and debug C++ code. <br><br>
+                    Note: Web-based IDE's can work as well, but functionality is limited. <br><br>
+                    We will use <strong> Code::Blocks </strong> in our tutorial, which we believe is a good place to start. <br><br>
+                    You can find the latest version of Codeblocks at <span><a href="http://www.codeblocks.org/downloads/26">http://www.codeblocks.org/downloads/26</a></span>. Download the <strong> mingw-setup.exe </strong> file, which will install the text editor with a compiler. <br>
+                </p> <br><br>
 
-            <div><br><strong><h3>Applications of C Programming</h3></strong><br></div>
-            <p>C was initially used for system development work, particularly the programs that make-up the operating system. C was adopted as a system development language because it produces code that runs nearly as fast as the code written in assembly language. Some examples of the use of C are -
-            <ul>
-                <li>Operating Systems
-                <li>Language Compilers
-                <li>Assemblers
-                <li>Text Editors
-                <li>Print Spoolers
-                <li>Network Drivers
-                <li>Modern Programs
-                <li>Databases
-                <li>Language Interpreters
-                <li>Utilities
-            </ul>    
-            </p>
-                          
+                <h4>Quickstart</h4> <br>
+                <p>
+                    Open Codeblocks and go to <em> File > New > Empty File. </em><br>
+                    Write the following C code and save the file as <strong> myfirstprogram.c </strong> <em>>(File > Save File as)</em>:
+                </p>
+
+                <div class="code-snippet">
+                    <div class="code"> <br>
+                        <h4>myfirstprogram.c</h4> 
+                        <a href="http://tpcg.io/gCV3Dx8L" target="_blank"><input class="hvr-rectangle-out try_it"  type="button" value="Demo"></a> 
+                        <script src="https://gist.github.com/AdityaVSM/351a5e85519bb6fae65f5f00439cc5db.js"></script> <br>                   <p>Then, go to <em>Build > Build and Run</em>  to run (execute) the program. The result will look something to this: <br><br></p>
+                        <img src="../cpp blog/ss1.png" alt=""> <br><br> 
+                    </div>
+                </div> <br><br>
+
             </p>
             </div>
         </div>
