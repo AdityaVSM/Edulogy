@@ -34,6 +34,7 @@ session_start();
 			<a style="color:black" class="navbar-brand" href="login.php">Login</a>
 			<a style="color:black" class="navbar-brand" href="logout.php">Logout</a>
 			<a style="color:black" class="navbar-brand" href="profile.php">View profile</a>
+            <a style="color:black" class="navbar-brand" href="news.php" target="_blank">News</a>
 		</nav>
 		<br><br>
 		<strong>
