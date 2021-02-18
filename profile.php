@@ -51,28 +51,7 @@ session_start();
 		Linkedin username: <?php echo $user_data['linkedin_url'];?><br>
     	Twitter username : <?php echo $user_data['twitter_uname'];?><br>
 	</div> <br><br><br><br><br>
-	<div>
-		<h1>See your bookmarks here:</h1>
-		<ul>
-				<?php
-				if($result && mysqli_num_rows($result)>0){		
-					while($row = $result->fetch_assoc()) {
-						$url = $row['bookmark_url'];
-						$name = $row['name'];
-						echo '<li><a href ="'.$url.'" target="_blank">'.$name.'</a></li>';
-					}
-				}else{
-					echo "no bookmarks!";
-				}
-				?>
-		</ul>
-		
-
-	</div>
-
-
-
-    
+	   
 	
 
 </body>
