@@ -1,3 +1,11 @@
+<?php
+    session_start();
+	include("../../connection.php");
+    include("../../functions.php");
+    $user_data = check_login($con);
+    $user_name = $user_data['user_name'];
+    $user_id = $user_data['user_id'];
+?>
 
 <!DOCTYPE html>
 <html>
@@ -10,7 +18,8 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
-      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
         <link rel="stylesheet" href="../../style.css">
 
     </head>
@@ -33,6 +42,7 @@
 
         
         <img style = "height: 400px;width: 100%; padding:30px" src="htmlImage.png" alt="html image">
+        
         <hr>
 
         <div class="grid-container">
@@ -57,22 +67,28 @@
             <div class="grid-child-content">
             <p>
                 <h1>HTML tutorial</h1> <br>
-                <div class="bookmark">
-                    <button id="book" onclick="saved()" type="submit">Save for later</button>
-                </div>
+                    <form method="POST">
+                       <button type="submit" id="book" onsubmit="saved()">Save for later</button>
+                    </form>
                 <script type="text/javascript">
                     function saved(){
                         var text = document.getElementById("book");
-                        if(text.innerHTML==="Save for later" || text.innerHTML=="Page unsaved"){
-                            text.innerHTML = 'Page Saved';
+                        if(text.innerHTML==="Save for later" || text.innerHTML=="Page unsaved"){                            
+                            <?php
+                                 if($_SERVER['REQUEST_METHOD'] == "POST"){
+                                    $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
+                                    $query = "INSERT INTO bokmark(user_id, bookmark_url) VALUES('$user_id','$url');";
+                                    mysqli_query($con,$query);	
+                                }
+                            ?> 
+                            text.innerHTML = 'Page Saved';                                                                                 
                         }else{
                             text.innerHTML = 'Page unsaved';
                         }
                     }
                 </script>
-            <p>
+                <p>
                     HTML stands for Hyper Text Markup Language, which is the most widely used language on Web to develop web pages. HTML was created by <em>Berners-Lee</em> in late 1991 but "HTML 2.0" was the first standard HTML specification which was published in 1995. HTML 4.01 was a major version of HTML and it was published in late 1999. Though HTML 4.01 version is widely used but currently we are having HTML-5 version which is an extension to HTML 4.01, and this version was published in 2012.
-
                 </p>
 
                 <div style="text-align: center;"><br><strong><h3>Why to Learn HTML?</h3></strong><br></div>

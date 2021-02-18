@@ -1,3 +1,11 @@
+<?php
+    session_start();
+	include("../../connection.php");
+    include("../../functions.php");
+    $user_data = check_login($con);
+    $user_name = $user_data['user_name'];
+    $user_id = $user_data['user_id'];
+?>
 
 <!DOCTYPE html>
 <html>
@@ -9,17 +17,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
         <link rel="stylesheet" href="../../style.css">
-        
+
     </head>
-    <body >
-        
+    <body >        
         <style>
-            body{
-                background-color:	#E8E8E8;
-            }
+            @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
             .head-image{
                 height: 400px;
                 width : 100%;
@@ -35,6 +41,7 @@
 
         
         <img style = "height: 400px;width: 100%; padding:30px" src="htmlImage.png" alt="html image">
+        
         <hr>
 
         <div class="grid-container">
@@ -45,7 +52,7 @@
                     <div class="dropdown-content">
                         <a href="htmlintro.php">Basics</a><br>
                         <a href="htmltags.php">Tags</a><br>
-                        <a href="htmlelements.php">Elements</a> <br>
+                        <a href="htmlelements.php">Elements</a><br>
                         <a href="htmlattributes.php">Attributes</a><br>
                     </div>
                 </div> <br>
@@ -57,8 +64,29 @@
             </div>
 
             <div class="grid-child-content">
+            <p>
+                <h1>HTML basics</h1> <br>
+                <form method="POST">
+                       <button type="submit" id="book" onsubmit="saved()">Save for later</button>
+                    </form>
+                <script type="text/javascript">
+                    function saved(){
+                        var text = document.getElementById("book");
+                        if(text.innerHTML==="Save for later" || text.innerHTML=="Page unsaved"){                            
+                            <?php
+                                 if($_SERVER['REQUEST_METHOD'] == "POST"){
+                                    $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
+                                    $query = "INSERT INTO bokmark(user_id, bookmark_url) VALUES('$user_id','$url');";
+                                    mysqli_query($con,$query);	
+                                }0
+                            ?> 
+                            text.innerHTML = 'Page Saved';                                                                                 
+                        }else{
+                            text.innerHTML = 'Page unsaved';
+                        }
+                    }
+                </script>
                 <p>
-                    <h1>HTML Basics</h1> <br>
                     <ul>
                         <li>All HTML documents must start with a document type declaration:<em> &lt!DOCTYPE html&gt</em>. </li>
                         <li>The HTML document itself begins with <em>&lthtml&gt</em> and ends with <em>&lt/html&gt </em>.</li> 
@@ -116,7 +144,7 @@
                     <div class="col-sm-6 col-md-3 item">
                         <h3>Courses</h3>
                         <ul>
-                            <li><a href="htmlblog.php">HTML 5 introduction</a></li>
+						    <li><a href="htmlblog.php">HTML 5 introduction</a></li>
 							<li><a href="htmlintro.php">HTML Basics</a></li>
 							<li><a href="htmltags.php">HTML Tags</a></li>
                             <li><a href="htmlelements.php">HTML elements</a></li>

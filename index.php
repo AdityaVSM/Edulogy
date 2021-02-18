@@ -20,6 +20,7 @@ session_start();
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 		<link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
     </head>	
 </head>
 
@@ -38,7 +39,7 @@ session_start();
 		</nav>
 		<br><br>
 		<strong>
-			<h1 style="text-align:center; color:black; font-family:'Times new roman'">Hello, <?php echo $user_data['first_name'], " ",$user_data['last_name'];?> 
+			<h1 class="fadein" style="text-align:center; color:black; font-family:'Times new roman'">Hello, <?php echo $user_data['first_name'], " ",$user_data['last_name'];?> 
 			<br>Welcome to our Blog<br>Online learning website
 		</strong></h1>
 	</div>

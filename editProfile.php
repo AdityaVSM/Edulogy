@@ -10,15 +10,14 @@ session_start();
 		$bio = $_POST['bio'];
 		$linkedin_url = $_POST['linkedin_url'];
         $twitter_url = $_POST['twitter_url'];
-        $user_name = $user_data['user_name'];
+        
 
             //save to database
 			$query = "UPDATE users  SET  bio='$bio', linkedin_url='$linkedin_url', twitter_uname='$twitter_url'
 									where user_name='$user_name';";
 			mysqli_query($con,$query);
 			header("Location: profile.php");
-			die(); 
-		
+			die(); 		
 	}
 ?>
 

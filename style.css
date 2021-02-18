@@ -67,7 +67,6 @@ p{
 	border:none;
 	font-size:30px;
 	border-radius: 6px;
-
 }
 
 #text{
@@ -515,6 +514,29 @@ body .gist .gist-meta {
 	display: block;
 }
 
+.bookmark{	
+	left:900px;
+}
+#book{
+	background-color:red;
+	color:white;
+	font-size:20px;
+}
+#book:hover{
+	color:yellow;
+	font-size:30px;
+}
+/*transitions*/
+.fadein {
+    opacity: 0;
+    -moz-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 3s;
+}
+
+body.loaded .fadein {
+    opacity: 1;
+}
 
 
 
