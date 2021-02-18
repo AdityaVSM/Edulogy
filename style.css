@@ -62,6 +62,14 @@ p{
 	margin:12px 0;
 }
 
+.btn:hover{
+	background-color:rgb(32, 46, 240);
+	border:none;
+	font-size:30px;
+	border-radius: 6px;
+
+}
+
 #text{
 	border-left:none;
     border-right:none;
@@ -102,8 +110,8 @@ h1 span{
 }
 .logo{
 	position: relative;
-	top:5px;
-	left:-240px;
+	height:150px;
+	left:-200px;
 	width:200px;
 }
 .main-header-2{
@@ -143,6 +151,7 @@ hr{
 .grid-child-sidebar a:hover{
 	color:red;
 }
+
 .note{
 	position: relative;
 	min-width: 100%;
@@ -175,6 +184,41 @@ hr{
 .grid-child-content p{
 	text-indent: 2em;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
+.grid-child-content .news{
+	margin:100px;
+	position: relative;
+	left: 300px;
+}
+.grid-child-content .news a{
+	color:rgb(133, 77, 77);	
+	text-decoration:none;
+	font-size: 20px;
+	display: inline;
+}
+.grid-child-content .news span{
+	color:grey;
+	text-decoration:none;
+	font-size: 13px;
+	display: inline;
+}
+.grid-child-content .news a:hover{
+	color:rgb(5, 5, 5);
+	font-size: 40px;
+}
+.grid-child-content .news a::after{
+    content: "\a";
+    white-space: pre;
+}
+.grid-child-content .news span:hover{
+	color:darkgray;
+}
+.grid-child-content .news hr{
+    border-top: 1px solid darkblue;
+	border-bottom: 1px solid darkblue;
+	border-left: 1px solid darkblue;
+	border-right: 1px solid darkblue;
+	border-radius: 10px;
 }
 .grid-child-content .code-snippet h3,h4{
 	text-indent: 3em;
