@@ -4,7 +4,7 @@
     include("../../functions.php");
     $user_data = check_login($con);
     $user_name = $user_data['user_name'];
-    $user_id = $user_data['user_id'];
+    $id = $user_data['id'];
 ?>
 
 <!DOCTYPE html>
@@ -76,7 +76,8 @@
                             <?php
                                  if($_SERVER['REQUEST_METHOD'] == "POST"){
                                     $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
-                                    $query = "INSERT INTO bokmark(user_id, bookmark_url) VALUES('$user_id','$url');";
+                                    $name = "HTML basics";
+                                    $query = "INSERT INTO bokmark(user_id, bookmark_url, name) VALUES('$id','$url','$name');";
                                     mysqli_query($con,$query);	
                                 }0
                             ?> 

@@ -41,33 +41,22 @@ session_start();
 		<a style="color:white" class="navbar-brand" href="profile.php">View profile</a>
 		<a style="color:white" class="navbar-brand" href="editProfile.php">Edit profile</a>
 	</nav>
-
-    <div class="profile-box">
-		<h1> Your Profile </h1>
-    	Name: <?php echo $user_data['first_name'], " ",$user_data['last_name'];?><br>
-    	Age : <?php echo $user_data['age'];?><br>
-		E-mail: <?php echo $user_data['email'];?><br>
-		Bio: <?php echo $user_data['bio'];?><br>
-		Linkedin username: <?php echo $user_data['linkedin_url'];?><br>
-    	Twitter username : <?php echo $user_data['twitter_uname'];?><br>
-	</div> <br><br><br><br><br>
-	<div>
-		<h1>See your bookmarks here:</h1>
+        <br><br>
+	<div class="bookmark-box">
+		<h1>See your bookmarks here:</h1> <br><br>
 		<ul>
 				<?php
 				if($result && mysqli_num_rows($result)>0){		
 					while($row = $result->fetch_assoc()) {
 						$url = $row['bookmark_url'];
 						$name = $row['name'];
-						echo '<li><a href ="'.$url.'" target="_blank">'.$name.'</a></li>';
+						echo '<li><a href ="'.$url.'" target="_blank">'.$name.'</a></li><br>';
 					}
 				}else{
 					echo "no bookmarks!";
 				}
 				?>
 		</ul>
-		
-
 	</div>
 
 

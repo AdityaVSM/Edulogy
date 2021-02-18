@@ -36,10 +36,11 @@ session_start();
 			<a style="color:black" class="navbar-brand" href="logout.php">Logout</a>
 			<a style="color:black" class="navbar-brand" href="profile.php">View profile</a>
             <a style="color:black" class="navbar-brand" href="news.php" target="_blank">News</a>
+            <a style="color:black" class="navbar-brand" href="bookmark.php" target="_blank">Bookmarks</a>
 		</nav>
 		<br><br>
 		<strong>
-			<h1 class="fadein" style="text-align:center; color:black; font-family:'Times new roman'">Hello, <?php echo $user_data['first_name'], " ",$user_data['last_name'];?> 
+			<h1  style="text-align:center; color:black; font-family:'Times new roman'">Hello, <?php echo $user_data['first_name'], " ",$user_data['last_name'];?> 
 			<br>Welcome to our Blog<br>Online learning website
 		</strong></h1>
 	</div>

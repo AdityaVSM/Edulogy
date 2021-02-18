@@ -89,7 +89,7 @@ h1 span{
 	top:100px;
 	margin: auto;
 	width: 520px;
-	height:580px;
+	min-height:300px;
 	padding: 30px;
 }
 .main-header{
@@ -110,7 +110,7 @@ h1 span{
 .logo{
 	position: relative;
 	height:150px;
-	left:-200px;
+	left:-170px;
 	width:200px;
 }
 .main-header-2{
@@ -513,7 +513,7 @@ body .gist .gist-meta {
 .dropdown:hover   .dropdown-content {
 	display: block;
 }
-
+/*bookmarks*/
 .bookmark{	
 	left:900px;
 }
@@ -526,6 +526,21 @@ body .gist .gist-meta {
 	color:yellow;
 	font-size:30px;
 }
+.bookmark-box{
+	margin: auto;
+	padding: 10px;
+	width:50%;
+}
+.bookmark-box h1{
+	color: tomato;
+}
+
+.bookmark-box a{
+	text-decoration: none;
+	color:blueviolet;
+	font-size:30px;
+}
+
 /*transitions*/
 .fadein {
     opacity: 0;
