@@ -50,7 +50,7 @@ session_start();
 					while($row = $result->fetch_assoc()) {
 						$url = $row['bookmark_url'];
 						$name = $row['name'];
-						echo '<li><a href ="'.$url.'" target="_blank">'.$name.'</a></li><br>';
+						echo '<li><a href ="'.$url.'" target="_blank">'.$name.'</a></li> <hr>';
 					}
 				}else{
 					echo "no bookmarks!";
