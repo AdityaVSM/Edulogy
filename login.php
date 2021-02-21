@@ -62,8 +62,8 @@
 				<input type="password" name="password" placeholder ="Password">		
 			</div>
 			
-			<input class="btn" type="submit" value="Login"><br>
-			<a href="signup.php" ><input class="btn" type="button" value="Sign Up"></a><br><br>
+			<input class="btn-signup" type="submit" value="Login"><br>
+			<a href="signup.php" ><input class="btn-signup" type="button" value="Sign Up"></a><br><br>
 		</form>
 	</div>
 

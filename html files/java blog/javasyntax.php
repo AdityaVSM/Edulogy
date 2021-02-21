@@ -1,4 +1,12 @@
+<?php
+    session_start();
+	include("../../connection.php");
+    include("../../functions.php");
+    $user_data = check_login($con);
+    $user_name = $user_data['user_name'];
+    $id = $user_data['id'];
 
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,7 +29,9 @@
             <a style="color:white" class="navbar-brand" href="../../login.php">Login</a>
             <a style="color:white" class="navbar-brand" href="../../logout.php">Logout</a>
             <a style="color:white" class="navbar-brand" href="../../profile.php">View profile</a>
-            
+            <a style="color:white" class="navbar-brand" href="../../news.php" target="_blank">News</a>
+            <a style="color:white" class="navbar-brand" href="../../bookmark.php" target="_blank">Bookmarks</a>
+
         </nav>
 
         <img style = "height: 400px;width: 100%; padding:30px" src="javaImage.png"  alt="css image">  
@@ -50,13 +60,37 @@
             <div class="grid-child-content">
                 <p >
                     <h1>JAVA Syntax</h1> <br><br>
+
+            <form method="POST" onsubmit="saved(event)">
+                <input type="submit" class="btn btn-primary" value="Save for later"></button>
+            </form>
+
+            <script type="text/javascript">
+                function saved(event){     
+                    event.preventDefault();                 
+                    <?php
+                        $name = "Java Syntax";
+                        $query1 = "SELECT name FROM bokmark WHERE name='".$name."'";
+                        $result2 = mysqli_query($con,$query1);
+
+                        if(mysqli_num_rows($result2)==0 && $_SERVER['REQUEST_METHOD'] == "POST"){
+                            $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
+                            $query = "INSERT INTO bokmark(user_id, bookmark_url,name) VALUES('$id','$url','$name');";
+                            mysqli_query($con,$query);
+                            alert("Page saved successfully"); 	
+                            header("Location: ../../bookmark.php");                                       
+                        }else{
+                            alert("Page already saved");
+                        }                             
+                    ?>
+            </script> 
                     <p>
                         Let us breakdown the following code to understand syntax of Java :
                     </p> 
                     <div class="code-snippet">
                         <div class="code"> <br>
                             <h4>Example:</h4>
-                            <a href="http://tpcg.io/mPHHjZwJ" target="_blank"><input class="hvr-rectangle-out try_it"  type="button" value="Demo"></a>
+                            <a href="http://tpcg.io/mPHHjZwJ" target="_blank"><input class="btn btn-secondary try_it"  type="button" value="Demo"></a>
                             <script src="https://gist.github.com/AdityaVSM/10ee1973724a19d64fa5138826336fcd.js"></script> <br>
                         </div>
                     </div> <br>

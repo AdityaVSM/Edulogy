@@ -8,9 +8,6 @@ session_start();
 
 	$query = "select * from bokmark where user_id = '$id'";
 	$result = mysqli_query($con,$query);
-
-	
-
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +16,10 @@ session_start();
 	<title>My Profile</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+	
 	<link rel="stylesheet" type="text/css" href="style.css"/>
+
 </head>
 <body>
 
@@ -40,6 +40,9 @@ session_start();
 		<a style="color:white" class="navbar-brand" href="logout.php">Logout</a>
 		<a style="color:white" class="navbar-brand" href="profile.php">View profile</a>
 		<a style="color:white" class="navbar-brand" href="editProfile.php">Edit profile</a>
+		<a style="color:white" class="navbar-brand" href="news.php" target="_blank">News</a>
+		<a style="color:white" class="navbar-brand" href="bookmark.php" target="_blank">Bookmarks</a>
+
 	</nav>
         <br><br>
 	<div class="bookmark-box">

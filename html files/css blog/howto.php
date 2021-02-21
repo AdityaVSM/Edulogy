@@ -1,4 +1,11 @@
-
+<?php
+    session_start();
+	include("../../connection.php");
+    include("../../functions.php");
+    $user_data = check_login($con);
+    $user_name = $user_data['user_name'];
+    $id = $user_data['id'];
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,7 +28,9 @@
             <a style="color:white" class="navbar-brand" href="../../login.php">Login</a>
             <a style="color:white" class="navbar-brand" href="../../logout.php">Logout</a>
             <a style="color:white" class="navbar-brand" href="../../profile.php">View profile</a>
-            
+            <a style="color:white" class="navbar-brand" href="../../news.php" target="_blank">News</a>
+            <a style="color:white" class="navbar-brand" href="../../bookmark.php" target="_blank">Bookmarks</a>
+
         </nav>
 
         <img style = "height: 400px;width: 100%; padding:30px" src="cssImage.png"  alt="css image">  
@@ -49,6 +58,30 @@
             <div class="grid-child-content">
             <p >
                 <h1>How to add CSS</h1> <br><br>
+
+            <form method="POST" onsubmit="saved(event)">
+                <input type="submit" class="btn btn-primary" value="Save for later"></button>
+            </form>
+
+            <script type="text/javascript">
+                function saved(event){     
+                    event.preventDefault();                 
+                    <?php
+                        $name = "How to add CSS";
+                        $query1 = "SELECT name FROM bokmark WHERE name='".$name."'";
+                        $result2 = mysqli_query($con,$query1);
+
+                        if(mysqli_num_rows($result2)==0 && $_SERVER['REQUEST_METHOD'] == "POST"){
+                            $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
+                            $query = "INSERT INTO bokmark(user_id, bookmark_url,name) VALUES('$id','$url','$name');";
+                            mysqli_query($con,$query);
+                            alert("Page saved successfully"); 	
+                            header("Location: ../../bookmark.php");                                       
+                        }else{
+                            alert("Page already saved");
+                        }                             
+                    ?>
+            </script> 
                 <p style="text-indent: 2em;">
                     CSS is added to HTML pages to format the document according to information in the style sheet. There are three ways to insert CSS in HTML documents.              
                 </p>
@@ -67,7 +100,7 @@
                             <div class="code"> <br>
                                 <h4>Example:</h4> <br>
                                 <p>Inline styles are defined within the "style" attribute of the relevant element: <br></pp>
-                                <a href="http://tpcg.io/c7sSydOm" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
+                                <a href="http://tpcg.io/c7sSydOm" target="_blank"><input class="btn btn-secondary try_it"  type="submit" value="Demo"></a>
                                 <script src="https://gist.github.com/AdityaVSM/95c6d39a066f181985585d4af8edf868.js"></script> <br>
                             </div>
                         </div> 
@@ -81,7 +114,7 @@
                             <div class="code"><br>
                                 <h4>Example:</h4> <br>
                                 <p>Internal styles are defined within the <em>&ltstyle&gt</em> element, inside the <em>&lthead&gt</em> section of an HTML page: <br></p>
-                                <a href="http://tpcg.io/57YyrTaX" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
+                                <a href="http://tpcg.io/57YyrTaX" target="_blank"><input class="btn btn-secondary try_it"  type="submit" value="Demo"></a>
                                 <script src="https://gist.github.com/AdityaVSM/af88c007da849cd114f981c2f98406de.js"></script><br>
                             </div>
                         </div> 
@@ -95,7 +128,7 @@
                             <div class="code"><br>
                                 <h4>Example:</h4> <br>
                                 <p>External styles are defined within the <em>&ltlink&gt</em> element, inside the <em>&lthead&gt</em>section of an HTML page: <br></p>
-                                <a href="http://tpcg.io/57YyrTaX" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
+                                <a href="http://tpcg.io/57YyrTaX" target="_blank"><input class="btn btn-secondary try_it"  type="submit" value="Demo"></a>
                                 <script src="https://gist.github.com/AdityaVSM/5294f31c8fefb19224f275b8382a20e9.js"></script> <br>
                             </div>
                         </div> <br>

@@ -37,6 +37,9 @@
             <a style="color:white" class="navbar-brand" href="../../login.php">Login</a>
             <a style="color:white" class="navbar-brand" href="../../logout.php">Logout</a>
             <a style="color:white" class="navbar-brand" href="../../profile.php">View profile</a>
+            <a style="color:white" class="navbar-brand" href="../../news.php" target="_blank">News</a>
+            <a style="color:white" class="navbar-brand" href="../../bookmark.php" target="_blank">Bookmarks</a>
+
         </nav>
 
         
@@ -66,27 +69,55 @@
             <div class="grid-child-content">
             <p>
                 <h1>HTML basics</h1> <br>
-                <form method="POST">
-                       <button type="submit" id="book" onsubmit="saved()">Save for later</button>
-                    </form>
-                <script type="text/javascript">
-                    function saved(){
-                        var text = document.getElementById("book");
-                        if(text.innerHTML==="Save for later" || text.innerHTML=="Page unsaved"){                            
-                            <?php
-                                 if($_SERVER['REQUEST_METHOD'] == "POST"){
-                                    $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
-                                    $name = "HTML basics";
-                                    $query = "INSERT INTO bokmark(user_id, bookmark_url, name) VALUES('$id','$url','$name');";
-                                    mysqli_query($con,$query);	
-                                }0
-                            ?> 
-                            text.innerHTML = 'Page Saved';                                                                                 
+
+            <form method="POST" onsubmit="saved(event)">
+                <input type="submit" class="btn btn-primary" value="Save for later"></button>
+            </form>
+
+            <script type="text/javascript">
+                function saved(event){     
+                    event.preventDefault();                 
+                    <?php
+                        $name = "HTML Basics";
+                        $query1 = "SELECT name FROM bokmark WHERE name='".$name."'";
+                        $result2 = mysqli_query($con,$query1);
+
+                        if(mysqli_num_rows($result2)==0 && $_SERVER['REQUEST_METHOD'] == "POST"){
+                            $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
+                            $query = "INSERT INTO bokmark(user_id, bookmark_url,name) VALUES('$id','$url','$name');";
+                            mysqli_query($con,$query);
+                            alert("Page saved successfully"); 	
+                            header("Location: ../../bookmark.php");                                       
                         }else{
-                            text.innerHTML = 'Page unsaved';
-                        }
+                            alert("Page already saved");
+                        }                             
+                    ?>
+            </script> 
+                <form method="POST" onsubmit="saved(event)" >
+                       <input type="submit" id="book" value="Save for later"></input>
+                </form>
+
+                <script type="text/javascript">
+                    function saved(event){     
+                        event.preventDefault();                 
+                        <?php
+                            $name = "HTML Basics";
+                            $query1 = "SELECT name FROM bokmark WHERE name='".$name."'";
+                            $result2 = mysqli_query($con,$query1);
+
+                            if(mysqli_num_rows($result2)==0 && $_SERVER['REQUEST_METHOD'] == "POST"){
+                                $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
+                                $query = "INSERT INTO bokmark(user_id, bookmark_url,name) VALUES('$id','$url','$name');";
+                                mysqli_query($con,$query);
+                                alert("Page saved successfully"); 	
+                                header("Location: ../../bookmark.php");                                       
+                            }else{
+                                alert("Page already saved");
+                            }                             
+                        ?>
                     }
                 </script>
+
                 <p>
                     <ul>
                         <li>All HTML documents must start with a document type declaration:<em> &lt!DOCTYPE html&gt</em>. </li>
@@ -96,7 +127,7 @@
                     <div class="code-snippet">
                         <div class="code">
                             <br> <h4>Example-</h4>
-                            <a href="http://tpcg.io/W2PZ1Url" target="_blank"><input class="try_it"  type="button" value="Demo"></a> 
+                            <a href="http://tpcg.io/W2PZ1Url" target="_blank"><input class="btn btn-secondary try_it"  type="button" value="Demo"></a> 
                             <script src="https://gist.github.com/AdityaVSM/883ba8e4451f84c809713700be965a24.js"></script><br>                        
                         </div>
                     </div>

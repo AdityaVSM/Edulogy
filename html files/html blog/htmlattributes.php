@@ -1,4 +1,12 @@
+<?php
+    session_start();
+	include("../../connection.php");
+    include("../../functions.php");
+    $user_data = check_login($con);
+    $user_name = $user_data['user_name'];
+    $id = $user_data['id'];
 
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -31,6 +39,9 @@
             <a style="color:white" class="navbar-brand" href="../../login.php">Login</a>
             <a style="color:white" class="navbar-brand" href="../../logout.php">Logout</a>
             <a style="color:white" class="navbar-brand" href="../../profile.php">View profile</a>
+            <a style="color:white" class="navbar-brand" href="../../news.php" target="_blank">News</a>
+            <a style="color:white" class="navbar-brand" href="../../bookmark.php" target="_blank">Bookmarks</a>
+
         </nav>
 
         
@@ -59,6 +70,30 @@
             <div class="grid-child-content">
                 <p >
                     <h1>HTML Attributes</h1> <br>
+
+            <form method="POST" onsubmit="saved(event)">
+                <input type="submit" class="btn btn-primary" value="Save for later"></button>
+            </form>
+
+            <script type="text/javascript">
+                function saved(event){     
+                    event.preventDefault();                 
+                    <?php
+                        $name = "HTML Attributes";
+                        $query1 = "SELECT name FROM bokmark WHERE name='".$name."'";
+                        $result2 = mysqli_query($con,$query1);
+
+                        if(mysqli_num_rows($result2)==0 && $_SERVER['REQUEST_METHOD'] == "POST"){
+                            $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
+                            $query = "INSERT INTO bokmark(user_id, bookmark_url,name) VALUES('$id','$url','$name');";
+                            mysqli_query($con,$query);
+                            alert("Page saved successfully"); 	
+                            header("Location: ../../bookmark.php");                                       
+                        }else{
+                            alert("Page already saved");
+                        }                             
+                    ?>
+            </script> 
                     <p style="text-indent:2em;">
                         We have seen few HTML tags and their usage like heading tags <em> &lth1&gt, &lth2&gt </em>, paragraph tag <em>&ltp&gt</em> and other tags.
                         We used them so far in their simplest form, but most of the HTML tags can also have attributes, which are extra bits of information. <br>
@@ -72,7 +107,7 @@
                         <div class="code-snippet">
                             <div class="code">
                                 <br> <h4>Example-</h4>
-                                <a href="http://tpcg.io/X3hm8lGL" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
+                                <a href="http://tpcg.io/X3hm8lGL" target="_blank"><input class="btn btn-secondary try_it"  type="submit" value="Demo"></a>
                                 <script src="https://gist.github.com/AdityaVSM/f3657c373ab92f2b86b93b04d1ffefec.js"></script> <br>
                             </div>
                         </div>
@@ -113,7 +148,7 @@
                             <div class="code-snippet">
                                 <div class="code"> <br>
                                     <h4>Example-</h4>
-                                    <a href="http://tpcg.io/c6UwBPQM" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
+                                    <a href="http://tpcg.io/c6UwBPQM" target="_blank"><input class="btn btn-secondary try_it"  type="submit" value="Demo"></a>
                                     <script src="https://gist.github.com/AdityaVSM/19da7333b4473c1ec7d5639d60271f6e.js"></script> <br>
                                 </div>
                             </div>                            
@@ -137,7 +172,7 @@
                             <div class="code-snippet">
                                 <div class="code">
                                     <br><h4>Example-</h4>
-                                    <a href="http://tpcg.io/omw5AuC4" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
+                                    <a href="http://tpcg.io/omw5AuC4" target="_blank"><input class="btn btn-secondary try_it"  type="submit" value="Demo"></a>
                                     <script src="https://gist.github.com/AdityaVSM/bbce9632e608114a6f070f86efab02d1.js"></script> <br>
                                 </div>
                             </div>
@@ -152,7 +187,7 @@
                             <div class="code-snippet">
                                 <div class="code">
                                     <br><h4>Example-</h4>
-                                    <a href="http://tpcg.io/HuVbdM8L" target="_blank"><input class="try_it"  type="submit" value="Demo"></a>
+                                    <a href="http://tpcg.io/HuVbdM8L" target="_blank"><input class="btn btn-secondary try_it"  type="submit" value="Demo"></a>
                                     <script src="https://gist.github.com/AdityaVSM/8b78a09796ad530611b7a462a4fb1f49.js"></script> <br>
                                 </div>
                             </div>
