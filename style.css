@@ -51,7 +51,7 @@ p{
 	float:left;
 	margin:0 10px;
 }
-.btn{
+.btn-signup{
 	width: 100%;
 	background:none;
 	border:2px solid #4caf50;
@@ -62,8 +62,9 @@ p{
 	margin:12px 0;
 }
 
-.btn:hover{
-	background-color:rgb(32, 46, 240);
+.btn-signup:hover{
+	background-color:white;
+	color:black;
 	border:none;
 	font-size:30px;
 	border-radius: 6px;
@@ -89,7 +90,7 @@ h1 span{
 	top:100px;
 	margin: auto;
 	width: 520px;
-	height:580px;
+	min-height:300px;
 	padding: 30px;
 }
 .main-header{
@@ -110,7 +111,7 @@ h1 span{
 .logo{
 	position: relative;
 	height:150px;
-	left:-200px;
+	left:-170px;
 	width:200px;
 }
 .main-header-2{
@@ -162,10 +163,14 @@ hr{
 }
 .grid-child-content{
 	text-align: left;
-	
 	text-indent:size;
 	width : 1000px;
 	min-height: 100%;
+}
+.btn{
+	position: absolute;
+	top:30px;
+	left:1200px;
 }
 .grid-child-content h1{
 	text-align: center; 
@@ -247,20 +252,13 @@ hr{
 }
 
 .try_it{
-	color:white;
 	width:100px;
-	position: relative;;
+	position: relative;
 	top:40px; 
 	left:720px !important;
-	background-color:red;
-	opacity: 0.7;
 }
-.try_it:hover {
-	color:yellow;
-	box-shadow: 5px 8px 8px 3px rgba(32, 25, 25, 0.8);
-	transform: scale(1.2);
-	border-radius:6px;
-	opacity: 1;
+.try_it:hover{
+	background-color:rgb(70, 70, 70);
 }
 /*footer*/
 .footer-dark {
@@ -513,19 +511,44 @@ body .gist .gist-meta {
 .dropdown:hover   .dropdown-content {
 	display: block;
 }
-
+/*bookmarks*/
 .bookmark{	
 	left:900px;
 }
-#book{
-	background-color:red;
-	color:white;
-	font-size:20px;
+.bookmark-box{
+	margin:100px;
+	position: relative;
+	left: 300px;
 }
-#book:hover{
-	color:yellow;
-	font-size:30px;
+.bookmark-box h1{
+	color: tomato;
 }
+
+.bookmark-box a{
+	color:rgb(133, 77, 77);	
+	text-decoration:none;
+	font-size: 20px;
+	display: inline;
+}
+.bookmark-box a:hover{
+	color:rgb(5, 5, 5);
+	font-size: 40px;
+}
+.bookmark-box a::after{
+    content: "\a";
+    white-space: pre;
+}
+.bookmark-box hr{
+	border-top: 1px solid darkblue;
+	border-bottom: 1px solid darkblue;
+	border-left: 1px solid darkblue;
+	border-right: 1px solid darkblue;
+	border-radius: 10px;
+	position: relative;
+	left:-150px;
+	width: 1000px;
+}
+
 /*transitions*/
 .fadein {
     opacity: 0;

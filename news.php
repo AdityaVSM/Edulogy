@@ -21,6 +21,8 @@
 		<a style="color:white" class="navbar-brand" href="logout.php">Logout</a>
 		<a style="color:white" class="navbar-brand" href="profile.php">View profile</a>
 		<a style="color:white" class="navbar-brand" href="news.php" target="_blank">News</a>
+        <a style="color:white" class="navbar-brand" href="bookmark.php" target="_blank">Bookmarks</a>
+
 	</nav> <br><br>
 
 

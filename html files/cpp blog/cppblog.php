@@ -1,4 +1,12 @@
+<?php
+    session_start();
+	include("../../connection.php");
+    include("../../functions.php");
+    $user_data = check_login($con);
+    $user_name = $user_data['user_name'];
+    $id = $user_data['id'];
 
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -21,7 +29,9 @@
             <a style="color:white" class="navbar-brand" href="../../login.php">Login</a>
             <a style="color:white" class="navbar-brand" href="../../logout.php">Logout</a>
             <a style="color:white" class="navbar-brand" href="../../profile.php">View profile</a>
-            
+            <a style="color:white" class="navbar-brand" href="../../news.php" target="_blank">News</a>
+            <a style="color:white" class="navbar-brand" href="../../bookmark.php" target="_blank">Bookmarks</a>
+
         </nav>
 
         <img style = "height: 400px;width: 100%; padding:30px" src="cppImage.png"  alt="css image">  
@@ -51,7 +61,31 @@
 
             <div class="grid-child-content">
             <p >
-            <h1 style="text-align: center; color:blue; text-decoration:underline; text-shadow:3px 1px yellow; ">C++ Programming</h1> <br><br>
+            <h1>C++ Programming</h1> <br><br>
+
+            <form method="POST" onsubmit="saved(event)">
+                <input type="submit" class="btn btn-primary" value="Save for later"></button>
+            </form>
+
+            <script type="text/javascript">
+                function saved(event){     
+                    event.preventDefault();                 
+                    <?php
+                        $name = "C++ introduction";
+                        $query1 = "SELECT name FROM bokmark WHERE name='".$name."'";
+                        $result2 = mysqli_query($con,$query1);
+
+                        if(mysqli_num_rows($result2)==0 && $_SERVER['REQUEST_METHOD'] == "POST"){
+                            $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
+                            $query = "INSERT INTO bokmark(user_id, bookmark_url,name) VALUES('$id','$url','$name');";
+                            mysqli_query($con,$query);
+                            alert("Page saved successfully"); 	
+                            header("Location: ../../bookmark.php");                                       
+                        }else{
+                            alert("Page already saved");
+                        }                             
+                    ?>
+            </script> 
             <p>
                 <strong>C++</strong> is a middle-level programming language developed by Bjarne Stroustrup starting in 1979 at Bell Labs. C++ runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. This C++ tutorial adopts a simple and practical approach to describe the concepts of C++ for beginners to advanded software engineers.
             </p>

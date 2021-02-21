@@ -8,9 +8,6 @@ session_start();
 
 	$query = "select * from bokmark where user_id = '$id'";
 	$result = mysqli_query($con,$query);
-
-	
-
 ?>
 
 <!DOCTYPE html>
@@ -19,7 +16,10 @@ session_start();
 	<title>My Profile</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
 		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+	
 	<link rel="stylesheet" type="text/css" href="style.css"/>
+
 </head>
 <body>
 
@@ -44,17 +44,27 @@ session_start();
 		<a style="color:white" class="navbar-brand" href="bookmark.php" target="_blank">Bookmarks</a>
 
 	</nav>
+        <br><br>
+	<div class="bookmark-box">
+		<h1>See your bookmarks here:</h1> <br><br>
+		<ul>
+				<?php
+				if($result && mysqli_num_rows($result)>0){		
+					while($row = $result->fetch_assoc()) {
+						$url = $row['bookmark_url'];
+						$name = $row['name'];
+						echo '<li><a href ="'.$url.'" target="_blank">'.$name.'</a></li> <hr>';
+					}
+				}else{
+					echo "no bookmarks!";
+				}
+				?>
+		</ul>
+	</div>
 
-    <div class="profile-box">
-		<h1> Your Profile </h1>
-    	Name: <?php echo $user_data['first_name'], " ",$user_data['last_name'];?><br>
-    	Age : <?php echo $user_data['age'];?><br>
-		E-mail: <?php echo $user_data['email'];?><br>
-		Bio: <?php echo $user_data['bio'];?><br>
-		Linkedin username: <?php echo $user_data['linkedin_url'];?><br>
-    	Twitter username : <?php echo $user_data['twitter_uname'];?><br>
-	</div> <br><br><br><br><br>
-	   
+
+
+    
 	
 
 </body>

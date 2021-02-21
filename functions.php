@@ -28,3 +28,7 @@ function random_num($length){
 	}
 	return $text;
 }
+
+function alert($msg){
+	echo "<script type='text/javascript'>alert('$msg');</script>";
+}

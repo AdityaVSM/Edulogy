@@ -73,9 +73,9 @@ session_start();
 				<input  type="password" name="password" placeholder="Password">
 			</div>
 
-			<input class = "btn" type="submit" value="Signup" >
+			<input class = "btn-signup" type="submit" value="Signup" >
 			
-			<a href="login.php"> <input class = "btn" type="button" value="Login" ></a>
+			<a href="login.php"> <input class = "btn-signup" type="button" value="Login" ></a>
 		</form>
 	</div>
 	
