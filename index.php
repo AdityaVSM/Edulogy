@@ -41,7 +41,7 @@ session_start();
 		<br><br>
 		<strong>
 			<h1  style="text-align:center; color:black; font-family:'Times new roman'">Hello, <?php echo $user_data['first_name'], " ",$user_data['last_name'];?> 
-			<br>Welcome to our Blog<br>Online learning website
+			<div><br>Scroll down to learn<br><div>
 		</strong></h1>
 	</div>
 	<br>
