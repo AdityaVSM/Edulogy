@@ -107,9 +107,9 @@ session_start();
                     <h6 class="font-weight-bold">Akash Ashok Sangnure</h6>
                     <small class="text-muted">Front-End Designer</small>
                     <ul class="list-unstyled d-flex justify-content-center mt-3 mb-0 yellow-text">
-                        <li><a href=""><i class="fab fa-twitter mx-2"></i></a></li>
-                        <li><a href=""><i class="fab fa-linkedin-in mx-2"></i></a></li>
-                        <li><a href=""><i class="fab fa-github mx-2"></i></i></a></li>
+                        <li><a href="https://twitter.com/AKASH51534534?s=09" target="_blank"><i class="fab fa-twitter mx-2"></i></a></li>
+                        <li><a href=""><i class="fab fa-linkedin-in mx-2" target="_blank"></i></a></li>
+                        <li><a href=""><i class="fab fa-github mx-2" target="_blank"></i></a></li>
                     </ul>
 
                 </div>
