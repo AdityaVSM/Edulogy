@@ -37,6 +37,7 @@ session_start();
 			<a style="color:black" class="navbar-brand" href="profile.php">View profile</a>
             <a style="color:black" class="navbar-brand" href="news.php" target="_blank">News</a>
             <a style="color:black" class="navbar-brand" href="bookmark.php" target="_blank">Bookmarks</a>
+            <a style="color:black" class="navbar-brand" href="teams.php" target="_blank">Team</a>
 		</nav>
 		<br><br>
 		<strong>
