@@ -29,10 +29,7 @@ session_start();
             <a style="color:white" class="navbar-brand" href="news.php" target="_blank">News</a>
             <a style="color:white" class="navbar-brand" href="bookmark.php" target="_blank">Bookmarks</a>
             <a style="color:white" class="navbar-brand" href="teams.php" target="_blank">Team</a>
-            
-
         </nav>
-		<br><br>
     <div class="container my-5 p-5 z-depth-1 bgdark1">
 
         <style>
@@ -50,16 +47,14 @@ session_start();
                 border: 0.1px solid #bc17f3;
             }
             
-            .bgdark2 {
-                color: #eec6fc;
-            }
+            
             
             .clwhite2 {
                 color: #f1dff8;
             }
             
             .text-muted {
-                color: #aea5b1 !important;
+                left:10px;
             }
             
             .yellow-text a{
@@ -73,6 +68,14 @@ session_start();
             .row{
                 position: relative;
                 left:180px;
+            }
+            .team-section{
+                position: relative;
+                top:10px;
+            }
+            h4{
+                position: relative;
+                left:-30px;
             }
         </style>
 

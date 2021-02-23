@@ -84,13 +84,14 @@ h1 span{
 	background-color:red;
 }
 .profile-box{
-	background-color: rgb(141, 134, 207);
+	background-color: white;
 	position: relative;
 	top:100px;
 	margin: auto;
 	width: 520px;
 	min-height:300px;
 	padding: 30px;
+	background: rgba(255, 255, 255, 0.5); 
 }
 .main-header{
 	background-image: url("images/bench-accounting-nvzvOPQW0gc-unsplash-croppped.jpg");
@@ -557,17 +558,6 @@ body .gist .gist-meta {
 	width: 1000px;
 }
 
-/*transitions*/
-.fadein {
-    opacity: 0;
-    -moz-transition: opacity 2s;
-    -o-transition: opacity 2s;
-    transition: opacity 3s;
-}
-
-body.loaded .fadein {
-    opacity: 1;
-}
 
 
 

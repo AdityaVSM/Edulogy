@@ -3,6 +3,10 @@ session_start();
 	include("connection.php");
     include("functions.php");
     $user_data = check_login($con);
+	$user_name = $user_data['user_name'];
+	$bio1 = $user_data['bio'];
+	$linkedin_url1 = $user_data['linkedin_url'];
+	$twitter_url1 = $user_data['twitter_uname'];
 	
 
 	if($_SERVER['REQUEST_METHOD'] == "POST"){
@@ -10,14 +14,20 @@ session_start();
 		$bio = $_POST['bio'];
 		$linkedin_url = $_POST['linkedin_url'];
         $twitter_url = $_POST['twitter_url'];
-        
-
-            //save to database
-			$query = "UPDATE users  SET  bio='$bio', linkedin_url='$linkedin_url', twitter_uname='$twitter_url'
-									where user_name='$user_name';";
+		if($bio==null){
+			$bio = $bio1;
+		}
+		if($linkedin_url==null){
+			$linkedin_url = $linkedin_url1;
+		}
+		if($twitter_url==null){
+			$twitter_url = $twitter_url1;
+		}
+			$query = "UPDATE users SET bio='$bio', linkedin_url='$linkedin_url', twitter_uname='$twitter_url' where user_name='$user_name';";
 			mysqli_query($con,$query);
 			header("Location: profile.php");
 			die(); 		
+		
 	}
 ?>
 
@@ -52,6 +62,7 @@ session_start();
 			font-family:sans-serif;
 			background:url("images/login-signup-bg.jpg") no-repeat;
 			background-size:cover;
+			opacity:1;
 		}
 	</style>
 
