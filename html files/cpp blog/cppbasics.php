@@ -61,7 +61,7 @@
                     <h1>C++ Basics</h1> <br><br>
 
             <form method="POST" onsubmit="saved(event)">
-                <input type="submit" class="btn btn-primary" value="Save for later"></button>
+                <input type="submit" class="save btn btn-primary" value="Save for later"></button>
             </form>
 
             <script type="text/javascript">
@@ -131,6 +131,9 @@
         
         </div>
         <hr>
+
+        <a href="cppblog.php" target="_blank"><button type="button" class="prev btn btn-primary btn-lg"> << Prev(C++ introduction)</button></a>
+        <a href="cppsetup.php" target="_blank"><button type="button" class="next btn btn-primary btn-lg">Next(C++environment setup)>></button></a>
 
         <div class="container">
     <section style="height:80px;"></section>

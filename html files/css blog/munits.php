@@ -61,7 +61,7 @@
                 <h1>Measurement units</h1> <br><br>
 
             <form method="POST" onsubmit="saved(event)">
-                <input type="submit" class="btn btn-primary" value="Save for later"></button>
+                <input type="submit" class="save btn btn-primary" value="Save for later"></button>
             </form>
 
             <script type="text/javascript">
@@ -84,7 +84,7 @@
                     ?>
             </script> 
                 <p style="text-indent:2em">
-                    CSS supports a number of measurements including absolute units such as <strong> inches, centimeters, points, </strong> and so on, as well as relative measures such as percentages and <strong> em </strong>units. You need these values while specifying various measurements in your Style rules e.g.<strong> border = "1px solid red" </strong>.
+                    CSS supports a number of measurements including absolute units such as <strong> inches, centimeters, points, </strong> and so on, as well as relative measures such as percentages and <strong> em </strong>units. You need these values while specifying various measurements in your Style rules. <br>e.g.<strong> border = "1px solid red" </strong>.
                 </p> <br><br>
 
                 <table class="table  table-hover">
@@ -148,6 +148,8 @@
             </div>
         </div>
         <hr>
+
+        <a href="howto.php" target="_blank"><button type="button" class="prev btn btn-primary btn-lg"> << Prev(How to add CSS)</button></a>
 
         <div class="container">
     <section style="height:80px;"></section>

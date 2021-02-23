@@ -71,7 +71,7 @@
                 <h1>HTML basics</h1> <br>
 
             <form method="POST" onsubmit="saved(event)">
-                <input type="submit" class="btn btn-primary" value="Save for later"></button>
+                <input type="submit" class="save btn btn-primary" value="Save for later"></button>
             </form>
 
             <script type="text/javascript">
@@ -93,31 +93,6 @@
                         }                             
                     ?>
             </script> 
-                <form method="POST" onsubmit="saved(event)" >
-                       <input type="submit" id="book" value="Save for later"></input>
-                </form>
-
-                <script type="text/javascript">
-                    function saved(event){     
-                        event.preventDefault();                 
-                        <?php
-                            $name = "HTML Basics";
-                            $query1 = "SELECT name FROM bokmark WHERE name='".$name."'";
-                            $result2 = mysqli_query($con,$query1);
-
-                            if(mysqli_num_rows($result2)==0 && $_SERVER['REQUEST_METHOD'] == "POST"){
-                                $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
-                                $query = "INSERT INTO bokmark(user_id, bookmark_url,name) VALUES('$id','$url','$name');";
-                                mysqli_query($con,$query);
-                                alert("Page saved successfully"); 	
-                                header("Location: ../../bookmark.php");                                       
-                            }else{
-                                alert("Page already saved");
-                            }                             
-                        ?>
-                    }
-                </script>
-
                 <p>
                     <ul>
                         <li>All HTML documents must start with a document type declaration:<em> &lt!DOCTYPE html&gt</em>. </li>
@@ -162,10 +137,14 @@
                     There is syntax highlighting, smart completions with IntelliSense, and customizable formatting. 
                     VS Code also includes great Emmet support. <br>
                     Available for: Windows, OS X, and Linux (32/64 bit).
-                </p>
+                </p> 
+                
             </div>
         </div>
+        
         <hr>
+        <a href="htmlblog.php" target="_blank"><button type="button" class="prev btn btn-primary btn-lg"><< Prev(HTML introduction)</button></a>
+        <a href="htmltags.php" target="_blank"><button type="button" class="next btn btn-primary btn-lg">Next (HTML tags)>></button></a>
 
         <div class="container">
     <section style="height:80px;"></section>

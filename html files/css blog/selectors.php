@@ -61,7 +61,7 @@
                     <h1>CSS Selectors</h1> <br><br>
 
                     <form method="POST" onsubmit="saved(event)">
-                        <input type="submit" class="btn btn-primary" value="Save for later"></button>
+                        <input type="submit" class="save btn btn-primary" value="Save for later"></button>
                     </form>
 
                     <script type="text/javascript">
@@ -177,6 +177,9 @@
             </div>
         </div>
         <hr>
+
+        <a href="csssyntax.php" target="_blank"><button type="button" class="prev btn btn-primary btn-lg"> << Prev(CSS syntax)</button></a>
+        <a href="howto.php" target="_blank"><button type="button" class="next btn btn-primary btn-lg">Next(How to add CSS)>></button></a>
 
         <div class="container">
     <section style="height:80px;"></section>

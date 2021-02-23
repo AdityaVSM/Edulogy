@@ -72,7 +72,7 @@
                     <h1>HTML Attributes</h1> <br>
 
             <form method="POST" onsubmit="saved(event)">
-                <input type="submit" class="btn btn-primary" value="Save for later"></button>
+                <input type="submit" class="save btn btn-primary" value="Save for later"></button>
             </form>
 
             <script type="text/javascript">
@@ -192,7 +192,7 @@
                                 </div>
                             </div>
                             
-                            This produces the following output - <br><br>
+                            This produces the following output - <br>
                             <div class="code-snippet">
                                 <div class="code">
                                     <p style = "font-family:arial; color:#FF0000;">Some text...</p> <br>
@@ -206,7 +206,9 @@
             </div>
         </div>
         <hr>
-
+        
+        <a href="htmlelements.php" target="_blank"><button type="button" class="prev btn btn-primary btn-lg"> << Prev(HTML elements)</button></a>
+        
         <div class="container">
     <section style="height:80px;"></section>
     <div class="footer-dark">

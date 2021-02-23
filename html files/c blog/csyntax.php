@@ -63,7 +63,7 @@
                 <h1>C Syntax</h1> <br><br>   
                 
             <form method="POST" onsubmit="saved(event)">
-                <input type="submit" class="btn btn-primary" value="Save for later"></button>
+                <input type="submit" class="save btn btn-primary" value="Save for later"></button>
             </form>
 
             <script type="text/javascript">
@@ -123,7 +123,8 @@
         </div>
         <hr>
         
-
+        <a href="csetup.php" target="_blank"><button type="button" class="prev btn btn-primary btn-lg"> << Prev(C environment setup)</button></a>
+        <a href="cworking.php" target="_blank"><button type="button" class="next btn btn-primary btn-lg">Next(C working)>></button></a>
 
         <div class="container">
             <section style="height:80px;"></section>

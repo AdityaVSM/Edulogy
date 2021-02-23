@@ -60,7 +60,7 @@
                 <h1>How to add CSS</h1> <br><br>
 
             <form method="POST" onsubmit="saved(event)">
-                <input type="submit" class="btn btn-primary" value="Save for later"></button>
+                <input type="submit" class="save btn btn-primary" value="Save for later"></button>
             </form>
 
             <script type="text/javascript">
@@ -149,6 +149,9 @@
         </div>
         <hr>
 
+        <a href="selectors.php" target="_blank"><button type="button" class="prev btn btn-primary btn-lg"> << Prev(CSS selectors)</button></a>
+        <a href="munits.php" target="_blank"><button type="button" class="next btn btn-primary btn-lg">Next(CSS units)>></button></a>
+        
         <div class="container">
     <section style="height:80px;"></section>
     <div class="footer-dark">

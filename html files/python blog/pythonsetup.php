@@ -61,7 +61,7 @@
                 <h1>PYTHON Environment Setup<h1> <br>
 
             <form method="POST" onsubmit="saved(event)">
-                <input type="submit" class="btn btn-primary" value="Save for later"></button>
+                <input type="submit" class="save btn btn-primary" value="Save for later"></button>
             </form>
 
             <script type="text/javascript">
@@ -121,6 +121,9 @@
             </div>
         </div>
         <hr>
+
+        <a href="pythonblog.php" target="_blank"><button type="button" class="prev btn btn-primary btn-lg"> << Prev(Python introduction)</button></a>
+        <a href="pythonsyntax.php" target="_blank"><button type="button" class="next btn btn-primary btn-lg">Next(Python Syntax)>></button></a>
 
         <div class="container">
     <section style="height:80px;"></section>

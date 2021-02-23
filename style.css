@@ -166,7 +166,7 @@ hr{
 	width : 1000px;
 	min-height: 100%;
 }
-.btn{
+.save{
 	position: absolute;
 	top:30px;
 	left:1200px;
@@ -258,6 +258,15 @@ hr{
 }
 .try_it:hover{
 	background-color:rgb(70, 70, 70);
+}
+
+.next{
+	position:relative;
+	left:1050px;
+}
+.prev{
+	position:absolute;
+	left:100px;
 }
 /*footer*/
 .footer-dark {

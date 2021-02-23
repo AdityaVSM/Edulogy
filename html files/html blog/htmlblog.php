@@ -19,7 +19,7 @@
         
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
@@ -76,7 +76,7 @@
 
 
                     <form method="POST" onsubmit="saved(event)">
-                       <input type="submit" class="btn btn-primary" value="Save for later"></button>
+                       <input type="submit" class="save btn btn-primary" value="Save for later"></button>
                     </form>
 
                     <script type="text/javascript">
@@ -138,11 +138,13 @@
                     <li>How to type content in a file and save them on a computer.</li> <br>
                     <li>Understanding about images in different formats like JPEG, PNG format. </li> <br>
                 </ul>
-                    </p>
-            </p>
+                    </p> 
+            </p>            
             </div>
         </div>
         <hr>
+        <a href="htmlintro.php" target="_blank"><button type="button" class="next btn btn-primary btn-lg">Next (HTML basics)>></button></a>
+
 
         <div class="container">
     <section style="height:80px;"></section>
