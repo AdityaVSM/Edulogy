@@ -48,6 +48,7 @@
 		}
 	</style>
 
+<div class="login-container">
 	<div class = "login-box">
 		<form method = "post">
 			<h1>Login</h1>
@@ -66,6 +67,8 @@
 			<a href="signup.php" ><input class="btn-signup" type="button" value="Sign Up"></a><br><br>
 		</form>
 	</div>
+</div>
+	
 
 </body>
 </html>

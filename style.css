@@ -12,12 +12,26 @@ p{
 	word-spacing: 0.2em;
 	font-size:20px;
 }
-.login-box{
-	width:300px;
+.signup-container{
 	position:absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
+	top:10%;
+	left:32%;
+	background: rgba(0, 0, 0, 0.5);
+	width: 500px;
+	min-height: 400px;
+}
+.login-container{
+	position:absolute;
+	top:20%;
+	left:32%;
+	background: rgba(0, 0, 0, 0.5);
+	width: 500px;
+	min-height: 400px;
+}
+.login-box{
+	position:relative;
+	left:100px;
+	width:300px;
 	color:white;
 }
 .login-box h1{

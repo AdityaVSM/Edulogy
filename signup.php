@@ -31,6 +31,7 @@ session_start();
 <html>
 <head>
 	<title>Sign up</title>
+	
 	<link rel="stylesheet" href="style.css" type="text/css"/>
 </head>
 <body >
@@ -44,40 +45,53 @@ session_start();
 			background-size:cover;
 		}
 	</style>
-	
-	<div class = "login-box">
-		<form name="registerForm" onsubmit="return(validate());" method = "POST">
-			<h1>SignUP</h1>
+	<nav class="navbar navbar-light bg-dark justify-content-between" >
+		<a style="color:white" class="navbar-brand" href="index.php">Home</a>
+		<a style="color:white" class="navbar-brand" href="signup.php">Sign Up</a>
+		<a style="color:white" class="navbar-brand" href="login.php">Login</a>
+		<a style="color:white" class="navbar-brand" href="logout.php">Logout</a>
+		<a style="color:white" class="navbar-brand" href="profile.php">View profile</a>
+		<a style="color:white" class="navbar-brand" href="editProfile.php">Edit profile</a>
+		<a style="color:white" class="navbar-brand" href="news.php" target="_blank">News</a>
+		<a style="color:white" class="navbar-brand" href="teams.php" target="_blank">Team</a>
+		<a style="color:white" class="navbar-brand" href="bookmark.php" target="_blank">Bookmarks</a>
+	</nav>
+	<div class="signup-container">
+		<div class = "login-box">
+			<form name="registerForm" onsubmit="return(validate());" method = "POST">
+				<h1>SignUP</h1>
 
-			<div class = "textbook">
-				<input  type="text" name="first_name" placeholder="first name">
-			</div>
+				<div class = "textbook">
+					<input  type="text" name="first_name" placeholder="first name">
+				</div>
 
-			<div class = "textbook">
-				<input type="text" name="last_name" placeholder="last name">
-			</div>
+				<div class = "textbook">
+					<input type="text" name="last_name" placeholder="last name">
+				</div>
 
-			<div class = "textbook">
-				<input type="email" name="email" placeholder="email">
-			</div>
+				<div class = "textbook">
+					<input type="email" name="email" placeholder="email">
+				</div>
 
-			<div class = "textbook">
-				<input  type="text" name="age" placeholder="Age">
-			</div>
+				<div class = "textbook">
+					<input  type="text" name="age" placeholder="Age">
+				</div>
 
-			<div class = "textbook">
-				<input  type="text" name="user_name" placeholder="User name">
-			</div>
+				<div class = "textbook">
+					<input  type="text" name="user_name" placeholder="User name">
+				</div>
 
-			<div class = "textbook">
-				<input  type="password" name="password" placeholder="Password">
-			</div>
-			<p id="errorText" style="text-indent:0;color: white;"></p>
-			<input class = "btn-signup" type="submit" value="Signup" >
-			
-			<a href="login.php"> <input class = "btn-signup" type="button" value="Login" ></a>
-		</form>
+				<div class = "textbook">
+					<input  type="password" name="password" placeholder="Password">
+				</div>
+				<p id="errorText" style="text-indent:0;color: white;"></p>
+				<input class = "btn-signup" type="submit" value="Signup" >
+				
+				<a href="login.php"> <input class = "btn-signup" type="button" value="Login" ></a>
+			</form>
+		</div> <br>
 	</div>
+	
 
 	<script>
     function validate(e) {
