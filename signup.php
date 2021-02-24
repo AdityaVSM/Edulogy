@@ -5,7 +5,7 @@ session_start();
 
 
 	if($_SERVER['REQUEST_METHOD'] == "POST"){
-		//something was posted
+		
 		$first_name = $_POST['first_name'];
 		$first_name = $_POST['first_name'];
 		$email = $_POST['email'];
@@ -45,17 +45,7 @@ session_start();
 			background-size:cover;
 		}
 	</style>
-	<nav class="navbar navbar-light bg-dark justify-content-between" >
-		<a style="color:white" class="navbar-brand" href="index.php">Home</a>
-		<a style="color:white" class="navbar-brand" href="signup.php">Sign Up</a>
-		<a style="color:white" class="navbar-brand" href="login.php">Login</a>
-		<a style="color:white" class="navbar-brand" href="logout.php">Logout</a>
-		<a style="color:white" class="navbar-brand" href="profile.php">View profile</a>
-		<a style="color:white" class="navbar-brand" href="editProfile.php">Edit profile</a>
-		<a style="color:white" class="navbar-brand" href="news.php" target="_blank">News</a>
-		<a style="color:white" class="navbar-brand" href="teams.php" target="_blank">Team</a>
-		<a style="color:white" class="navbar-brand" href="bookmark.php" target="_blank">Bookmarks</a>
-	</nav>
+	
 	<div class="signup-container">
 		<div class = "login-box">
 			<form name="registerForm" onsubmit="return(validate());" method = "POST">
