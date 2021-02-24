@@ -30,6 +30,7 @@ session_start();
 			padding:0;
 			font-family:sans-serif;
 			background-size:cover;
+			overflow-x:hidden;
 		}
 	</style>
 
@@ -53,7 +54,7 @@ session_start();
 					while($row = $result->fetch_assoc()) {
 						$url = $row['bookmark_url'];
 						$name = $row['name'];
-						echo '<li><a href ="'.$url.'" target="_blank">'.$name.'</a></li> <hr>';
+						echo '<li><a href ="'.$url.'" target="_blank">'.$name.'</a></li><hr>';
 					}
 				}else{
 					echo "no bookmarks!";
@@ -61,7 +62,6 @@ session_start();
 				?>
 		</ul>
 	</div>
-
 
 
     
