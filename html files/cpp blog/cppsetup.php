@@ -112,7 +112,7 @@
                         <div class="code"> <br>
                             <h4>myfirstprogram.cpp</h4> 
                             <a href="http://tpcg.io/6meiGNE0" target="_blank"><input class="btn btn-secondary try_it"  type="button" value="Demo"></a> 
-                            <script src="https://gist.github.com/AdityaVSM/df943d28542801384fa3222fe65e6e5a.js"></script> <br>
+                            <script src="https://gist.github.com/AdityaVSM/d8a0df07176a11561329beba80b2dab0.js"></script> <br>
                             <p>Then, go to <em>Build > Build and Run</em>  to run (execute) the program. The result will look something to this: <br><br></p>
                             <img src="ss1.png" alt=""> <br><br> 
                         </div>

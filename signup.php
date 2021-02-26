@@ -51,30 +51,30 @@ session_start();
 			<form name="registerForm" onsubmit="return(validate());" method = "POST">
 				<h1>SignUP</h1>
 
-				<div class = "textbook">
-					<input  type="text" name="first_name" placeholder="first name">
+				<div class = "input textbook">
+					<input type="text" name="first_name" placeholder="first name">
 				</div>
 
-				<div class = "textbook">
+				<div class = "input textbook">
 					<input type="text" name="last_name" placeholder="last name">
 				</div>
 
-				<div class = "textbook">
+				<div class = "input textbook">
 					<input type="email" name="email" placeholder="email">
 				</div>
 
-				<div class = "textbook">
-					<input  type="text" name="age" placeholder="Age">
+				<div class = "input textbook">
+					<input   type="text" name="age" placeholder="Age">
 				</div>
 
-				<div class = "textbook">
-					<input  type="text" name="user_name" placeholder="User name">
+				<div class = "input textbook">
+					<input   type="text" name="user_name" placeholder="User name">
 				</div>
 
-				<div class = "textbook">
-					<input  type="password" name="password" placeholder="Password">
+				<div class = "input textbook" >
+					<input   type="password" name="password" placeholder="Password">
 				</div>
-				<p id="errorText" style="text-indent:0;color: white;"></p>
+				<p id="errorText" style="text-indent:0;color: red;font-size:25px;"></p>
 				<input class = "btn-signup" type="submit" value="Signup" >
 				
 				<a href="login.php"> <input class = "btn-signup" type="button" value="Login" ></a>
