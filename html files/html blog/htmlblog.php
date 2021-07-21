@@ -4,7 +4,7 @@
     include("../../functions.php");
     $user_data = check_login($con);
     $user_name = $user_data['user_name'];
-    $id = $user_data['id'];
+    $id = $user_data['user_id'];
 
 ?>
 
@@ -78,27 +78,26 @@
                     <form method="POST" onsubmit="saved(event)">
                        <input type="submit" class="save btn btn-primary" value="Save for later"></button>
                     </form>
-
-                    <script type="text/javascript">
-                    function saved(event){     
-                        event.preventDefault();                 
-                        <?php
-                            $name = "HTML introduction";
-                            $query1 = "SELECT name FROM bokmark WHERE name='".$name."'";
-                            $result2 = mysqli_query($con,$query1);
-
-                            if(mysqli_num_rows($result2)==0 && $_SERVER['REQUEST_METHOD'] == "POST"){
-                                $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
-                                $query = "INSERT INTO bokmark(user_id, bookmark_url,name) VALUES('$id','$url','$name');";
-                                mysqli_query($con,$query);
-                                alert("Page saved successfully"); 	
-                                header("Location: ../../bookmark.php");                                       
-                            }else{
-                                alert("Page already saved");
-                            }                             
-                        ?>
                     
-                </script>
+                    <script type="text/javascript">
+                        function saved(event){     
+                            event.preventDefault();                 
+                            <?php
+                                $name = "HTML introduction";
+                                $query1 = "SELECT name FROM bokmark WHERE name='".$name."'";
+                                $result2 = mysqli_query($con,$query1);
+
+                                if(mysqli_num_rows($result2)==0 && $_SERVER['REQUEST_METHOD'] == "POST"){
+                                    $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
+                                    $query = "INSERT INTO bokmark(user_id, bookmark_url,name) VALUES('$id','$url','$name');";
+                                    mysqli_query($con,$query);
+                                    alert("Page saved successfully"); 	
+                                    header("Location: ../../bookmark.php");                                       
+                                }else{
+                                    alert("Page already saved");
+                                }                             
+                            ?>
+                    </script>
                     
                 <p>
                     HTML stands for Hyper Text Markup Language, which is the most widely used language on Web to develop web pages. HTML was created by <em>Berners-Lee</em> in late 1991 but "HTML 2.0" was the first standard HTML specification which was published in 1995. HTML 4.01 was a major version of HTML and it was published in late 1999. Though HTML 4.01 version is widely used but currently we are having HTML-5 version which is an extension to HTML 4.01, and this version was published in 2012.

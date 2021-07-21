@@ -4,7 +4,7 @@ session_start();
 	include("functions.php");
     $user_data = check_login($con);
 	
-	$id = $user_data['id'];
+	$id = $user_data['user_id'];
 
 	$query = "select * from bokmark where user_id = '$id'";
 	$result = mysqli_query($con,$query);

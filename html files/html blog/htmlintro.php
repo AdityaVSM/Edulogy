@@ -4,7 +4,7 @@
     include("../../functions.php");
     $user_data = check_login($con);
     $user_name = $user_data['user_name'];
-    $id = $user_data['id'];
+    $id = $user_data['user_id'];
 ?>
 
 <!DOCTYPE html>
