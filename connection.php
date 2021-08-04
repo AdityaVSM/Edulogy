@@ -1,9 +1,9 @@
 <?php
 
-$dbhost = "localhost";
-$dbuser = "root";
-$dbpass= "Aditya@123";
-$dbname= "education_website";
+$dbhost = "remotemysql.com";
+$dbuser = "TeWx4WKgUX";
+$dbpass= "iAGbnsuCcF";
+$dbname= "TeWx4WKgUX";
 
 $con = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
