@@ -60,29 +60,7 @@
                 <p>
                     <h1>CSS Selectors</h1> <br><br>
 
-                    <form method="POST" onsubmit="saved(event)">
-                        <input type="submit" class="save btn btn-primary" value="Save for later"></button>
-                    </form>
-
-                    <script type="text/javascript">
-                        function saved(event){     
-                            event.preventDefault();                 
-                            <?php
-                                $name = "CSS Selectors";
-                                $query1 = "SELECT name FROM bokmark WHERE name='".$name."'";
-                                $result2 = mysqli_query($con,$query1);
-
-                                if(mysqli_num_rows($result2)==0 && $_SERVER['REQUEST_METHOD'] == "POST"){
-                                    $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
-                                    $query = "INSERT INTO bokmark(user_id, bookmark_url,name) VALUES('$id','$url','$name');";
-                                    mysqli_query($con,$query);
-                                    alert("Page saved successfully"); 	
-                                    header("Location: ../../bookmark.php");                                       
-                                }else{
-                                    alert("Page already saved");
-                                }                             
-                            ?>
-                    </script> 
+                   
                     <p style="text-indent: 2em;">
                         <strong>CSS selectors</strong> are used to select the content you want to style. Selectors are the part of CSS rule set. CSS selectors select HTML elements according to its id, class, type, attribute etc.
                     </p>

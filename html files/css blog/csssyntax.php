@@ -60,29 +60,7 @@
                 <p>
                     <h1>CSS Syntax</h1> <br><br>
 
-            <form method="POST" onsubmit="saved(event)">
-                <input type="submit" class="save btn btn-primary" value="Save for later"></button>
-            </form>
-
-            <script type="text/javascript">
-                function saved(event){     
-                    event.preventDefault();                 
-                    <?php
-                        $name = "CSS Syntax";
-                        $query1 = "SELECT name FROM bokmark WHERE name='".$name."'";
-                        $result2 = mysqli_query($con,$query1);
-
-                        if(mysqli_num_rows($result2)==0 && $_SERVER['REQUEST_METHOD'] == "POST"){
-                            $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
-                            $query = "INSERT INTO bokmark(user_id, bookmark_url,name) VALUES('$id','$url','$name');";
-                            mysqli_query($con,$query);
-                            alert("Page saved successfully"); 	
-                            header("Location: ../../bookmark.php");                                       
-                        }else{
-                            alert("Page already saved");
-                        }                             
-                    ?>
-            </script> 
+            
                     <p >
                         A CSS comprises of style rules that are interpreted by the browser and then applied to the corresponding elements in your document. A style rule is made of three parts −
                     </p>

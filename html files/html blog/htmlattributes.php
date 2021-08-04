@@ -71,29 +71,7 @@
                 <p >
                     <h1>HTML Attributes</h1> <br>
 
-            <form method="POST" onsubmit="saved(event)">
-                <input type="submit" class="save btn btn-primary" value="Save for later"></button>
-            </form>
-
-            <script type="text/javascript">
-                function saved(event){     
-                    event.preventDefault();                 
-                    <?php
-                        $name = "HTML Attributes";
-                        $query1 = "SELECT name FROM bokmark WHERE name='".$name."'";
-                        $result2 = mysqli_query($con,$query1);
-
-                        if(mysqli_num_rows($result2)==0 && $_SERVER['REQUEST_METHOD'] == "POST"){
-                            $url = 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; 
-                            $query = "INSERT INTO bokmark(user_id, bookmark_url,name) VALUES('$id','$url','$name');";
-                            mysqli_query($con,$query);
-                            alert("Page saved successfully"); 	
-                            header("Location: ../../bookmark.php");                                       
-                        }else{
-                            alert("Page already saved");
-                        }                             
-                    ?>
-            </script> 
+            
                     <p style="text-indent:2em;">
                         We have seen few HTML tags and their usage like heading tags <em> &lth1&gt, &lth2&gt </em>, paragraph tag <em>&ltp&gt</em> and other tags.
                         We used them so far in their simplest form, but most of the HTML tags can also have attributes, which are extra bits of information. <br>
